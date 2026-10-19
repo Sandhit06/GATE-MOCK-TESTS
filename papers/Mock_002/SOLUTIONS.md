@@ -1,6 +1,6 @@
 # Worked Solutions — Mock Test 002
 
-Review provenance is recorded in the structured bank; no human review is claimed.
+Review evidence and revision status are recorded in reports/MOCK_002_REVISION_2026-10-15.md. No human review is claimed.
 
 ## Q1
 
@@ -20,7 +20,7 @@ Review provenance is recorded in the structured bank; no human review is claimed
 
 ## Q2
 
-**Correct answer:** 20 (exact)
+**Correct answer:** 20 (accepted exactly as entered at the stated precision)
 
 **Concept:** General Aptitude — Powers and logarithms
 
@@ -65,7 +65,7 @@ Review provenance is recorded in the structured bank; no human review is claimed
 
 ## Q5
 
-**Correct answer:** 15 (exact)
+**Correct answer:** 15 (accepted exactly as entered at the stated precision)
 
 **Concept:** General Aptitude — Numerical series
 
@@ -162,11 +162,11 @@ Review provenance is recorded in the structured bank; no human review is claimed
 
 ## Q11
 
-**Correct answer:** 4 (exact)
+**Correct answer:** 4 (accepted exactly as entered at the stated precision)
 
 **Concept:** Computer Organization and Architecture — Cache mapping
 
-All references map to set0. References0 and2 miss and fill both lines. The next0 hits and makes2 least recently used. Reading4 misses and evicts2. The final2 therefore misses, evicting0. There are four misses; set1 is unused.
+All references map to set 0. References 0 and2 miss and fill both lines. The next0 hits and makes2 least recently used. Reading 4 misses and evicts 2. The final2 therefore misses, evicting0. There are four misses; set 1 is unused.
 
 **Common misconception:** Total cache capacity does not prevent conflicts when blocks map to one set.
 
@@ -176,7 +176,7 @@ All references map to set0. References0 and2 miss and fill both lines. The next0
 
 **Concept:** Programming and Data Structures — Trees
 
-A is the root. Its first subtree must contain B,C because B closes at the second postorder position; its other subtree contains D,E. Thus A has two children, B and D. B has only child C and D has only child E. Either only child may independently be placed left or right, giving2*2=4 trees.
+A is the root. Its first subtree must contain B,C because B closes at the second postorder position; its other subtree contains D,E. Thus A has two children, B and D. B has only child C and D has only child E. Either only child may independently be placed left or right, giving 2*2=4 trees.
 
 - **A:** False: traversals do not specify which side holds an only child.
 - **B:** False: there are two independent only-child choices, not one.
@@ -191,9 +191,12 @@ A is the root. Its first subtree must contain B,C because B closes at the second
 
 **Concept:** Algorithms — Divide and conquer
 
-For left value2, only1 is smaller. For6, both1 and4 are smaller. For9, all1,4,8 are smaller. The total is1+2+3=6. There are no within-half inversions after sorting, but the question asks only the cross pairs.
+1. Merging seven distinct keys takes at most six comparisons.
+2. If the four-key left run were exhausted within five comparisons, at most one right key would have been emitted. At most four cross inversions would then be possible.
+3. If the three-key right run were exhausted within five comparisons, at least two left keys would remain. Each exceeds all three right keys, forcing at least six cross inversions.
+4. Both possibilities contradict exactly five inversions, so six comparisons are necessary. Left [1,3,5,6] and right [2,4,7] attain five inversions and six comparisons.
 
-**Common misconception:** Counting comparisons during merging is different from counting cross inversions.
+**Common misconception:** The inversion constraint limits when a run can be exhausted; the inversion count itself is not the comparison count.
 
 ## Q14
 
@@ -231,7 +234,7 @@ Nested intervals show that u is a proper ancestor of v in the DFS forest. The tr
 
 **Concept:** Programming and Data Structures — Binary search trees
 
-With a nonempty right subtree, the successor is its minimum-key node, found by following left-child links from x's right child. It therefore lies in that subtree and has no left child. It can have a right child: for root10 with children5,15 and node15 having right child20, the successor of10 is15. Hence A,C,D hold and B fails.
+With a nonempty right subtree, the successor is its minimum-key node, found by following left-child links from x's right child. It therefore lies in that subtree and has no left child. It can have a right child: for root 10 with children5,15 and node15 having right child 20, the successor of 10 is 15. Hence A,C,D hold and B fails.
 
 - **A:** True: successor is the minimum of the nonempty right subtree.
 - **B:** False: the minimum node can have a right child.
@@ -242,11 +245,11 @@ With a nonempty right subtree, the successor is its minimum-key node, found by f
 
 ## Q17
 
-**Correct answer:** 3 (exact)
+**Correct answer:** 3 (accepted exactly as entered at the stated precision)
 
 **Concept:** Theory of Computation — Regular expressions and finite automata
 
-Initially the closure is{0}. After the first a it is{0,1,2}; after the second a, only0 has an a transition, again giving closure{0,1,2}. On b only2 moves, producing{3}. Its epsilon closure adds1 and then2, so the final set is{1,2,3}, size3.
+Initially the closure is{0}. After the first a it is{0,1,2}; after the second a, only 0 has an a transition, again giving closure{0,1,2}. On b only 2 moves, producing{3}. Its epsilon closure adds1 and then2, so the final set is{1,2,3}, size 3.
 
 **Common misconception:** Epsilon closure must be recomputed after the last input symbol, including chains of epsilon edges.
 
@@ -282,11 +285,11 @@ The base production generates ab. To generate aabb one must add one leading a an
 
 ## Q20
 
-**Correct answer:** 4 (exact)
+**Correct answer:** 4 (accepted exactly as entered at the stated precision)
 
 **Concept:** Computer Networks — Distance-vector and link-state routing
 
-Initially dA=2 and dB=1. In round1 B loses its direct link and uses A's previous2, giving3. A still uses B's previous1 and remains2. In round2 A uses B's3 and obtains min(10,1+3)=4. B uses A's previous2 and remains3. The requested advertised metric is4, not the true surviving shortest-path distance10.
+Initially dA=2 and dB=1. In round 1 B loses its direct link and uses A's previous 2, giving 3. A still uses B's previous 1 and remains 2. In round 2 A uses B's3 and obtains min(10,1+3)=4. B uses A's previous 2 and remains 3. The requested advertised metric is 4, not the true surviving shortest-path distance 10.
 
 **Common misconception:** Synchronous distance vectors use previous-round advertisements, which can retain routes through the failed link.
 
@@ -296,10 +299,10 @@ Initially dA=2 and dB=1. In round1 B loses its direct link and uses A's previous
 
 **Concept:** Digital Logic — Floating-point representation
 
-Near1 the spacing is1/4, so1.125 is halfway between1.00(binary) and1.01(binary); the even last significand bit selects1.0. In[2,4), spacing doubles to1/2. The sum1.75+0.25=2 is exactly representable. At[8,16), spacing is2, so9 is not representable. A,C hold.
+Near 1 the spacing is 1/4, so1.125 is halfway between 1.00(binary) and1.01(binary); the even last significand bit selects1.0. In[2,4), spacing doubles to1/2. The sum 1.75+0.25=2 is exactly representable. At[8,16), spacing is 2, so9 is not representable. A,C hold.
 
 - **A:** True: it is a midpoint and ties-to-even chooses significand1.00.
-- **B:** False: the spacing in this exponent binade is0.5.
+- **B:** False: the spacing in this exponent binade is 0.5.
 - **C:** True: both inputs and the exact sum are representable.
 - **D:** False:9 lies between consecutive representable values8 and10.
 
@@ -328,7 +331,7 @@ Near1 the spacing is1/4, so1.125 is halfway between1.00(binary) and1.01(binary);
 
 **Concept:** Compiler Design — Constant propagation
 
-Both concrete paths give x+y=5, proving A. At the join, x has values2 or3 and y has3 or2; each independently becomes not constant. This abstraction loses the relation x+y=5 and cannot evaluate the sum as a constant there. Evaluating within each branch first produces the same constant5 for z on both incoming paths, which survives the join. Thus D holds, B,C do not.
+Both concrete paths give x+y=5, proving A. At the join, x has values2 or3 and y has3 or2; each independently becomes not constant. This abstraction loses the relation x+y=5 and cannot evaluate the sum as a constant there. Evaluating within each branch first produces the same constant 5 for z on both incoming paths, which survives the join. Thus D holds, B,C do not.
 
 - **A:** True: the two concrete branch sums both equal5.
 - **B:** False: x differs between the incoming paths.
@@ -339,7 +342,7 @@ Both concrete paths give x+y=5, proving A. At the join, x has values2 or3 and y 
 
 ## Q24
 
-**Correct answer:** 0.667 (exact)
+**Correct answer:** 0.667 (accepted exactly as entered at the stated precision)
 
 **Concept:** Engineering Mathematics — Integration
 
@@ -355,14 +358,16 @@ Both concrete paths give x+y=5, proving A. At the join, x has values2 or3 and y 
 
 **Concept:** Compiler Design — Liveness analysis
 
-Working backward, return reads y, so y is live before x=0. That assignment defines x but reads no variables; it neither uses x's old value nor changes y. No later statement reads a,b,c. Hence only y is live at the specified point.
+1. At P, z is immediately read to assign y. After the back edge to L, flag is read by the branch before any assignment to flag.
+2. The old y is overwritten at P. The old x is overwritten at L before either a return or another loop iteration could read x.
+3. Hence the live set is exactly {z, flag}.
 
-- **A:** True: y alone is read later before any redefinition.
-- **B:** False: the old x is overwritten and never used later.
-- **C:** False: c was needed earlier, not after this point.
-- **D:** False: a,b,c have no remaining uses.
+- **A:** Correct: both variables have a future use before redefinition.
+- **B:** Incorrect: the old x is killed at L.
+- **C:** Incorrect: the old y is killed at P.
+- **D:** Incorrect: neither old x nor old y survives to a use.
 
-**Common misconception:** Past participation in a computation does not make a variable live now.
+**Common misconception:** A variable used elsewhere in a loop need not be live at every point; track the current value across the back edge.
 
 ## Q26
 
@@ -370,22 +375,22 @@ Working backward, return reads y, so y is live before x=0. That assignment defin
 
 **Concept:** Digital Logic — Boolean algebra
 
-The two occurrences of x cancel under XOR. If z=0, both AND terms are0 and D=0. If z=1, their values are y and NOT y, whose XOR is1. Thus D=z independently of x and y.
+The two occurrences of x cancel under XOR. If z=0, both AND terms are0 and D=0. If z=1, their values are y and NOT y, whose XOR is 1. Thus D=z independently of x and y.
 
-- **A:** False: when x=0,z=1 the result is1.
-- **B:** False: when y=0,z=1 the result is1.
+- **A:** False: when x=0,z=1 the result is 1.
+- **B:** False: when y=0,z=1 the result is 1.
 - **C:** True: flipping y affects F exactly when z=1.
-- **D:** False: z=0 yields D=0, not1.
+- **D:** False: z=0 yields D=0, not 1.
 
 **Common misconception:** A Boolean input's influence may be gated by another variable even when the output also contains XOR.
 
 ## Q27
 
-**Correct answer:** 2 (exact)
+**Correct answer:** 2 (accepted exactly as entered at the stated precision)
 
 **Concept:** Operating Systems — CPU scheduling
 
-A runs0–2, leaving5. B arrives with4 and runs2–4, leaving2. C runs4–5 and completes; B resumes5–7 and completes; A runs7–12. Waiting times are A:12-0-7=5, B:7-2-4=1, C:5-4-1=0. Average=(5+1+0)/3=2.
+A runs0–2, leaving5. B arrives with 4 and runs2–4, leaving2. C runs4–5 and completes; B resumes5–7 and completes; A runs7–12. Waiting times are A:12-0-7=5, B:7-2-4=1, C:5-4-1=0. Average=(5+1+0)/3=2.
 
 **Common misconception:** Preemption compares remaining time, and waiting time includes intervals after preemption.
 
@@ -395,10 +400,10 @@ A runs0–2, leaving5. B arrives with4 and runs2–4, leaving2. C runs4–5 and 
 
 **Concept:** Databases — Functional dependencies and normal forms
 
-Neither A nor B determines C, so candidate keys are AC and BC. Every attribute is prime because each occurs in a candidate key. Each nontrivial dependency has a prime right-side attribute, satisfying3NF. A→B violates BCNF since A is not a superkey, and similarly for B→A. Thus3NF but notBCNF.
+Neither A nor B determines C, so candidate keys are AC and BC. Every attribute is prime because each occurs in a candidate key. Each nontrivial dependency has a prime right-side attribute, satisfying 3NF. A→B violates BCNF since A is not a superkey, and similarly for B→A. Thus 3NF but not BCNF.
 
-- **A:** False: every attribute is prime, so there is no nonprime partial dependency violating2NF.
-- **B:** False: prime right-side attributes satisfy3NF.
+- **A:** False: every attribute is prime, so there is no nonprime partial dependency violating 2NF.
+- **B:** False: prime right-side attributes satisfy 3NF.
 - **C:** True:3NF holds while A and B are non-superkey determinants.
 - **D:** False: A→B is nontrivial and A does not determine C.
 
@@ -406,7 +411,7 @@ Neither A nor B determines C, so candidate keys are AC and BC. Every attribute i
 
 ## Q29
 
-**Correct answer:** 7.6 (exact)
+**Correct answer:** 7.6 (accepted exactly as entered at the stated precision)
 
 **Concept:** Engineering Mathematics — Descriptive statistics
 
@@ -418,23 +423,25 @@ Neither A nor B determines C, so candidate keys are AC and BC. Every attribute i
 
 ## Q30
 
-**Correct answer:** 175 (exact)
+**Correct answer:** 175 (accepted exactly as entered at the stated precision)
 
 **Concept:** Computer Networks — IPv4 fragmentation
 
-The incoming payload is1000 bytes. Each new fragment can hold620-20=600 payload bytes, and600 is divisible by8. The first retains offset100. The second begins600 bytes later, so its offset is100+600/8=175. Offsets remain relative to the original datagram, not relative to the incoming fragment.
+The incoming payload is 1000 bytes. Each new fragment can hold620-20=600 payload bytes, and600 is divisible by 8. The first retains offset 100. The second begins600 bytes later, so its offset is 100+600/8=175. Offsets remain relative to the original datagram, not relative to the incoming fragment.
 
 **Common misconception:** Refragmentation adds to the existing fragment offset rather than restarting at zero.
 
 ## Q31
 
-**Correct answer:** 120 (exact)
+**Correct answer:** 205 (exact)
 
 **Concept:** Operating Systems — I/O scheduling
 
-The order is70,90,40,10. Movement is20+20+50+30=120, equivalently(90-50)+(90-10)=40+80. LOOK reverses at90, without visiting99.
+1. The head reaches 70 at time 20 and 90 at time 40, then reverses toward the pending request at 10.
+2. At time 45 it is at 85, moving downward. The new request at 95 is behind its direction of travel, so it does not interrupt this sweep.
+3. The head reaches 10 at time 120 and then travels 85 cylinders to 95. Total movement is 20 + 20 + 80 + 85 = 205.
 
-**Common misconception:** LOOK and SCAN differ in whether the head travels to an unrequested physical endpoint.
+**Common misconception:** A request arriving near the head is not necessarily served next; LOOK preserves the sweep direction while a request remains ahead.
 
 ## Q32
 
@@ -474,7 +481,7 @@ If the first ADD is fetched in cycle1, it writes R1 in cycle5. The second ADD's 
 
 **Concept:** Databases — File organization
 
-If the first record is at slot0, the16 records occupy two pages. If it starts at any slot1 through7, the16 consecutive records cross into a third data page. Thus at most three data pages are needed, and this is attainable. Add two index reads for a largest total of5.
+If the first record is at slot 0, the 16 records occupy two pages. If it starts at any slot 1 through7, the 16 consecutive records cross into a third data page. Thus at most three data pages are needed, and this is attainable. Add two index reads for a largest total of 5.
 
 - **A:** False: this counts only the worst-case data pages and omits the index reads.
 - **B:** False: it assumes the range begins exactly at a page boundary.
@@ -524,18 +531,22 @@ Inserting 55 splits [40,45,50,55] into [40,45] and [50,55]. Its parent acquires 
 
 ## Q38
 
-**Correct answer:** A, C
+**Correct answer:** A, B, C
 
-**Concept:** Algorithms — Minimum spanning trees
+**Concept:** Algorithms — Minimum spanning trees and constrained counting
 
-A spanning tree has three edges. Since every edge weighs at least 1, its weight is at least 3. Deleting any one edge of the unit-weight four-cycle attains weight 3, giving four trees. These are all optimum trees: any diagonal would increase the weight to at least 4.
+1. A spanning tree needs five edges and must connect the two triangles. Four unit edges and one weight-2 connector give weight 6. A lighter tree cannot connect all six vertices, since every connector weighs at least 2.
+2. For weight 6, choose a spanning tree in each triangle in 3 ways each, then one of AD, BE, CF in 3 ways. This gives 3×3×3=27.
+3. A weight-7 tree has either four unit edges and AE, or three unit edges and two weight-2 connectors. The first case gives 3×3=9.
+4. In the second case choose the two connectors in 3 ways. The three unit edges must split as two in one triangle and one in the other: taking all three from a triangle would create a cycle. There are 2 choices of which triangle gets two edges, 3 choices of its spanning tree, and 2 choices of the other triangle's single edge. That edge must attach its otherwise unconnected third vertex to a connector endpoint. Thus this case contributes 3×2×3×2=36.
+5. Total weight-7 trees: 9+36=45.
 
-- **A:** is true: choose the omitted cycle edge in four ways.
-- **B:** is false: AC weighs 2 and cannot be in a weight-3 tree.
-- **C:** is true: all three edges must have weight 1.
-- **D:** is false: after AB becomes 0, choose any two of BC,CD,DA together with AB. Each of these three trees weighs 2.
+- **A:** Correct: the lower bound 6 is attained.
+- **B:** Correct: the three independent choices give 27 distinct edge sets.
+- **C:** Correct: the two disjoint weight compositions give 45 trees.
+- **D:** Incorrect: a spanning tree in each triangle together with AE has weight 7 and uses no weight-2 edge.
 
-**Common misconception:** Making one edge uniquely light need not eliminate choices among the remaining edges.
+**Common misconception:** Equal-weight edges create multiple optima, and counting the next weight requires checking connectivity and cycles, not just the number of chosen edges.
 
 ## Q39
 
@@ -603,20 +614,19 @@ The NAT distinguishes the simultaneous connections using its assigned public por
 
 **Correct answer:** A
 
-**Concept:** Operating Systems — Memory management
+**Concept:** Operating Systems — Contiguous allocation and coalescing
 
-First-fit places 212 in the 500-unit hole, leaving 288; 417 in the 600-unit hole, leaving 183; and 112 in the 288-unit remainder, leaving 176. The 426 request cannot fit. Final hole sizes are 100,176,200,300,183; their maximum is 300.
+1. First-fit allocates A at [0,50). B cannot fit the remaining [50,60), so it occupies [100,135).
+2. Freeing A and X joins [0,50), [50,60), and [60,100) into [0,100). B prevents further merging. The other holes have sizes 45 and 40. The largest is 100.
+3. Best-fit also puts A at [0,50), since the 60-unit hole is the smallest that fits 50. It puts B in the 40-unit hole at [200,235).
+4. When A and X are freed, the entire interval [0,180) becomes free: the original [100,180) hole was never occupied. Y prevents merging beyond 180. The largest hole is 180.
 
-Best-fit places 212 in 300, 417 in 500, 112 in 200 and 426 in 600. The final holes, in original address order, are 100,83,88,88,174; their maximum is 174.
+- **A:** Correct: the maxima are 100 and 180.
+- **B:** Incorrect: best-fit leaves [100,180) available for coalescing.
+- **C:** Incorrect: first-fit's B blocks the interval at address 100.
+- **D:** Incorrect: it reverses the two outcomes.
 
-A matches both traces. B mistakes the last-address remainder for the largest first-fit hole. C uses a first-fit remainder as the best-fit maximum. D interchanges the policy results.
-
-- **A:** True: first-fit leaves largest hole 300, and best-fit leaves largest hole 174.
-- **B:** False: mistakes the last-address remainder for the largest first-fit hole.
-- **C:** False: uses a first-fit remainder as the best-fit maximum.
-- **D:** False: interchanges the first-fit and best-fit policy results.
-
-**Common misconception:** First-fit restarts at the beginning; it is not next-fit, and total free space does not guarantee that a request fits.
+**Common misconception:** A choice that leaves a smaller immediate remainder can improve a later allocation by preserving holes that will coalesce after deallocation.
 
 ## Q44
 
@@ -639,18 +649,19 @@ A matches both traces. B mistakes the last-address remainder for the largest fir
 
 **Correct answer:** B
 
-**Concept:** Computer Organization and Architecture — ALU design
+**Concept:** Computer Organization and Architecture — Signed overflow and unsigned comparison
 
-The bit patterns mean -128 and 1 as signed values, so signed A<B is true. As unsigned values they are 128 and 1, so unsigned A<B is false. The subtraction produces low bits 01111111, C=1,N=0,V=1. Thus the signed comparison uses N XOR V=1; using N alone would fail because the mathematical difference -129 is out of signed range. The unsigned comparison uses NOT C=0.
+1. N=0 with V=1 means the mathematical signed subtraction was less than −128, wrapping into a nonnegative result. Positive overflow would instead produce N=1.
+2. Therefore A represents a negative signed number and B a nonnegative signed number. Write the unsigned value of A as 128+r, where 0≤r≤127, and the value of B as b, where 0≤b≤127. Their signed difference is r−128−b.
+3. Overflow requires r−128−b<−128, hence b>r. Every such pair automatically has unsigned A>B, so C=1.
+4. For r=0 there are 127 choices of b, for r=1 there are 126, and so on down to zero. The count is 127+126+⋯+1=127×128/2=8128.
 
-A misses signed overflow. B gives both comparisons correctly. C reverses both outcomes. D incorrectly treats the unsigned operands as signed.
+- **A:** Incorrect: 8192 treats the boundary as exactly half of all opposite-sign pairs without excluding the equality diagonal.
+- **B:** Correct: the strict triangular inequality gives 8128.
+- **C:** Incorrect: 8256 includes b=r, whose signed result is exactly −128 and does not overflow.
+- **D:** Incorrect: 16384 counts all opposite-sign pairs, including those with no overflow.
 
-- **A:** False: misses signed overflow because mathematical difference -129 is outside 8-bit signed range.
-- **B:** True: signed comparison A < B evaluates to true, whereas unsigned comparison A < B evaluates to false.
-- **C:** False: reverses both comparison outcomes.
-- **D:** False: incorrectly treats the unsigned operands as signed.
-
-**Common misconception:** A positive truncated subtraction result does not establish a signed ordering when overflow occurs.
+**Common misconception:** Unsigned carry and signed overflow describe different properties; endpoint pairs must be checked against the signed representable range.
 
 ## Q46
 
@@ -681,20 +692,22 @@ When B=C=1, the ideal function is A+(NOT A)=1. Different delays can nevertheless
 
 ## Q48
 
-**Correct answer:** B
+**Correct answer:** B, C, D
 
-**Concept:** Databases — Transactions
+**Concept:** Databases — Conflict and view serializability with blind writes
 
-The only intertransaction conflict is w1(x) before r2(x), giving precedence edge T1->T2. The graph is acyclic, so the schedule is conflict-serializable. T2 reads T1's uncommitted write and then commits before T1. This violates recoverability, which requires the producer to commit before the dependent reader commits. It also violates cascadelessness, which would require c1 before r2(x).
+1. The first w1(x) precedes w2(x), creating conflict edge T1→T2. The last w1(x) follows w2(x), creating T2→T1. The conflict graph is cyclic.
+2. The only read, r4(x), sees T2's write. The final writer of x is T1; the final writer of y is T4.
+3. A view-equivalent serial order must place T2 before T4. Because T1 must be the final x writer, T1 is after T2; because T4 must still read T2's x, T1 cannot intervene between T2 and T4. Thus T2<T4<T1.
+4. Both T2 and T3 write y, so both must precede final y-writer T4. T2 and T3 can be ordered either way. The only view-equivalent orders are (T2,T3,T4,T1) and (T3,T2,T4,T1).
+5. Delete the first w1(x). The y conflicts now force T3<T2<T4, and the x conflicts force T2<T4<T1. Together they yield the unique conflict-equivalent order (T3,T2,T4,T1).
 
-A falsely claims recoverability. B is correct. C gets both properties wrong. D falsely claims cascadelessness.
+- **A:** Incorrect: T1 and T2 form a conflict cycle in the original schedule.
+- **B:** Correct: the two displayed serial orders preserve the read source and final writers.
+- **C:** Correct: the precedence requirements leave only the relative order of T2 and T3 free.
+- **D:** Correct: after deletion all four transactions lie on the forced chain T3→T2→T4→T1.
 
-- **A:** False: falsely claims recoverability; T2 reads uncommitted write of T1 and commits before T1.
-- **B:** True: the schedule is conflict-serializable (acyclic precedence graph) but not recoverable.
-- **C:** False: gets both conflict-serializability and recoverability wrong.
-- **D:** False: falsely claims cascadelessness; T2 reads uncommitted data from T1.
-
-**Common misconception:** An acyclic precedence graph does not by itself guarantee a safe commit order.
+**Common misconception:** Blind writes can make a schedule view-serializable even when its conflict graph has a cycle; preserving final writers is essential.
 
 ## Q49
 
@@ -729,18 +742,20 @@ A, B and C can recognize L by the constructions above. D cannot.
 
 **Correct answer:** A, C
 
-**Concept:** Theory of Computation — Regular and context-free languages
+**Concept:** Theory of Computation — Closure properties and regular restrictions
 
-L1 is generated by S->XC, X->aXb|epsilon, C->cC|epsilon. L2 is generated by S->AY, A->aA|epsilon, Y->bYc|epsilon. Both are context-free. Context-free languages are closed under union and concatenation, proving A and C.
+1. L is context-free: it is the union of the context-free languages with i=j and with j=k. R is regular, expressed as a*(epsilon|b|bb)c*.
+2. For each fixed j in {0,1,2}, membership of L intersect R requires i=j or k=j. Its portion for that j is a^j b^j c* union a* b^j c^j. These are regular, and their finite union is regular.
+3. L minus R equals L intersect the complement of R. A context-free language intersected with a regular language remains context-free.
+4. L minus R is not regular. Intersect it with the regular language a*b* (no c symbols). Since j>2, the alternative j=k=0 is impossible, leaving {a^n b^n:n≥3}, which is nonregular. A regular L minus R could not have this nonregular regular-language intersection.
+5. In L intersect S we have i=k, together with i=j or j=k. Either alternative forces all three counts equal. Thus the intersection is {a^n b^n c^n:n≥0}, which is not context-free. For the standard pumping argument, choose a^p b^p c^p: a pumping window of length at most p cannot cover all three blocks, so pumping changes at least one count while leaving another unchanged, or violates block order.
 
-Their intersection is exactly {a^n b^n c^n:n>=0}, which is not context-free. For a pumping-lemma argument, choose a^p b^p c^p. The bounded substring containing both pumped pieces cannot contain both an a and a c. Pumping changes at most two of the three symbol counts (or destroys block order), and at least one count changes, so equality of all three counts cannot persist. Thus B is false. Every regular language is context-free, so D is also false.
+- **A:** Correct: the middle block is bounded, giving a finite union of regular languages.
+- **B:** Incorrect: the c-free regular slice proves nonregularity.
+- **C:** Correct: difference by a regular language preserves context-freeness.
+- **D:** Incorrect: the equal-outer-count restriction forces three equal block counts.
 
-- **A:** True: context-free languages are closed under union.
-- **B:** False: the intersection of L1 and L2 is {a^n b^n c^n: n>=0}, which is not context-free.
-- **C:** True: context-free languages are closed under concatenation.
-- **D:** False: the intersection is not regular (it is not even context-free).
-
-**Common misconception:** Closure under union does not imply closure under intersection.
+**Common misconception:** Intersection with a regular language preserves context-freeness, but intersection with another context-free language need not; bounded and unbounded restrictions behave differently.
 
 ## Q52
 
@@ -761,20 +776,21 @@ A misses the two arrangements in one subtree. B does not account for selecting s
 
 ## Q53
 
-**Correct answer:** C
+**Correct answer:** B
 
-**Concept:** Programming and Data Structures — Graph representations
+**Concept:** Programming and Data Structures — Directed multigraph representation and edge-distinct walks
 
-The required count is trace(M^2). Starting at vertex 1, the route through vertex 2 contributes 2*1=2, and the route through vertex 3 contributes 1*0=0. Starting at 2 contributes 1*2+1*1=3. Starting at 3 contributes 0*1+1*1+1*1=2. The last contribution is traversal of the self-loop twice. Total 2+3+2=7.
+1. Every closed walk without a repeated edge decomposes into directed cycles using disjoint edges. Here a four-edge walk can be either two two-edge cycles or one three-edge cycle plus the self-loop at vertex 3. There is no four-vertex simple cycle and only one loop.
+2. The first case combines 1→2→1 with 2→3→2. The 1→2 edge has two choices. For either choice, the resulting four-edge circuit has four distinct cyclic starting positions, including two distinct edge orders starting at vertex 2. Contribution: 2×4=8.
+3. The only directed three-vertex cycle is 1→3→2→1. Insert the loop 3→3 at vertex 3. This circuit has four distinct cyclic starting positions. Contribution: 4.
+4. Repeating the 1↔2 cycle would reuse the sole 2→1 edge; repeating the 2↔3 cycle would also reuse edges. Neither is allowed. The total is 8+4=12.
 
-A ignores multiplicities or starting-vertex distinctions. B drops the two walks arising from additional parallel-edge choices. C counts all seven walks. D has no corresponding set of additional legal closed walks.
+- **A:** Incorrect: 7 is the ordinary closed-walk count for length two, not this task.
+- **B:** Correct: the two permissible cycle decompositions give 12.
+- **C:** Incorrect: it does not follow from the permitted disjoint-edge decompositions.
+- **D:** Incorrect: reversing a directed circuit is not automatically permitted; doubling 12 counts nonexistent reversals.
 
-- **A:** False: ignores edge multiplicities and distinct starting vertices.
-- **B:** False: drops the two walks arising from additional parallel-edge choices.
-- **C:** True: trace(M^2) = 2 + 3 + 2 = 7 closed walks of length 2.
-- **D:** False: overcounts legal closed walks.
-
-**Common misconception:** A closed walk is not an undirected cycle; changing its starting vertex can produce another counted walk.
+**Common misconception:** Powers of an adjacency matrix count unrestricted walks, including edge reuse. An edge-distinct restriction requires additional state or a structural counting argument.
 
 ## Q54
 
@@ -893,13 +909,16 @@ A is true by the count above. B is true: read the double-indirect root, its sele
 
 ## Q61
 
-**Correct answer:** 2500 (exact)
+**Correct answer:** 5000 (exact)
 
-**Concept:** Computer Networks — TCP flow and congestion control
+**Concept:** Computer Networks — Sliding receive and congestion windows
 
-The largest permitted outstanding amount is min(10000,6500)=6500 bytes. Since 4000 bytes are already outstanding relative to the same acknowledgement, another 6500-4000=2500 bytes may be sent. The congestion window alone would allow 6000 more, but the advertised receive window is tighter.
+1. Initially the receive-window right edge is 1001+6000=7001, and the congestion-window right edge is 1001+8000=9001. The next new byte is 5001, so the sender may transmit 2000 new bytes, advancing next to 7001.
+2. After ACK=3001, the receive-window right edge becomes 3001+3500=6501, behind the next new byte. Existing data remains outstanding; no additional new data is permitted at this step.
+3. After ACK=5501, the receive edge is 10501 and the congestion edge is 5501+4500=10001. The binding edge is 10001. With next still 7001, the sender can transmit 3000 new bytes.
+4. Total new data is 2000+0+3000=5000 bytes. The intervals are half-open, so no extra byte is added at an edge.
 
-**Common misconception:** The advertised window bounds the total outstanding data from its acknowledgement point, not an additional allowance independent of already transmitted bytes.
+**Common misconception:** A receive window is anchored at the accompanying acknowledgement, and shrinking it does not retract previously transmitted data or reset the next sequence number.
 
 ## Q62
 
@@ -970,4 +989,6 @@ A omits the final comparison even in the shortest winner path. B is correct. C o
 - **D:** False: ignores the byes granted to players in higher bracket positions.
 
 **Common misconception:** With a non-power-of-two input size, the eventual minimum can meet different numbers of opponents.
+
+
 

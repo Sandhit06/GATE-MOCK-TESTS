@@ -1,864 +1,651 @@
-# Worked Solutions — Mock Test 010
-
-Review provenance is recorded in the structured bank; no human review is claimed.
+# GATE CS 2027 — Mock 010: Worked Solutions
 
 ## Q1
 
-**Correct answer:** A
+**Correct answer:** C
 
-**Concept:** General Aptitude — Vocabulary in context
+**Concept:** Vocabulary in context.
 
-Ephemeral denotes something transient, fleeting, or short-lived.
+The following clause explicitly attaches a condition to the endorsement, establishing C. A is a different meaning of “qualified” and is not supported here. B removes the condition, while D denies the support that the sentence explicitly reports.
 
-- **A:** Correct contextual definition.
-- **B:** Opposite of transient.
-- **C:** Irrelevant financial connotation.
-- **D:** Irrelevant stylistic description.
-
-**Common misconception:** Equating ephemeral with ethereal or monumental.
+**Common misconception:** Choosing a familiar dictionary meaning without checking its context.
 
 ## Q2
 
-**Correct answer:** 70.0 (exact)
+**Correct answer:** 64
 
-**Concept:** General Aptitude — Powers and logarithms
+**Concept:** Changing logarithm bases.
 
-Component X initially has 140 litres. Adding 28 litres yields 168 litres out of total 240 litres = 70.0%.
+Put y=log₂x. Then log₄x=y/2, so 3y/2=9 and y=6. Therefore x=2⁶=64.
 
-**Common misconception:** Forgetting to update total mixture volume when adding new components.
+**Common misconception:** Treating logarithms with different bases as equal terms.
 
 ## Q3
 
-**Correct answer:** A
+**Correct answer:** B
 
-**Concept:** General Aptitude — Inductive reasoning and analogies
+**Concept:** Induction versus universal deduction.
 
-Valid pairs: {R, S}, {P, R} (violates iff), {P, S} (violates iff). Valid selections: {R, S}, {Q, R} (if S excluded? No, R iff S forces R and S together), or non-R/S pairs: {P}, {Q}. Thus only {R,S} and non-RS pairs {P,Q} (forbidden). Exhaustive analysis yields 3 valid combinations under relaxed parity.
+The observations support a tentative pattern restricted to the observed circumstances, as B says. A generalizes across every route and bus; C makes an unsupported dry-weather claim; D treats association as proof of a unique cause. None of those stronger claims follows.
 
-- **A:** Correct combinatorial count.
-- **B:** Underestimated cases.
-- **C:** Overestimated non-independent pairs.
-- **D:** Missed mutually exclusive condition.
-
-**Common misconception:** Misinterpreting bi-conditional constraint 'if and only if'.
+**Common misconception:** Turning repeated observations into a logically necessary universal statement.
 
 ## Q4
 
-**Correct answer:** 3 (exact)
+**Correct answer:** 54
 
-**Concept:** General Aptitude — Two- and three-dimensional patterns
+**Concept:** Surface changes under removal.
 
-Valid pairs: {R, S}, {P, R} (violates iff), {P, S} (violates iff). Valid selections: {R, S}, {Q, R} (if S excluded? No, R iff S forces R and S together), or non-R/S pairs: {P}, {Q}. Thus only {R,S} and non-RS pairs {P,Q} (forbidden). Exhaustive analysis yields 3 valid combinations under relaxed parity.
+The original area is 6×3²=54. Each corner removal removes three exterior unit faces and exposes three previously internal faces. No two removed corner cubes share a face, so these changes do not overlap. The net area change is zero.
 
-**Common misconception:** Misinterpreting bi-conditional constraint 'if and only if'.
+**Common misconception:** Subtracting the old external faces without adding newly exposed faces.
 
 ## Q5
 
-**Correct answer:** 62 (exact)
+**Correct answer:** 32
 
-**Concept:** General Aptitude — Numerical series
+**Concept:** Successive increments.
 
-First differences are 8, 10, 12, 14. Second difference is constant 2. Next term is 62.
+Six terms require five increments: 2,3,5,7,11. Thus the sixth term is 4+2+3+5+7+11=32.
 
-**Common misconception:** Assuming purely linear arithmetic difference.
+**Common misconception:** Applying six increments to obtain the sixth term.
 
 ## Q6
 
-**Correct answer:** A
+**Correct answer:** 2
 
-**Concept:** General Aptitude — Geometry and mensuration
+**Concept:** Area constraints with an internal border.
 
-Valid pairs: {R, S}, {P, R} (violates iff), {P, S} (violates iff). Valid selections: {R, S}, {Q, R} (if S excluded? No, R iff S forces R and S together), or non-R/S pairs: {P}, {Q}. Thus only {R,S} and non-RS pairs {P,Q} (forbidden). Exhaustive analysis yields 3 valid combinations under relaxed parity.
+For width w, the planted area is (40−2w)(30−2w)=1200−264=936. This gives w²−35w+66=0, or (w−2)(w−33)=0. Only w=2 satisfies the required width less than 15.
 
-- **A:** Correct combinatorial count.
-- **B:** Underestimated cases.
-- **C:** Overestimated non-independent pairs.
-- **D:** Missed mutually exclusive condition.
-
-**Common misconception:** Misinterpreting bi-conditional constraint 'if and only if'.
+**Common misconception:** Using the outer perimeter times width without subtracting corner overlaps.
 
 ## Q7
 
-**Correct answer:** A
+**Correct answer:** C
 
-**Concept:** General Aptitude — Verbal grammar
+**Concept:** Reference and causal sequencing.
 
-The subject 'each of the candidates' takes a singular verb form 'has' in formal standard English.
+R introduces the result and competing explanations. P's “these explanations” refers back to them and introduces the repeat. Q describes that repeat's outcome; S states the ensuing conclusion. Thus R–P–Q–S is required. A uses an unresolved reference, B reports the repeat before introducing it, and D places the conclusion before its grounds.
 
-- **A:** Correct singular agreement.
-- **B:** Incorrect plural verb.
-- **C:** Grammatical number disagreement.
-- **D:** Malformed auxiliary verb construction.
-
-**Common misconception:** Attracted agreement with the plural noun inside the prepositional phrase.
+**Common misconception:** Ordering sentences by vocabulary alone instead of their logical dependencies.
 
 ## Q8
 
-**Correct answer:** 57.1 (exact)
+**Correct answer:** 19.2
 
-**Concept:** General Aptitude — Ratios and percentages
+**Concept:** Repeated dilution.
 
-Component X initially has 80 litres. Adding 16 litres yields 96 litres out of total 168 litres = 57.1%.
+Each withdrawal removes one fifth of the salt currently present. The initial three litres of salt therefore become 3×(4/5)²=1.92 litres in a restored total volume of ten litres. The percentage is 19.2.
 
-**Common misconception:** Forgetting to update total mixture volume when adding new components.
+**Common misconception:** Removing the same amount of salt on both withdrawals despite dilution.
 
 ## Q9
 
-**Correct answer:** A
+**Correct answer:** 10
 
-**Concept:** General Aptitude — Deductive logic
+**Concept:** Interleaving ordered chains.
 
-Valid pairs: {R, S}, {P, R} (violates iff), {P, S} (violates iff). Valid selections: {R, S}, {Q, R} (if S excluded? No, R iff S forces R and S together), or non-R/S pairs: {P}, {Q}. Thus only {R,S} and non-RS pairs {P,Q} (forbidden). Exhaustive analysis yields 3 valid combinations under relaxed parity.
+Choose three of five positions for A,B,C; their order in those positions is forced. D,E fill the remaining two in their forced order. The number is choose(5,3)=10.
 
-- **A:** Correct combinatorial count.
-- **B:** Underestimated cases.
-- **C:** Overestimated non-independent pairs.
-- **D:** Missed mutually exclusive condition.
-
-**Common misconception:** Misinterpreting bi-conditional constraint 'if and only if'.
+**Common misconception:** Multiplying by permutations within chains whose order is fixed.
 
 ## Q10
 
-**Correct answer:** A
+**Correct answer:** 16
 
-**Concept:** General Aptitude — Spatial transformations
+**Concept:** Reflection when unfolding.
 
-Valid pairs: {R, S}, {P, R} (violates iff), {P, S} (violates iff). Valid selections: {R, S}, {Q, R} (if S excluded? No, R iff S forces R and S together), or non-R/S pairs: {P}, {Q}. Thus only {R,S} and non-RS pairs {P,Q} (forbidden). Exhaustive analysis yields 3 valid combinations under relaxed parity.
+Undoing the horizontal fold yields y=2 and y=6. Undoing the vertical fold yields x=1 and x=7. The four holes are (1,2),(1,6),(7,2),(7,6), so their x-coordinates sum to 16.
 
-- **A:** Correct combinatorial count.
-- **B:** Underestimated cases.
-- **C:** Overestimated non-independent pairs.
-- **D:** Missed mutually exclusive condition.
-
-**Common misconception:** Misinterpreting bi-conditional constraint 'if and only if'.
+**Common misconception:** Reflecting about the coordinate axes instead of the actual fold lines.
 
 ## Q11
 
-**Correct answer:** A
+**Correct answer:** 20.5
 
-**Concept:** Databases — File organization
+**Concept:** Expected successful sequential search cost.
 
-A non-root internal node in a B+ tree of order m must have at least ⌈m/2⌉ child pointers. For m=5, ⌈5/2⌉ = 3 children, which corresponds to 3 - 1 = 2 keys.
+There are 1000/25=40 equally populated blocks, making the target block uniform among positions 1 through 40. Expected reads are (1+40)/2=20.5.
 
-- **A:** True: ⌈5/2⌉ - 1 = 3 - 1 = 2 keys minimum.
-- **B:** False: maximum number of keys for 3 children.
-- **C:** False: maximum capacity (m-1 = 4).
-- **D:** False: root minimum keys, not general internal node.
-
-**Common misconception:** Confusing child pointer minimum ⌈m/2⌉ with key count minimum (⌈m/2⌉ - 1).
+**Common misconception:** Using half the block count without the endpoint correction for a successful search.
 
 ## Q12
 
-**Correct answer:** A (exact)
+**Correct answer:** B
 
-**Concept:** Algorithms — Hashing
+**Concept:** Probe-cycle length.
 
-Merge Sort divides the array into halves in Θ(1), recursively sorts them in 2T(n/2), and merges in at most n-1 comparisons. By Master Theorem, T(n) = 2T(n/2) + Θ(n) = Θ(n log n) in all cases (best, average, and worst).
+The visited slots are 1,5,9,3,7, then 1 again. The period is 10/gcd(10,4)=5. Hence B holds: empty even slots cannot be reached. A and C give incorrect period lengths. D is false because the arithmetic sequence is independent of table contents.
 
-**Common misconception:** Confusing Merge Sort's invariant worst-case with Quicksort's unbalanced partition worst-case.
+**Common misconception:** Assuming every nonzero step visits the entire table.
 
 ## Q13
 
-**Correct answer:** A (exact)
+**Correct answer:** 13
 
-**Concept:** Programming and Data Structures — Recursion
+**Concept:** Recursion depth including the base case.
 
-To output 3 first, 1 and 2 must be pushed before 3. Once 3 is popped, 2 is at the top of the stack and MUST be popped before 1. Thus '3, 1, 2, 4' is impossible.
+Active argument lengths at the deepest point are 12,11,…,1,0, giving thirteen activations. None has returned before the base case is reached.
 
-**Common misconception:** Assuming any arbitrary permutation of stack inputs can be generated.
+**Common misconception:** Counting recursive edges instead of active calls.
 
 ## Q14
 
-**Correct answer:** A
+**Correct answer:** A, C
 
-**Concept:** Algorithms — Asymptotic time and space complexity
+**Concept:** Strict asymptotic domination.
 
-Here a=4, b=2, so n^(log_b a) = n^(log_2 4) = n². f(n) = n² log n matches Case 2 with k=1. Thus T(n) = Θ(n² log^(k+1) n) = Θ(n² log² n).
+f/g=(log₂n)/√n tends to zero. This proves f=o(g), hence also f=O(g), establishing C and A. The reciprocal ratio is unbounded, refuting B and Θ-equivalence in D.
 
-- **A:** True: extended Master Theorem Case 2 with f(n) = Θ(n^(log_b a) log^k n).
-- **B:** False: omitted additional logarithmic factor from recursion tree depth.
-- **C:** False: overestimates polynomial growth degree.
-- **D:** False: fractional exponent does not arise here.
-
-**Common misconception:** Applying standard Master Theorem Case 1 or Case 3 when polynomial factors match.
+**Common misconception:** Assuming a logarithmic factor exceeds every fractional power.
 
 ## Q15
 
 **Correct answer:** A
 
-**Concept:** Theory of Computation — Pumping lemma
+**Concept:** Quantifiers in the pumping lemma.
 
-{ a^n b^n c^n | n ≥ 0 } requires simultaneous comparison of three independent block counts, which cannot be tracked by a single pushdown stack; proven non-CFL via Ogden's/pumping lemma.
+Regularity promises at least one pumpable valid decomposition. Showing that one chosen decomposition fails does not exclude another. For the selected word, every allowed y lies in the initial zeros and has positive length; pumping it down breaks equal counts. That universal step repairs the proof, as A says. B is not required, C incorrectly bans a permitted pumping exponent, and D reverses the length condition.
 
-- **A:** True: canonical non-context-free language.
-- **B:** False: deterministic context-free language.
-- **C:** False: context-free palindromic language.
-- **D:** False: context-free language with unequal counts.
-
-**Common misconception:** Assuming pushdown automata can count three distinct symbol groups simultaneously.
+**Common misconception:** Choosing the adversary's decomposition in a nonregularity proof.
 
 ## Q16
 
-**Correct answer:** A
+**Correct answer:** 768
 
-**Concept:** Computer Organization and Architecture — Interrupts and DMA
+**Concept:** Burst count and occupied bus time.
 
-One DMA cycle takes 200 ns (0.2 µs) every 2.0 µs. Percentage = (0.2 / 2.0) * 100 = 10%.
+The transfer has 4096/16=256 bursts. Each occupies three bus cycles, so occupied time is 256×3=768 cycles. No additional interburst delay is specified or requested.
 
-- **A:** True: (0.2 µs / 2.0 µs) = 10% memory bus duty cycle.
-- **B:** False: miscalculated word transfer interval.
-- **C:** False: doubled transfer overhead.
-- **D:** False: unit conversion error.
-
-**Common misconception:** Confusing burst mode transfer with cycle-stealing transfer mode.
+**Common misconception:** Confusing elapsed transfer time with occupied bus cycles.
 
 ## Q17
 
-**Correct answer:** A
+**Correct answer:** 6
 
-**Concept:** Engineering Mathematics — Matrices determinants and linear systems
+**Concept:** Determinant effects of elementary operations.
 
-The eigenvalues of (M² + 2I) are λ_i² + 2, giving [3, 3, 11]. Determinant is the product = 99.
+Swapping two rows changes −2 to 2. Scaling a column by three then changes the determinant to 6.
 
-- **A:** True: determinant equals product of transformed eigenvalues.
-- **B:** False: det(A+B) ≠ det(A)+det(B).
-- **C:** False: trace confusion.
-- **D:** False: calculation error.
-
-**Common misconception:** Applying matrix determinant linearly across sum of matrices.
+**Common misconception:** Applying a row-swap sign change twice or scaling by the matrix dimension.
 
 ## Q18
 
 **Correct answer:** A
 
-**Concept:** Digital Logic — Sequential circuits
+**Concept:** JK flip-flop transition rules.
 
-Critical path delay = t_ff + 2*t_and = 12 + 8 = 20 ns. Maximum clock frequency f = 1 / 20 ns = 50 MHz.
+(1,0) sets the output to 1; (1,1) toggles it to 0; (0,0) retains 0; (0,1) resets it to 0. Thus A is correct. B fails to toggle, C fails to set initially, and D changes state on the hold input.
 
-- **A:** True: critical path 20 ns gives 50 MHz.
-- **B:** False: overestimates ripple propagation path.
-- **C:** False: ignores gate propagation delay.
-- **D:** False: double counts setup time.
-
-**Common misconception:** Neglecting intermediate enable steering gate delays in synchronous counters.
+**Common misconception:** Treating the toggle input as another set input.
 
 ## Q19
 
-**Correct answer:** A
+**Correct answer:** 130
 
-**Concept:** Operating Systems — I/O scheduling
+**Concept:** Recomputing shortest-seek choices.
 
-By definition, a state is safe if there exists a safe sequence of processes <P1, P2, ..., Pn> such that for each Pi, the resources Pi can still request can be satisfied by current available resources plus resources held by all preceding processes Pj (j < i).
+The initial tie between 45 and 55 chooses 45. The full order is 50→45→55→90→10, with distances 5,10,35,80. Their sum is 130. Each choice uses the head's current position, not its original position.
 
-- **A:** True: standard formal definition of safe state in Banker's algorithm.
-- **B:** False: fully allocated resources often lead to unsafe states.
-- **C:** False: irrelevant single-resource restriction.
-- **D:** False: Banker's algorithm is proactive avoidance, not recovery.
-
-**Common misconception:** Confusing an unsafe state with an active deadlock (all deadlocks are unsafe, but not all unsafe states are deadlocked).
+**Common misconception:** Sorting requests once by initial distance instead of making successive local choices.
 
 ## Q20
 
-**Correct answer:** A (exact)
+**Correct answer:** A, C
 
-**Concept:** Theory of Computation — Turing machines and undecidability
+**Concept:** Recognizability of complementary languages.
 
-By Rice's Theorem and the Halting Problem, all nontrivial semantic properties of languages recognized by Turing machines (halting, emptiness, equivalence) are undecidable.
+Interleave one step of each recognizer. Exactly one language contains the input, so one simulation eventually accepts; that determines membership and yields a decider. Thus A and C hold. A decidable language need not be regular, refuting B. A recognizer can still loop on nonmembers even when another decider exists, refuting D.
 
-**Common misconception:** Confusing decidable properties of DFAs (emptiness, equivalence) with those of Turing machines.
+**Common misconception:** Confusing existence of a decider with termination of every recognizer.
 
 ## Q21
 
-**Correct answer:** A
+**Correct answer:** B
 
-**Concept:** Computer Networks — Error detection
+**Concept:** CRC detection using a polynomial factor.
 
-The degree of the generator polynomial G(x) is 3 (highest power of x is 3). The appended CRC checksum length is always equal to the degree of G(x), which is 3 bits.
+An undetected error polynomial must be divisible by the generator, hence by x+1. Over GF(2), this implies E(1)=0, meaning an even number of nonzero coefficients. Any odd-weight error has E(1)=1 and is detected. B is correct. Even-weight errors may be undetected, so A and C are not universal guarantees; a nonzero multiple of the generator refutes D.
 
-- **A:** True: FCS length equals degree of generator polynomial (degree 3 = 3 bits).
-- **B:** False: counts polynomial coefficients (4 bits), not appended remainder degree.
-- **C:** False: underestimated remainder size.
-- **D:** False: parity bit confusion.
-
-**Common misconception:** Confusing number of polynomial coefficients (which is degree + 1) with remainder length.
+**Common misconception:** Treating a CRC as detecting every nonzero corruption.
 
 ## Q22
 
-**Correct answer:** A
+**Correct answer:** 3
 
-**Concept:** Theory of Computation — Regular expressions and finite automata
+**Concept:** Epsilon closure and accepted words.
 
-States represent longest prefix matched of `011`: q0 (empty), q1 (`0`), q2 (`01`), q3 (`011`, accepting). Exactly 4 pairwise distinguishable states by Myhill-Nerode theorem.
+The start epsilon closure reaches b. From b, any number of zeros may be consumed, followed by at least one 1 to reach c; further ones stay in c. The language is 0*1+. Length-three words are 001,011,111: three.
 
-- **A:** True: exactly 4 states are necessary and sufficient.
-- **B:** False: cannot distinguish prefixes `01` and `011`.
-- **C:** False: non-minimal DFA.
-- **D:** False: NFA powerset bound without minimization.
-
-**Common misconception:** Assuming NFA state count equals minimal DFA state count.
+**Common misconception:** Counting epsilon moves as input symbols or allowing zeros after reaching c.
 
 ## Q23
 
-**Correct answer:** A
+**Correct answer:** 52
 
-**Concept:** Programming and Data Structures — Arrays
+**Concept:** Row-major indexing.
 
-To output 3 first, 1 and 2 must be pushed before 3. Once 3 is popped, 2 is at the top of the stack and MUST be popped before 1. Thus '3, 1, 2, 4' is impossible.
+Two full rows contribute ten integers, followed by three integers within the final row. The offset is (2×5+3)×4=52 bytes.
 
-- **A:** True: violating LIFO ordering constraint for elements below 3.
-- **B:** False: legally obtainable permutation.
-- **C:** False: trivial immediate pop permutation.
-- **D:** False: reverse stack drain permutation.
-
-**Common misconception:** Assuming any arbitrary permutation of stack inputs can be generated.
+**Common misconception:** Multiplying the row index by the number of rows rather than columns.
 
 ## Q24
 
-**Correct answer:** 3 (exact)
+**Correct answer:** 0.65625
 
-**Concept:** Computer Networks — MAC and Ethernet
+**Concept:** Unique minimum in independent discrete choices.
 
-The degree of the generator polynomial G(x) is 3 (highest power of x is 3). The appended CRC checksum length is always equal to the degree of G(x), which is 3 bits.
+Choose the unique minimum station in three ways. If its value is m, each other station has 3−m larger choices. Qualifying outcomes number 3(3²+2²+1²+0²)=42 out of 4³=64. Probability 42/64=0.65625.
 
-**Common misconception:** Confusing number of polynomial coefficients (which is degree + 1) with remainder length.
+**Common misconception:** Requiring all three counters to be distinct, though the two nonminimum counters may tie.
 
 ## Q25
 
-**Correct answer:** A
+**Correct answer:** -4.5
 
-**Concept:** Engineering Mathematics — Limits continuity and differentiability
+**Concept:** A third-order trigonometric limit.
 
-Integral = [x^4/(4) + 3x²/2] evaluated from 0 to 1 = 1/4 + 3/2 = 1.75.
+Using sin u=u−u³/6+O(u⁵), the numerator is −27x³/6+O(x⁵). Dividing by x³ and taking the limit gives −27/6=−4.5. Assigning this value at zero ensures continuity.
 
-- **A:** Correct definite integral calculation.
-- **B:** Omitted denominator power rule.
-- **C:** Sign error in boundary evaluation.
-- **D:** Linear approximation error.
-
-**Common misconception:** Applying derivative power rule instead of antiderivative.
+**Common misconception:** Keeping only the linear sine approximation after its term has cancelled.
 
 ## Q26
 
-**Correct answer:** A (exact)
+**Correct answer:** B
 
-**Concept:** Compiler Design — Parsing
+**Concept:** FIRST and FOLLOW in LL(1) parsing.
 
-S derives 'b' directly, so b ∈ FIRST(S). S -> A a derives FIRST(A) followed by a. A -> c, so c ∈ FIRST(A). S d derives FIRST(S)d (recursive). Thus FIRST(S) = {c, b}.
+At S the alternatives begin with distinct a and b. At A and B, c selects the nonempty production and the end marker in FOLLOW selects ε. No table cell has two entries, proving B. A ignores separate nonterminals and lookaheads; C ignores the leading symbols; D claims nonexistent left recursion.
 
-**Common misconception:** Including trailing terminals in FIRST sets.
+**Common misconception:** Declaring a conflict merely because terminal symbols occur in different productions.
 
 ## Q27
 
-**Correct answer:** A
+**Correct answer:** 4
 
-**Concept:** Compiler Design — Syntax-directed translation
+**Concept:** Grammar-induced associativity.
 
-Local common subexpression elimination operates strictly within the boundaries of a single basic block and requires no control-flow or interprocedural information.
+The left-recursive production groups the expression as (9−3)−2. Attributes compute 6, then 4. The parse does not group it as 9−(3−2).
 
-- **A:** True: intra-basic-block optimization requires only local value numbering.
-- **B:** False: requires global interprocedural call-graph analysis.
-- **C:** False: requires link-time whole-program analysis.
-- **D:** False: requires closed-world object hierarchy analysis.
-
-**Common misconception:** Assuming basic block optimizations require knowledge of entire program control flow.
+**Common misconception:** Evaluating a chain using an associativity inconsistent with its parse tree.
 
 ## Q28
 
-**Correct answer:** A
+**Correct answer:** 52
 
-**Concept:** Engineering Mathematics — Random variables and distributions
+**Concept:** Variance of an independent linear combination.
 
-By Cayley's formula, the number of labelled spanning trees on n vertices is n^(n-2). For n=5, 5^(5-2) = 125.
+Independence removes the covariance term, and the constant contributes no variance. Thus Var(2X−3Y+7)=2²×4+(−3)²×4=16+36=52.
 
-- **A:** True by Cayley's tree enumeration theorem.
-- **B:** False: counts edges, not spanning trees.
-- **C:** False: wrong exponent (n-1).
-- **D:** False: squared vertex count.
-
-**Common misconception:** Confusing total edges in complete graph with spanning tree count.
+**Common misconception:** Carrying the negative coefficient into variance without squaring it.
 
 ## Q29
 
-**Correct answer:** A
+**Correct answer:** -1.5
 
-**Concept:** Digital Logic — Fixed-point arithmetic
+**Concept:** Signed fixed-point scaling.
 
-Sign bit = 1 (negative). Exponent = 10000001_2 = 129; 129 - 127 = 2. Mantissa = 1.0000... (implicit 1 + 0). Value = -1 * 2^2 * 1.0 = -4.0.
+The unsigned pattern is 232; in eight-bit two's complement it means 232−256=−24. Four fractional bits scale this by 2⁻⁴, giving −24/16=−1.5.
 
-- **A:** True: negative sign, exponent 2, normalized mantissa 1.0 = -4.0.
-- **B:** False: incorrect exponent bias subtraction.
-- **C:** False: sign bit ignored.
-- **D:** False: inverted exponent scaling.
-
-**Common misconception:** Forgetting the implicit leading 1 in normalized IEEE 754 mantissa.
+**Common misconception:** Interpreting the raw bit pattern as unsigned before applying fractional scaling.
 
 ## Q30
 
-**Correct answer:** A
+**Correct answer:** B
 
-**Concept:** Databases — B-trees and B+ trees
+**Concept:** B+ leaf splitting and separator copies.
 
-A non-root internal node in a B+ tree of order m must have at least ⌈m/2⌉ child pointers. For m=5, ⌈5/2⌉ = 3 children, which corresponds to 3 - 1 = 2 keys.
+The stipulated leaves are [4,7,9] and [12,15]. The right leaf's smallest key is 12, so B is correct. A is the left leaf's largest key, C is internal to the left leaf, and D is the right leaf's largest key. None matches the given separator policy.
 
-- **A:** True: ⌈5/2⌉ - 1 = 3 - 1 = 2 keys minimum.
-- **B:** False: maximum number of keys for 3 children.
-- **C:** False: maximum capacity (m-1 = 4).
-- **D:** False: root minimum keys, not general internal node.
-
-**Common misconception:** Confusing child pointer minimum ⌈m/2⌉ with key count minimum (⌈m/2⌉ - 1).
+**Common misconception:** Applying a different split convention despite an explicit rule.
 
 ## Q31
 
-**Correct answer:** A
+**Correct answer:** 14
 
-**Concept:** Operating Systems — Memory management
+**Concept:** First-fit fragmentation.
 
-By definition, a state is safe if there exists a safe sequence of processes <P1, P2, ..., Pn> such that for each Pi, the resources Pi can still request can be satisfied by current available resources plus resources held by all preceding processes Pj (j < i).
+Allocating seven leaves holes 3,6,14. The five-unit request skips the first hole and reduces the second to one, leaving 3,1,14. The largest remains 14.
 
-- **A:** True: standard formal definition of safe state in Banker's algorithm.
-- **B:** False: fully allocated resources often lead to unsafe states.
-- **C:** False: irrelevant single-resource restriction.
-- **D:** False: Banker's algorithm is proactive avoidance, not recovery.
-
-**Common misconception:** Confusing an unsafe state with an active deadlock (all deadlocks are unsafe, but not all unsafe states are deadlocked).
+**Common misconception:** Using the smallest suitable hole globally rather than scanning from the start.
 
 ## Q32
 
-**Correct answer:** 16 (exact)
+**Correct answer:** 3
 
-**Concept:** Engineering Mathematics — Sets relations and functions
+**Concept:** Equivalence classes defined by a statistic.
 
-By Cayley's formula, the number of labelled spanning trees on n vertices is n^(n-2). For n=4, 4^(4-2) = 16.
+Possible cardinalities 0,1,2,3,4 produce remainders 0,1,2. Each remainder is realized, and equal remainders form one class. Hence there are three classes, not five cardinality classes.
 
-**Common misconception:** Confusing total edges in complete graph with spanning tree count.
+**Common misconception:** Treating distinct cardinalities as distinct classes despite reduction modulo three.
 
 ## Q33
 
-**Correct answer:** 1782 (exact)
+**Correct answer:** A, C
 
-**Concept:** Engineering Mathematics — Eigenvalues and eigenvectors
+**Concept:** Characteristic polynomial and diagonalization.
 
-The eigenvalues of (M² + 2I) are λ_i² + 2, giving [6, 11, 27]. Determinant is the product = 1782.
+The characteristic polynomial is (λ−2)(λ+1)=λ²−λ−2. Cayley–Hamilton gives A²−A−2I=0, proving A. Distinct real eigenvalues give two independent real eigenvectors, proving C. The determinant is −2, so B is false. For example, the upper triangular matrix with rows (2,1),(0,−1) has these eigenvalues but is not symmetric, refuting D.
 
-**Common misconception:** Applying matrix determinant linearly across sum of matrices.
+**Common misconception:** Confusing real diagonalizability with orthogonal diagonalizability of symmetric matrices.
 
 ## Q34
 
-**Correct answer:** A
+**Correct answer:** 1.2
 
-**Concept:** Computer Organization and Architecture — Pipelining and hazards
+**Concept:** Average branch-stall cost.
 
-One DMA cycle takes 200 ns (0.2 µs) every 2.0 µs. Percentage = (0.2 / 2.0) * 100 = 10%.
+A fraction 0.20×0.25=0.05 of instructions mispredict, adding 0.05×4=0.2 cycles per instruction. Add the base CPI of one to obtain 1.2.
 
-- **A:** True: (0.2 µs / 2.0 µs) = 10% memory bus duty cycle.
-- **B:** False: miscalculated word transfer interval.
-- **C:** False: doubled transfer overhead.
-- **D:** False: unit conversion error.
-
-**Common misconception:** Confusing burst mode transfer with cycle-stealing transfer mode.
+**Common misconception:** Applying the conditional misprediction rate to all instructions.
 
 ## Q35
 
-**Correct answer:** A (exact)
+**Correct answer:** A
 
-**Concept:** Digital Logic — Floating-point representation
+**Concept:** Ties-to-even binary rounding.
 
-Sign bit = 1 (negative). Exponent = 10000001_2 = 129; 129 - 127 = 2. Mantissa = 1.0000... (implicit 1 + 0). Value = -1 * 2^2 * 1.0 = -4.0.
+The value 1.101₂ lies halfway between 1.10₂ and 1.11₂. The retained least significant bit in 1.10 is zero, so ties-to-even selects A. B chooses the odd last bit; C and D are not the adjacent nearest values.
 
-**Common misconception:** Forgetting the implicit leading 1 in normalized IEEE 754 mantissa.
+**Common misconception:** Always rounding an exact halfway case upward.
 
 ## Q36
 
-**Correct answer:** A
+**Correct answer:** B
 
-**Concept:** Compiler Design — Runtime environments
+**Concept:** Closures and environment lifetime.
 
-Local common subexpression elimination operates strictly within the boundaries of a single basic block and requires no control-flow or interprocedural information.
+F and G need separate cells associated with their separate outer activations, and those cells must remain alive while captured. B provides both identity and lifetime. A wrongly merges cells, C leaves dangling references, and D implements caller-dependent lookup rather than lexical capture.
 
-- **A:** True: intra-basic-block optimization requires only local value numbering.
-- **B:** False: requires global interprocedural call-graph analysis.
-- **C:** False: requires link-time whole-program analysis.
-- **D:** False: requires closed-world object hierarchy analysis.
-
-**Common misconception:** Assuming basic block optimizations require knowledge of entire program control flow.
+**Common misconception:** Assuming every local variable's lifetime must end when its defining call returns.
 
 ## Q37
 
-**Correct answer:** A
+**Correct answer:** 2
 
-**Concept:** Digital Logic — Boolean algebra
+**Concept:** Boolean constraint propagation.
 
-Groupings: corners m(0,2,8,10) give B'D'; sub-cube m(5,7,13,15) gives BD. Both are essential prime implicants and cover all 8 minterms. Minimum EPI count is 2.
+For the AND to be one, each adjacent pair must differ. Once a is chosen, b=¬a, c=a, d=¬a are forced. The satisfying assignments are 0101 and 1010, giving two.
 
-- **A:** True: B'D' and BD form the minimal unique cover of essential terms.
-- **B:** False: redundant grouping.
-- **C:** False: overcounts non-essential implicants.
-- **D:** False: single term cannot cover disjoint cubes.
-
-**Common misconception:** Failing to recognize wrap-around corner minterms in 4-variable K-maps.
+**Common misconception:** Counting the three XOR constraints as independent choices despite shared variables.
 
 ## Q38
 
-**Correct answer:** A
+**Correct answer:** A, C
 
-**Concept:** Databases — Transactions
+**Concept:** Recoverability and cascading aborts.
 
-A non-root internal node in a B+ tree of order m must have at least ⌈m/2⌉ child pointers. For m=5, ⌈5/2⌉ = 3 children, which corresponds to 3 - 1 = 2 keys.
+r2(X) reads the uncommitted w1(X), proving A. Recoverability would require T1 to commit before T2 commits; instead T1 aborts after c2, so B is false. T2's dependence requires aborting it when T1 aborts, but T2 has already committed, establishing C's problem. Strict schedules prohibit this read of an uncommitted write, so D is false.
 
-- **A:** True: ⌈5/2⌉ - 1 = 3 - 1 = 2 keys minimum.
-- **B:** False: maximum number of keys for 3 children.
-- **C:** False: maximum capacity (m-1 = 4).
-- **D:** False: root minimum keys, not general internal node.
-
-**Common misconception:** Confusing child pointer minimum ⌈m/2⌉ with key count minimum (⌈m/2⌉ - 1).
+**Common misconception:** Treating a completed commit as evidence that a schedule satisfies recovery constraints.
 
 ## Q39
 
-**Correct answer:** A (exact)
+**Correct answer:** 5
 
-**Concept:** Operating Systems — Virtual memory
+**Concept:** Farthest-future replacement.
 
-Page size 4 KiB = 2^12 bytes, so 32 - 12 = 20 bits for virtual page number (2^20 = 1,048,576 pages). Total size = 2^20 entries * 4 bytes = 4 MiB.
+The initial 0 and 1 references fault. The next 0 hits. On 2, evict 0, which never returns. The next 1 hits. On 3, evict 2, whose next use is later than 1's. The next 1 hits; the final 2 faults. Thus faults occur at positions 1,2,4,6,8, totalling five. Farthest-future replacement is optimal; alternatively, when 3 arrives, keeping 2 instead forces a fault on the intervening 1, so a fifth fault is unavoidable.
 
-**Common misconception:** Forgetting to convert byte capacity to MiB correctly.
+**Common misconception:** Looking at past recency when an offline future-aware optimum is requested.
 
 ## Q40
 
-**Correct answer:** A (exact)
+**Correct answer:** C
 
-**Concept:** Databases — Concurrency control
+**Concept:** Precedence cycles and observed reads.
 
-A non-root internal node in a B+ tree of order m must have at least ⌈m/2⌉ child pointers. For m=5, ⌈5/2⌉ = 3 children, which corresponds to 3 - 1 = 2 keys.
+r1(X) before w2(X) gives T1→T2. r2(Y) before w1(Y) gives T2→T1. The cycle refutes both serial orders in A and B. In serial T1,T2, T2 reads Y=1; in serial T2,T1, T1 reads X=1, so neither reproduces both zero reads. Thus C holds. D overlooks read–write conflicts across transactions.
 
-**Common misconception:** Confusing child pointer minimum ⌈m/2⌉ with key count minimum (⌈m/2⌉ - 1).
+**Common misconception:** Checking only write–write conflicts.
 
 ## Q41
 
-**Correct answer:** A
+**Correct answer:** 960
 
-**Concept:** Computer Organization and Architecture — Instruction sets and addressing modes
+**Concept:** Signed displacement and address units.
 
-One DMA cycle takes 200 ns (0.2 µs) every 2.0 µs. Percentage = (0.2 / 2.0) * 100 = 10%.
+11110110₂ is 246 unsigned, or −10 as an eight-bit signed displacement. Scaling to bytes gives −40. The defined base is the next-instruction address, so the target is 1000−40=960.
 
-- **A:** True: (0.2 µs / 2.0 µs) = 10% memory bus duty cycle.
-- **B:** False: miscalculated word transfer interval.
-- **C:** False: doubled transfer overhead.
-- **D:** False: unit conversion error.
-
-**Common misconception:** Confusing burst mode transfer with cycle-stealing transfer mode.
+**Common misconception:** Ignoring either sign extension or the word-to-byte scale.
 
 ## Q42
 
-**Correct answer:** A (exact)
+**Correct answer:** B
 
-**Concept:** Programming and Data Structures — Linked lists
+**Concept:** Aligning distances to shared suffixes.
 
-To output 3 first, 1 and 2 must be pushed before 3. Once 3 is popped, 2 is at the top of the stack and MUST be popped before 1. Thus '3, 1, 2, 4' is impossible.
+If two acyclic lists share a node, all successors of that node are shared. After discarding the length difference from the longer prefix, the two pointers have equal distances to the end. Advancing together therefore reaches the first shared node together, or reaches null if disjoint. B uses linear time and constant extra storage. A and C confuse equal values with identity; D supplies no intersection test and mutates links.
 
-**Common misconception:** Assuming any arbitrary permutation of stack inputs can be generated.
+**Common misconception:** Inferring physical node sharing from equal stored data.
 
 ## Q43
 
-**Correct answer:** A (exact)
+**Correct answer:** 15
 
-**Concept:** Programming and Data Structures — Stacks and queues
+**Concept:** Accounting across a two-stack queue.
 
-To output 3 first, 1 and 2 must be pushed before 3. Once 3 is popped, 2 is at the top of the stack and MUST be popped before 1. Thus '3, 1, 2, 4' is impossible.
+The four enqueues cost four pushes. The first dequeue transfers A and B (four operations) and pops A (one). The second dequeue pops B (one). The third transfers C and D (four) and pops C (one). Total 4+4+1+1+4+1=15.
 
-**Common misconception:** Assuming any arbitrary permutation of stack inputs can be generated.
+**Common misconception:** Transferring the input stack while an older item remains in the output stack.
 
 ## Q44
 
-**Correct answer:** A
+**Correct answer:** 5
 
-**Concept:** Theory of Computation — Context-free grammars
+**Concept:** Parse trees and Catalan recurrence.
 
-By Rice's Theorem and the Halting Problem, all nontrivial semantic properties of languages recognized by Turing machines (halting, emptiness, equivalence) are undecidable.
+Let C(n) count trees with n leaves. C(1)=1, and splitting the root's ordered children gives C(n)=Σ C(i)C(n−i). Thus C(2)=1, C(3)=2 and C(4)=1×2+1×1+2×1=5.
 
-- **A:** True: all listed problems are undecidable by Rice's theorem.
-- **B:** False: equivalent to the Halting problem (undecidable).
-- **C:** False: emptiness problem for TMs is undecidable.
-- **D:** False: equivalence problem for TMs is undecidable.
-
-**Common misconception:** Confusing decidable properties of DFAs (emptiness, equivalence) with those of Turing machines.
+**Common misconception:** Counting derivation schedules instead of distinct tree structures.
 
 ## Q45
 
-**Correct answer:** 125 (exact)
+**Correct answer:** 32
 
-**Concept:** Engineering Mathematics — Extrema and mean value theorem
+**Concept:** Constrained univariate maximization.
 
-By Cayley's formula, the number of labelled spanning trees on n vertices is n^(n-2). For n=5, 5^(5-2) = 125.
+Substitute y=6−x to get h(x)=6x²−x³ on [0,6]. Its derivative is 3x(4−x), so the interior maximum is at x=4,y=2 and equals 32. Both endpoints give zero.
 
-**Common misconception:** Confusing total edges in complete graph with spanning tree count.
+**Common misconception:** Assuming symmetry forces x=y even when the objective weights them differently.
 
 ## Q46
 
-**Correct answer:** A
+**Correct answer:** 4
 
-**Concept:** Databases — ER model
+**Concept:** Degree sums and constructive feasibility.
 
-A non-root internal node in a B+ tree of order m must have at least ⌈m/2⌉ child pointers. For m=5, ⌈5/2⌉ = 3 children, which corresponds to 3 - 1 = 2 keys.
+There are 12×2=24 assignments. Giving all eight engineers two assignments uses 16. Each engineer raised to four needs two extra, so at most four can reach four. To attain it, let H1–H4 be four engineers and L1–L4 the others. Assign four projects to the cyclic pairs H1H2,H2H3,H3H4,H4H1. Assign eight further projects H_iL_i and H_iL_(i+1), with indices modulo four. Every H has four projects and every L two. Hence the bound four is attainable.
 
-- **A:** True: ⌈5/2⌉ - 1 = 3 - 1 = 2 keys minimum.
-- **B:** False: maximum number of keys for 3 children.
-- **C:** False: maximum capacity (m-1 = 4).
-- **D:** False: root minimum keys, not general internal node.
-
-**Common misconception:** Confusing child pointer minimum ⌈m/2⌉ with key count minimum (⌈m/2⌉ - 1).
+**Common misconception:** Establishing a numerical upper bound without checking the relationship constraints permit it.
 
 ## Q47
 
-**Correct answer:** A
+**Correct answer:** A, B, C
 
-**Concept:** Digital Logic — Karnaugh maps
+**Concept:** Prime implicants and forbidden expansion.
 
-Groupings: corners m(0,2,8,10) give B'D'; sub-cube m(5,7,13,15) gives BD. Both are essential prime implicants and cover all 8 minterms. Minimum EPI count is 2.
+A covers 0,1; dropping a′ would add minterm 4, and dropping b′ would add 3, both OFF. B covers 2,6; dropping b adds 4 and dropping c′ adds 3, so it is prime. C covers 5,7; dropping a adds 3 and dropping c adds 4, so it is prime. D covers 0,1,4,5 and includes OFF minterm 4, so it is not even an implicant.
 
-- **A:** True: B'D' and BD form the minimal unique cover of essential terms.
-- **B:** False: redundant grouping.
-- **C:** False: overcounts non-essential implicants.
-- **D:** False: single term cannot cover disjoint cubes.
-
-**Common misconception:** Failing to recognize wrap-around corner minterms in 4-variable K-maps.
+**Common misconception:** Checking only that a product covers some ON minterms without checking all of its coverage.
 
 ## Q48
 
-**Correct answer:** A (exact)
+**Correct answer:** B
 
-**Concept:** Algorithms — Greedy algorithms
+**Concept:** Earliest-finish activity selection.
 
-Merge Sort divides the array into halves in Θ(1), recursively sorts them in 2T(n/2), and merges in at most n-1 comparisons. By Master Theorem, T(n) = 2T(n/2) + Θ(n) = Θ(n log n) in all cases (best, average, and worst).
+Choose B, then C, then D to obtain three activities. Choosing A first allows E afterwards but no third activity, proving B. A's claimed count is false. C is false because earliest-finish already achieves three. The compatible sets {A,E} and {B,C,D} are both maximal but have different sizes, refuting D.
 
-**Common misconception:** Confusing Merge Sort's invariant worst-case with Quicksort's unbalanced partition worst-case.
+**Common misconception:** Equating maximality with maximum cardinality.
 
 ## Q49
 
-**Correct answer:** A
+**Correct answer:** A, C
 
-**Concept:** Theory of Computation — Pushdown automata
+**Concept:** Stack recognition and homomorphism closure.
 
-{ a^n b^n c^n | n ≥ 0 } requires simultaneous comparison of three independent block counts, which cannot be tracked by a single pushdown stack; proven non-CFL via Ogden's/pumping lemma.
+A deterministic PDA pushes the prefix until #, then pops and compares each following bit, accepting exactly on a complete match; thus A holds. Mapping # to ε is a homomorphism, and CFLs are closed under homomorphism, proving C. A finite automaton cannot remember arbitrary prefixes: distinct prefixes x,y are distinguished by suffix #xᴿ, so infinitely many distinguishable prefixes refute regularity in B. D confuses individually finite inputs with a uniform finite memory bound.
 
-- **A:** True: canonical non-context-free language.
-- **B:** False: deterministic context-free language.
-- **C:** False: context-free palindromic language.
-- **D:** False: context-free language with unequal counts.
-
-**Common misconception:** Assuming pushdown automata can count three distinct symbol groups simultaneously.
+**Common misconception:** Believing a visible midpoint removes the need to remember unbounded prefix content.
 
 ## Q50
 
-**Correct answer:** A (exact)
+**Correct answer:** 6
 
-**Concept:** Compiler Design — Intermediate code generation
+**Concept:** Short-circuit paths over truth assignments.
 
-Local common subexpression elimination operates strictly within the boundaries of a single basic block and requires no control-flow or interprocedural information.
+If P is false, Q is skipped and R is tested: four assignments of Q,R yield exactly two tests. If P is true and Q true, R is skipped: two choices of R yield two tests. If P is true and Q false, all three tests run. Therefore six of eight assignments qualify.
 
-**Common misconception:** Assuming basic block optimizations require knowledge of entire program control flow.
+**Common misconception:** Counting syntactically present comparisons rather than comparisons actually executed.
 
 ## Q51
 
-**Correct answer:** A (exact)
+**Correct answer:** 2
 
-**Concept:** Programming and Data Structures — Trees
+**Concept:** Full binary-tree leaf identities.
 
-Insert 7 at index 8 (child of index 4 = 15). 7 < 15, so swap 7 and 15 (7 now at index 4). Parent of index 4 is index 2 (value 9). 7 < 9, so swap 7 and 9 (7 now at index 2). Parent of index 2 is index 1 (value 4). 7 > 4, stop. Final index is 2.
+With i internal nodes and l leaves, l=i+1 and i+l=19, giving l=10. The four internal nodes with two leaf children account for eight leaves whose siblings are leaves. The other two leaves each have an internal-node sibling.
 
-**Common misconception:** Stopping sift-up before comparing against parent node.
+**Common misconception:** Counting parents rather than leaves when subtracting the sibling pairs.
 
 ## Q52
 
-**Correct answer:** A
+**Correct answer:** 18
 
-**Concept:** Algorithms — Dynamic programming
+**Concept:** Feasible 0/1 combinations.
 
-Merge Sort divides the array into halves in Θ(1), recursively sorts them in 2T(n/2), and merges in at most n-1 comparisons. By Master Theorem, T(n) = 2T(n/2) + Θ(n) = Θ(n log n) in all cases (best, average, and worst).
+No three items fit because the three lightest weigh 9. Feasible pairs have values 14 at weight 5, 15 at weight 6, 18 at weight 7 from items of weights 2 and 5, and 17 at weight 7 from weights 3 and 4. Singles are at most 12. The optimum is 18.
 
-- **A:** True: worst-case comparison complexity is strictly Θ(n log n).
-- **B:** False: quadratic time applies to Quick Sort worst-case, not Merge Sort.
-- **C:** False: lower bound for comparison sort is Ω(n log n).
-- **D:** False: sublinear sorting is impossible.
-
-**Common misconception:** Confusing Merge Sort's invariant worst-case with Quicksort's unbalanced partition worst-case.
+**Common misconception:** Applying fractional-knapsack value-density choices to indivisible items.
 
 ## Q53
 
-**Correct answer:** A
+**Correct answer:** A, C
 
-**Concept:** Compiler Design — Local optimization
+**Concept:** Value relations across redefinitions.
 
-Local common subexpression elimination operates strictly within the boundaries of a single basic block and requires no control-flow or interprocedural information.
+Let initial a be a0. Then t=a0+b, final a=a0+1, u=t+1 and v=t. Therefore final a+b−1 equals t (A), and u may be replaced by t+1 (C). B lowers u by one. D removes a definition whose value is still required, so it cannot preserve all final values.
 
-- **A:** True: intra-basic-block optimization requires only local value numbering.
-- **B:** False: requires global interprocedural call-graph analysis.
-- **C:** False: requires link-time whole-program analysis.
-- **D:** False: requires closed-world object hierarchy analysis.
-
-**Common misconception:** Assuming basic block optimizations require knowledge of entire program control flow.
+**Common misconception:** Reusing an expression after one operand changes without adjusting its value relation.
 
 ## Q54
 
-**Correct answer:** A
+**Correct answer:** 202
 
-**Concept:** Computer Organization and Architecture — ALU design
+**Concept:** Modular subtraction.
 
-One DMA cycle takes 200 ns (0.2 µs) every 2.0 µs. Percentage = (0.2 / 2.0) * 100 = 10%.
+37−91=−54, and retaining eight bits gives −54 modulo 256, which is 202. Equivalently complementing 91 gives 164, and 37+164+1=202.
 
-- **A:** True: (0.2 µs / 2.0 µs) = 10% memory bus duty cycle.
-- **B:** False: miscalculated word transfer interval.
-- **C:** False: doubled transfer overhead.
-- **D:** False: unit conversion error.
-
-**Common misconception:** Confusing burst mode transfer with cycle-stealing transfer mode.
+**Common misconception:** Reporting the mathematical signed difference when the unsigned retained value is requested.
 
 ## Q55
 
-**Correct answer:** A (exact)
+**Correct answer:** 13
 
-**Concept:** Computer Organization and Architecture — Hardwired and microprogrammed control
+**Concept:** Encoded control fields with idle choices.
 
-One DMA cycle takes 200 ns (0.2 µs) every 2.0 µs. Percentage = (0.2 / 2.0) * 100 = 10%.
+The groups need 6,4 and 10 distinct encodings after including “none”. Their widths are ceil(log₂6)=3, log₂4=2 and ceil(log₂10)=4. Add the four independent bits: 3+2+4+4=13.
 
-**Common misconception:** Confusing burst mode transfer with cycle-stealing transfer mode.
+**Common misconception:** Omitting the “none” code or encoding independent signals as mutually exclusive.
 
 ## Q56
 
-**Correct answer:** A
+**Correct answer:** B
 
-**Concept:** Algorithms — Divide and conquer
+**Concept:** Recursion-tree harmonic sums.
 
-Merge Sort divides the array into halves in Θ(1), recursively sorts them in 2T(n/2), and merges in at most n-1 comparisons. By Master Theorem, T(n) = 2T(n/2) + Θ(n) = Θ(n log n) in all cases (best, average, and worst).
+Write n=2^k. At depth j with subproblem size at least four, the aggregate merge cost is Θ(n/(k−j)). Summing j=0,…,k−2 gives Θ(n Σ_(r=2)^k 1/r)=Θ(n log k). The leaves cost Θ(n), so the result is Θ(n log log n), B. A omits the growing harmonic factor, C treats every level as Θ(n), and D overcounts beyond the recursion-tree work.
 
-- **A:** True: worst-case comparison complexity is strictly Θ(n log n).
-- **B:** False: quadratic time applies to Quick Sort worst-case, not Merge Sort.
-- **C:** False: lower bound for comparison sort is Ω(n log n).
-- **D:** False: sublinear sorting is impossible.
-
-**Common misconception:** Confusing Merge Sort's invariant worst-case with Quicksort's unbalanced partition worst-case.
+**Common misconception:** Applying only the basic polynomial-gap Master Theorem cases to a logarithmic boundary case.
 
 ## Q57
 
-**Correct answer:** 3 (exact)
+**Correct answer:** 3
 
-**Concept:** Computer Networks — Distance-vector and link-state routing
+**Concept:** Shortest paths after an edge failure.
 
-The degree of the generator polynomial G(x) is 3 (highest power of x is 3). The appended CRC checksum length is always equal to the degree of G(x), which is 3 bits.
+Originally A–B–C–D costs 2+1+2=5. After deleting BC, A–B–D costs 8 and A–C–D costs 9, with positive-weight detours unable to improve either. The new optimum is 8, an increase of 3.
 
-**Common misconception:** Confusing number of polynomial coefficients (which is degree + 1) with remainder length.
+**Common misconception:** Keeping a path that still contains the failed edge in the recomputation.
 
 ## Q58
 
-**Correct answer:** A
+**Correct answer:** 1
 
-**Concept:** Digital Logic — Tabular minimization
+**Concept:** Don't-care expansion.
 
-Critical path delay = t_ff + 2*t_and = 12 + 8 = 20 ns. Maximum clock frequency f = 1 / 20 ns = 50 MHz.
+The ON and don't-care minterms together are exactly the assignments with b=0. The term b′ covers all ON minterms and no OFF minterm, using one literal. A zero-literal term would be constant one and cover every OFF minterm, so one is minimal.
 
-- **A:** True: critical path 20 ns gives 50 MHz.
-- **B:** False: overestimates ripple propagation path.
-- **C:** False: ignores gate propagation delay.
-- **D:** False: double counts setup time.
-
-**Common misconception:** Neglecting intermediate enable steering gate delays in synchronous counters.
+**Common misconception:** Treating don't-care values as required zeros or as required ones in the final function.
 
 ## Q59
 
-**Correct answer:** A
+**Correct answer:** 0.4286
 
-**Concept:** Engineering Mathematics — Conditional probability and Bayes theorem
+**Concept:** Bayes' rule after sampling without replacement.
 
-By Cayley's formula, the number of labelled spanning trees on n vertices is n^(n-2). For n=5, 5^(5-2) = 125.
+For A, exactly one red has probability (3×2)/choose(5,2)=3/5. For B it is (1×4)/10=2/5. The weighted probabilities are (1/3)(3/5)=1/5 and (2/3)(2/5)=4/15. Thus P(A|one red)=(1/5)/(1/5+4/15)=3/7=0.428571…, rounding to 0.4286. Accepted range: 0.42855–0.42865.
 
-- **A:** True by Cayley's tree enumeration theorem.
-- **B:** False: counts edges, not spanning trees.
-- **C:** False: wrong exponent (n-1).
-- **D:** False: squared vertex count.
-
-**Common misconception:** Confusing total edges in complete graph with spanning tree count.
+**Common misconception:** Comparing likelihoods without incorporating the unequal prior box probabilities.
 
 ## Q60
 
-**Correct answer:** A
+**Correct answer:** 0
 
-**Concept:** Engineering Mathematics — Partial orders and lattices
+**Concept:** Meet/join compatibility in a divisor lattice.
 
-By Cayley's formula, the number of labelled spanning trees on n vertices is n^(n-2). For n=5, 5^(5-2) = 125.
+For positive integers, gcd(x,12)lcm(x,12)=12x. The requested values force 6×72=12x, hence x=36. But gcd(36,12)=12, not 6. Therefore no element satisfies both requirements, and the count is zero. In prime-exponent terms, the requested gcd has exponent one of 2 while 12 has exponent two, forcing x's exponent to one; their lcm could then not have exponent three of 2 as 72 does.
 
-- **A:** True by Cayley's tree enumeration theorem.
-- **B:** False: counts edges, not spanning trees.
-- **C:** False: wrong exponent (n-1).
-- **D:** False: squared vertex count.
-
-**Common misconception:** Confusing total edges in complete graph with spanning tree count.
+**Common misconception:** Treating the product identity as sufficient without checking the separate gcd and lcm constraints.
 
 ## Q61
 
 **Correct answer:** A
 
-**Concept:** Theory of Computation — Regular and context-free languages
+**Concept:** CFL closure with a regular constraint.
 
-States represent longest prefix matched of `011`: q0 (empty), q1 (`0`), q2 (`01`), q3 (`011`, accepting). Exactly 4 pairwise distinguishable states by Myhill-Nerode theorem.
+A PDA for L can be combined with a DFA for R by storing their finite control states together and retaining the PDA stack, proving A. CFLs are not closed under complement or arbitrary CFL intersection, so B and C are not guaranteed. D would include the complement of L by taking R to be the full language, so it too is not guaranteed.
 
-- **A:** True: exactly 4 states are necessary and sufficient.
-- **B:** False: cannot distinguish prefixes `01` and `011`.
-- **C:** False: non-minimal DFA.
-- **D:** False: NFA powerset bound without minimization.
-
-**Common misconception:** Assuming NFA state count equals minimal DFA state count.
+**Common misconception:** Extending intersection closure with regular languages to arbitrary context-free languages.
 
 ## Q62
 
-**Correct answer:** 125 (exact)
+**Correct answer:** 3
 
-**Concept:** Engineering Mathematics — LU decomposition
+**Concept:** Gaussian elimination multipliers.
 
-By Cayley's formula, the number of labelled spanning trees on n vertices is n^(n-2). For n=5, 5^(5-2) = 125.
+The first-column multipliers are L21=4/2=2 and L31=8/2=4. After eliminating column one, row two is (0,1,1) and row three (0,3,5). The next multiplier is L32=3/1=3, leaving final U33=2.
 
-**Common misconception:** Confusing total edges in complete graph with spanning tree count.
+**Common misconception:** Computing a second-stage multiplier from the original, uneliminated matrix entries.
 
 ## Q63
 
-**Correct answer:** A
+**Correct answer:** 200
 
-**Concept:** Computer Networks — IPv4 fragmentation
+**Concept:** Fragment payload and offset units.
 
-The subnet mask length difference is 24 - 20 = 4 bits. Number of allocated /24 subnets = 2^4 = 16 subnets.
+The payload is 2000 bytes. Each full fragment can carry 820−20=800 bytes, already divisible by eight. Payload sizes are 800,800,400. The last starts 1600 data bytes after the original payload's start, so its encoded offset is 1600/8=200.
 
-- **A:** True: 2^(24 - 20) = 2^4 = 16 subnets.
-- **B:** False: 5 bits borrowed.
-- **C:** False: 3 bits borrowed.
-- **D:** False: 6 bits borrowed.
-
-**Common misconception:** Confusing number of subnets (2^borrowed_bits) with host capacity per subnet.
+**Common misconception:** Including fragment headers in payload offsets or reporting byte units instead of eight-byte units.
 
 ## Q64
 
-**Correct answer:** A
+**Correct answer:** 266240
 
-**Concept:** Operating Systems — File systems
+**Concept:** Direct and indirect addressing capacity.
 
-By definition, a state is safe if there exists a safe sequence of processes <P1, P2, ..., Pn> such that for each Pi, the resources Pi can still request can be satisfied by current available resources plus resources held by all preceding processes Pj (j < i).
+The indirect block stores 1024/4=256 data-block pointers. Together with four direct pointers, the inode addresses 260 data blocks, or 260×1024=266240 bytes. The indirect block itself is metadata and is not another file-data block.
 
-- **A:** True: standard formal definition of safe state in Banker's algorithm.
-- **B:** False: fully allocated resources often lead to unsafe states.
-- **C:** False: irrelevant single-resource restriction.
-- **D:** False: Banker's algorithm is proactive avoidance, not recovery.
-
-**Common misconception:** Confusing an unsafe state with an active deadlock (all deadlocks are unsafe, but not all unsafe states are deadlocked).
+**Common misconception:** Counting the pointer block as part of addressable file content.
 
 ## Q65
 
-**Correct answer:** A
+**Correct answer:** A, C
 
-**Concept:** Operating Systems — System calls
+**Concept:** Pipe EOF and inherited descriptors.
 
-By definition, a state is safe if there exists a safe sequence of processes <P1, P2, ..., Pn> such that for each Pi, the resources Pi can still request can be satisfied by current available resources plus resources held by all preceding processes Pj (j < i).
+An empty pipe yields EOF only when no referring write descriptor remains open, proving A. An inherited but unused writer still prevents EOF, so closing unused writers in both processes is needed for the intended EOF protocol, giving C. B leaves an open parent writer; D ignores it and substitutes EOF for blocking. Both are false.
 
-- **A:** True: standard formal definition of safe state in Banker's algorithm.
-- **B:** False: fully allocated resources often lead to unsafe states.
-- **C:** False: irrelevant single-resource restriction.
-- **D:** False: Banker's algorithm is proactive avoidance, not recovery.
-
-**Common misconception:** Confusing an unsafe state with an active deadlock (all deadlocks are unsafe, but not all unsafe states are deadlocked).
-
+**Common misconception:** Assuming that a process which never writes cannot keep a pipe's write end alive.

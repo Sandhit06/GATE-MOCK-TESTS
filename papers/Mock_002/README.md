@@ -135,7 +135,7 @@ D. 8
 
 ### Q13. [1 Mark] [NAT]
 
-A merge-sort call has already sorted its left half as [2,6,9] and its right half as [1,4,8]. The original positions of every left-half element precede every right-half element. A cross inversion is a pair consisting of a left-half value and a smaller right-half value. How many cross inversions must this merge count?
+Two increasing runs contain four and three distinct keys respectively, with all seven keys different. Every original left-run position precedes every right-run position. Exactly five cross inversions exist, where a cross inversion is a left key greater than a right key. Standard merging compares the first remaining keys, emits the smaller, and stops comparisons as soon as either run is exhausted. What is the minimum possible number of key comparisons?
 
 **Answer format:** Numeric value; integer.
 
@@ -159,7 +159,7 @@ D. The graph must be acyclic because the intervals are nested.
 
 ### Q16. [1 Mark] [MSQ]
 
-A binary search tree stores distinct keys. A node x has both a left and a right child. Its inorder successor s is used when deleting x. Which statements about s in the tree before deletion are necessarily true?
+A binary search tree stores distinct keys. A node x has both a left and a right child. Its inorder successor s is used when deleting x. Which statements about s in the tree before deletion are correct?
 
 A. s is in the right subtree of x.  
 B. s must be a leaf.  
@@ -168,7 +168,7 @@ D. s may have a right child.
 
 ### Q17. [1 Mark] [NAT]
 
-An epsilon-NFA has states 0,1,2,3, initial state0, and these transitions; unlisted transitions have empty target sets.
+An epsilon-NFA has states 0,1,2,3, initial state 0, and these transitions; unlisted transitions have empty target sets.
 ```text
 0 --a--> 0,1
 1 --epsilon--> 2
@@ -204,13 +204,13 @@ D. aabb
 
 ### Q20. [1 Mark] [NAT]
 
-Routers A,B,C use synchronous distance-vector updates for destination C. Link costs are A–B=1, B–C=1 and A–C=10. Initially routes are converged. Link B–C fails immediately before round1. In every round each router recomputes its distance using its still-working links and the neighbours' distances from the end of the preceding round; C always advertises0. No split horizon, poison reverse or triggered intermediate updates are used. What distance does A advertise after round2?
+Routers A,B,C use synchronous distance-vector updates for destination C. Link costs are A–B=1, B–C=1 and A–C=10. Initially routes are converged. Link B–C fails immediately before round 1. In every round each router recomputes its distance using its still-working links and the neighbours' distances from the end of the preceding round; C always advertises 0. No split horizon, poison reverse or triggered intermediate updates are used. What distance does A advertise after round 2?
 
 **Answer format:** Numeric value; integer.
 
 ### Q21. [1 Mark] [MSQ]
 
-A binary floating-point system retains three significant binary digits, including the leading1. Exponents are unbounded, and every result is rounded to nearest, ties to even. Which statements are correct?
+A binary floating-point system retains three significant binary digits, including the leading 1. Exponents are unbounded, and every result is rounded to nearest, ties to even. Which statements are correct?
 
 A. The exact value 1.125 rounds to 1.0.  
 B. Consecutive representable numbers in [2,4) are separated by 0.25.  
@@ -259,18 +259,20 @@ Evaluate the integral from 0 to 1 of max(x,1-2x) with respect to x. Round the re
 
 ### Q25. [1 Mark] [MCQ]
 
-For the following straight-line code, a variable is live at a point if its current value may be read later before being overwritten. There are no implicit uses after return. Which set is exactly the set of live variables immediately before the statement x=0?
+A variable is live if its current value may be read along a subsequent control-flow path before being overwritten. In the code below, x, y, z and flag are ordinary variables, and there are no implicit uses after return. Which set contains exactly the variables live at P, immediately before y = z?
+
 ```text
-x = a + b
-y = x + c
-x = 0
-return y
+L: x = y
+   if flag goto K
+P: y = z
+   goto L
+K: return x
 ```
 
-A. {y}  
-B. {x,y}  
-C. {c,y}  
-D. {a,b,c,y}  
+A. {z, flag}  
+B. {x, z, flag}  
+C. {y, z, flag}  
+D. {x, y, z, flag}  
 
 ### Q26. [1 Mark] [MCQ]
 
@@ -291,8 +293,8 @@ Three processes have (arrival time, CPU burst length) A=(0,7), B=(2,4), C=(4,1),
 
 Relation R(A,B,C) has exactly the functional dependencies implied by A→B and B→A. Which is its highest normal form among the choices below? Assume atomic attribute values.
 
-A. 1NF but not2NF  
-B. 2NF but not3NF  
+A. 1NF but not 2NF  
+B. 2NF but not 3NF  
 C. 3NF but not BCNF  
 D. BCNF  
 
@@ -300,23 +302,23 @@ D. BCNF
 
 Dataset A contains 3 observations with mean 2 and population variance 2. Dataset B contains 2 observations with mean 7 and population variance 1. What is the population variance of their combined five observations? Use division by the population size, not by one less than that size.
 
-**Answer format:** Numeric value; 1 decimal places.
+**Answer format:** Numeric value; 1 decimal place.
 
 ### Q30. [1 Mark] [NAT]
 
-An IPv4 fragment arrives with total length1020 bytes, header length20 bytes, fragment offset100, and MF=1. A router forwards it through an interface with MTU620 bytes and fragments it into the minimum number of fragments, using the largest permitted payload in the first new fragment. Every outgoing header is20 bytes. What is the fragment-offset field of the second outgoing fragment?
+An IPv4 fragment arrives with total length 1020 bytes, header length 20 bytes, fragment offset 100, and MF=1. A router forwards it through an interface with MTU 620 bytes and fragments it into the minimum number of fragments, using the largest permitted payload in the first new fragment. Every outgoing header is 20 bytes. What is the fragment-offset field of the second outgoing fragment?
 
 **Answer format:** Numeric value; integer.
 
 ### Q31. [1 Mark] [NAT]
 
-A disk has cylinders0 through99. Its head is at50, moving toward larger cylinder numbers. Pending requests are at10,40,70,90; all are present initially and no new requests arrive. LOOK scheduling reverses at the last pending request in its current direction, not at the physical disk boundary. Ignoring rotational latency, what is the total head movement required to serve all four requests?
+A disk has cylinders 0 through 99. At time 0, its head is at cylinder 50, moving toward larger numbers, with requests pending at 70, 90 and 10. Seek speed is one cylinder per time unit; service and reversal take zero time. A new request for cylinder 95 arrives at time 45. LOOK continues in its current direction while any request is pending ahead, and otherwise reverses. New arrivals join the queue without causing an early reversal. What total head movement serves all four requests?
 
 **Answer format:** Numeric value; integer.
 
 ### Q32. [1 Mark] [MCQ]
 
-A five-stage in-order pipeline has stages IF,ID,EX,MEM,WB, each one cycle. There is no forwarding and no automatic stalling. Register writes occur in the first half of a cycle and ID reads in the second half, so ID may read a value written in WB during the same cycle. The instructions below use ordinary integer registers; R0 is always available. What is the minimum total number of NOP instructions that must be inserted without reordering?
+A five-stage in-order pipeline has stages IF,ID,EX,MEM,WB, each one cycle. There is no forwarding and no automatic stalling. Register writes occur in the first half of a cycle and ID reads in the second half, so ID may read a value written in WB during the same cycle. The instructions below use ordinary integer registers; R0 is always available. What is the minimum total number of NOP instructions that must be inserted without reordering to guarantee correct results for arbitrary initial register values?
 ```text
 ADD R1,R0,R0
 ADD R2,R1,R0
@@ -339,7 +341,7 @@ D. 5
 
 ### Q34. [1 Mark] [MCQ]
 
-A sorted data file has fixed-length records, with exactly eight records per data page and no unused slots. A range query matches exactly16 consecutive records in file order. An index lookup requires exactly two page reads and identifies the first matching record's page and slot. Index pages are separate from data pages, no page is initially cached, and scanning the range reads each needed data page once. What is the largest possible total number of page reads, over the possible starting slots?
+A sorted data file has fixed-length records, with exactly eight records per data page and no unused slots. A range query matches exactly 16 consecutive records in file order. An index lookup requires exactly two page reads and identifies the first matching record's page and slot. Index pages are separate from data pages, no page is initially cached, and scanning the range reads each needed data page once. What is the largest possible total number of page reads, over the possible starting slots?
 
 A. 3  
 B. 4  
@@ -353,7 +355,7 @@ G is a connected simple undirected graph with degree multiset {3,3,2,2,2,2}. Whi
 A. G has exactly 7 edges.  
 B. G has an Euler trail that uses every edge exactly once.  
 C. G is bipartite.  
-D. G has a Hamiltonian cycle.  
+D. G has a Hamiltonian cycle.
 
 ### Q36. [2 Marks] [NAT]
 
@@ -375,12 +377,12 @@ Every separator is the smallest key in its right child subtree. Insert 35 and th
 
 ### Q38. [2 Marks] [MSQ]
 
-A simple undirected graph has vertices A,B,C,D. Edges AB,BC,CD,DA each have weight 1; diagonals AC and BD each have weight 2. Which statements are correct?
+A simple undirected graph has vertices A,B,C,D,E,F. Each edge of triangle ABC and each edge of triangle DEF has weight 1. Edges AD, BE and CF have weight 2, and edge AE has weight 3. There are no other edges. Two spanning trees are distinct when their edge sets differ. Which statements are correct?
 
-A. The graph has exactly four distinct minimum spanning trees.  
-B. At least one minimum spanning tree contains AC.  
-C. Every minimum spanning tree consists of three edges of weight 1.  
-D. If only the weight of AB is reduced to 0, the minimum spanning tree becomes unique.  
+A. The minimum spanning-tree weight is 6.  
+B. There are exactly 27 minimum spanning trees.  
+C. There are exactly 45 spanning trees of weight 7.  
+D. Every spanning tree of weight 7 uses exactly two weight-2 edges.
 
 ### Q39. [2 Marks] [NAT]
 
@@ -408,7 +410,7 @@ D. 6
 
 ### Q42. [2 Marks] [MSQ]
 
-Two private hosts, 10.0.0.1 and 10.0.0.2, each initiate a TCP connection from local port 5000 to 203.0.113.8 port 443. A NAT gateway uses the single public IPv4 address 198.51.100.6 and assigns distinct public source ports 41001 and 41002 to these connections. Packets are unfragmented. Which statements are correct for this port-translating NAT?
+Two private hosts, 10.0.0.1 and 10.0.0.2, each initiate a TCP connection from local port 5000 to 203.0.113.8 port 443. A NAT gateway uses the single public IPv4 address 198.51.100.6 and assigns public source port 41001 to the connection from 10.0.0.1 and public source port 41002 to the connection from 10.0.0.2. Packets are unfragmented. Which statements are correct for this port-translating NAT?
 
 A. A reply arriving at public port 41002 can be mapped back to 10.0.0.2 port 5000.  
 B. The remote server sees both connections as originating from the respective private IPv4 addresses.  
@@ -417,12 +419,16 @@ D. Translating the source IPv4 address and TCP source port requires updating the
 
 ### Q43. [2 Marks] [MCQ]
 
-Free holes, in increasing address order, have sizes 100,500,200,300,600 units. Four processes request 212,417,112,426 units, in that order. Compare first-fit with best-fit, each starting from the original holes. Allocations split holes without overhead; processes never release memory, holes are nonadjacent, and an unsatisfied request is skipped. First-fit scans from the lowest address for every request. What are the largest remaining hole sizes under (first-fit, best-fit), respectively?
+A contiguous memory region occupies addresses [0,240), where [u,v) has size v−u. Initially its free regions are [0,60), [100,180), and [200,240). Process X occupies [60,100), and process Y occupies [180,200). Compare first-fit and best-fit, each starting from this initial state.
 
-A. (300,174)  
-B. (183,174)  
-C. (300,183)  
-D. (174,300)  
+First allocate A of size 50, then B of size 35. Next free X and A, leaving B and Y allocated. Every allocation takes space from the lowest-address end of its selected hole. First-fit searches from address 0 on each request; best-fit selects the smallest sufficient hole. Adjacent free regions are immediately coalesced, with no metadata overhead or compaction.
+
+What are the largest single requests that can now be satisfied under (first-fit, best-fit), respectively?
+
+A. (100,180)  
+B. (100,100)  
+C. (180,180)  
+D. (180,100)
 
 ### Q44. [2 Marks] [MSQ]
 
@@ -443,12 +449,14 @@ D. E, T, S
 
 ### Q45. [2 Marks] [MCQ]
 
-An 8-bit ALU computes A-B using A+(NOT B)+1. It reports the low eight result bits, carry-out C, result sign bit N, and signed overflow flag V. Carry-out 1 means no unsigned borrow. For A=10000000 and B=00000001, which pair correctly gives the truth values of (A < B under signed two's-complement interpretation, A < B under unsigned interpretation)?
+An 8-bit ALU subtracts B from A using A+(NOT B)+1. The result is reduced modulo 256. N is its most significant bit, V indicates signed two's-complement overflow, and C is carry-out, with C=1 meaning no unsigned borrow. Both operands range independently over all 256 bit patterns.
 
-A. (false,false)  
-B. (true,false)  
-C. (false,true)  
-D. (true,true)  
+How many ordered pairs (A,B) produce N=0, V=1 and C=1 simultaneously?
+
+A. 8192  
+B. 8128  
+C. 8256  
+D. 16384
 
 ### Q46. [2 Marks] [NAT]
 
@@ -477,20 +485,20 @@ B. With B=C=1, a change of A can produce a temporary 0 at the output for some ga
 C. Adding the product term ABC guarantees removal of this possible temporary 0 for every choice of positive gate delays.  
 D. Adding the product term BC guarantees removal of this possible temporary 0 during changes of A with B=C=1.  
 
-### Q48. [2 Marks] [MCQ]
+### Q48. [2 Marks] [MSQ]
 
-For initially committed data items x and y, consider this complete schedule of two transactions, written in time order:
+Consider the following complete read/write schedule; commits occur afterwards and are omitted. Subscripts identify transactions. Repeated writes by one transaction are distinct operations. The read returns the value written by the latest preceding write.
 
 ```text
-w1(x); r2(x); w2(y); c2; c1
+w1(x); w2(x); w3(y); w2(y); r4(x); w4(y); w1(x)
 ```
 
-Here wi and ri are writes and reads by transaction Ti, and ci is its commit. The read returns the value from the latest preceding write. Which classification is correct?
+A view-equivalent serial schedule must preserve the transaction from which every read obtains its value, any reads of initial values, and the final writer of each item. A serial order includes all four transactions, preserving each transaction's internal operation order. Which statements are correct?
 
-A. Conflict-serializable and recoverable, but not cascadeless.  
-B. Conflict-serializable but not recoverable.  
-C. Recoverable but not conflict-serializable.  
-D. Cascadeless and conflict-serializable.  
+A. The displayed schedule is conflict-serializable.  
+B. The displayed schedule is view-serializable.  
+C. Exactly two transaction orders give view-equivalent serial schedules.  
+D. If only the first operation w1(x) is deleted, the resulting schedule has exactly one conflict-equivalent serial transaction order.
 
 ### Q49. [2 Marks] [NAT]
 
@@ -509,19 +517,20 @@ D. A deterministic pushdown automaton accepting by empty stack.
 
 ### Q51. [2 Marks] [MSQ]
 
-Let
+Over alphabet {a,b,c}, define
 
 ```text
-L1 = { a^n b^n c^m : n,m >= 0 }
-L2 = { a^m b^n c^n : n,m >= 0 }.
+L = { a^i b^j c^k : i,j,k >= 0 and (i=j or j=k) }
+R = { a^i b^j c^k : i,j,k >= 0 and j<=2 }
+S = { a^n b^m c^n : n,m >= 0 }.
 ```
 
-All exponents are integers. Which statements are correct?
+All exponents are integers, and L minus R denotes set difference. Which statements are correct?
 
-A. L1 union L2 is context-free.  
-B. L1 intersection L2 is context-free.  
-C. The concatenation L1L2 is context-free.  
-D. L1 intersection L2 is regular.  
+A. L intersect R is regular.  
+B. L minus R is regular.  
+C. L minus R is context-free.  
+D. L intersect S is context-free.
 
 ### Q52. [2 Marks] [MCQ]
 
@@ -534,7 +543,7 @@ D. 120
 
 ### Q53. [2 Marks] [MCQ]
 
-A directed multigraph on vertices 1,2,3 has adjacency matrix M, where Mij is the number of distinct edges from i to j:
+A directed multigraph has vertices 1,2,3 and the following adjacency matrix, where entry Mij is the number of distinct edges from i to j:
 
 ```text
 M = [0 2 1]
@@ -542,12 +551,14 @@ M = [0 2 1]
     [0 1 1].
 ```
 
-A walk of length two is an ordered sequence of two edges with matching intermediate vertex. Count walks that end at their starting vertex, summing over all three possible starting vertices. Parallel edges distinguish walks, a self-loop may be traversed twice, and the starting vertex is part of the walk. How many such walks exist?
+Count the closed walks of length four that never traverse the same directed edge twice. Vertices may repeat, and opposite-direction edges are distinct. The two parallel edges from 1 to 2 are distinguishable. Count ordered edge sequences together with their starting vertex; cyclic rotations are counted separately whenever the resulting ordered sequences differ.
 
-A. 4  
-B. 5  
-C. 7  
-D. 9  
+How many such walks exist?
+
+A. 7  
+B. 12  
+C. 16  
+D. 24
 
 ### Q54. [2 Marks] [NAT]
 
@@ -655,7 +666,11 @@ D. The file contains 269312 bytes of data.
 
 ### Q61. [2 Marks] [NAT]
 
-A TCP sender's congestion window is 10000 bytes. Its latest received cumulative acknowledgement advertises a receive window of 6500 bytes, measured from that acknowledgement's next expected byte. The sender currently has 4000 bytes outstanding beyond that same acknowledgement. No new acknowledgement or window update arrives. Ignoring implementation restrictions and allowing a final segment smaller than the maximum segment size, how many additional data bytes may it transmit without exceeding either window?
+A TCP sender's next new data byte has sequence number 5001. Its latest cumulative acknowledgement is ACK=1001, meaning that byte 1001 is next expected. The advertised receive window is 6000 bytes and the congestion window is 8000 bytes.
+
+The sender transmits the maximum permitted amount of new data. It then receives ACK=3001 with an advertised receive window of 3500 bytes and an updated congestion window of 10000 bytes, and again transmits the maximum permitted new data. Finally, it receives ACK=5501 with an advertised receive window of 5000 bytes and an updated congestion window of 4500 bytes, and again sends as much new data as permitted.
+
+There are no other transmissions, acknowledgements or window changes. Each advertised receive window starts at its ACK number. Ignore sequence-number wraparound and segment-size restrictions. Data already sent may lie beyond the right edge of a newly reduced receive window; it remains outstanding. How many new data bytes are transmitted in total across these three sending opportunities?
 
 **Answer format:** Numeric value; integer.
 
@@ -740,14 +755,14 @@ D. (15,15)
 | 28 | MCQ | 1 | C |
 | 29 | NAT | 1 | 7.6 (exact) |
 | 30 | NAT | 1 | 175 (exact) |
-| 31 | NAT | 1 | 120 (exact) |
+| 31 | NAT | 1 | 205 (exact) |
 | 32 | MCQ | 1 | C |
 | 33 | MCQ | 1 | D |
 | 34 | MCQ | 1 | C |
 | 35 | MSQ | 1 | A, B |
 | 36 | NAT | 2 | 1536 (exact) |
 | 37 | NAT | 2 | 8 (exact) |
-| 38 | MSQ | 2 | A, C |
+| 38 | MSQ | 2 | A, B, C |
 | 39 | NAT | 2 | 5 (exact) |
 | 40 | MCQ | 2 | B |
 | 41 | MCQ | 2 | C |
@@ -757,12 +772,12 @@ D. (15,15)
 | 45 | MCQ | 2 | B |
 | 46 | NAT | 2 | 3 (exact) |
 | 47 | MSQ | 2 | A, B, D |
-| 48 | MCQ | 2 | B |
+| 48 | MSQ | 2 | B, C, D |
 | 49 | NAT | 2 | 16 (exact) |
 | 50 | MCQ | 2 | D |
 | 51 | MSQ | 2 | A, C |
 | 52 | MCQ | 2 | C |
-| 53 | MCQ | 2 | C |
+| 53 | MCQ | 2 | B |
 | 54 | NAT | 2 | 4 (exact) |
 | 55 | MCQ | 2 | A |
 | 56 | MCQ | 2 | B |
@@ -770,8 +785,10 @@ D. (15,15)
 | 58 | MSQ | 2 | A, B |
 | 59 | MSQ | 2 | A, C |
 | 60 | MSQ | 2 | A, B, D |
-| 61 | NAT | 2 | 2500 (exact) |
+| 61 | NAT | 2 | 5000 (exact) |
 | 62 | MCQ | 2 | B |
 | 63 | MCQ | 2 | C |
 | 64 | MCQ | 2 | B |
 | 65 | MCQ | 2 | B |
+
+
