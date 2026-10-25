@@ -5,9 +5,10 @@
   "records": 6500,
   "unique_ids": 6500,
   "accepted_records": 65,
-  "distinct_questions": 3350,
-  "maximum_occurrences": 3.0,
+  "distinct_questions": 6150,
+  "excess_exact_occurrences": 350,
   "structural_errors": [],
+  "round4_answer_mappings_checked": 800,
   "papers": [
     {
       "paper": 1,
@@ -522,9 +523,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 15,
-      "msq": 25,
-      "nat": 25,
+      "mcq": 36,
+      "msq": 24,
+      "nat": 5,
       "structural_status": "PASS"
     },
     {
@@ -536,9 +537,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 30,
-      "msq": 17,
-      "nat": 18,
+      "mcq": 50,
+      "msq": 15,
+      "nat": 0,
       "structural_status": "PASS"
     },
     {
@@ -550,9 +551,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 20,
-      "msq": 15,
-      "nat": 30,
+      "mcq": 39,
+      "msq": 25,
+      "nat": 1,
       "structural_status": "PASS"
     },
     {
@@ -564,9 +565,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 21,
-      "msq": 19,
-      "nat": 25,
+      "mcq": 42,
+      "msq": 21,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -578,9 +579,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 20,
-      "msq": 15,
-      "nat": 30,
+      "mcq": 39,
+      "msq": 25,
+      "nat": 1,
       "structural_status": "PASS"
     },
     {
@@ -592,9 +593,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 22,
-      "msq": 20,
-      "nat": 23,
+      "mcq": 41,
+      "msq": 22,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -606,9 +607,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 15,
-      "msq": 18,
-      "nat": 32,
+      "mcq": 36,
+      "msq": 28,
+      "nat": 1,
       "structural_status": "PASS"
     },
     {
@@ -620,9 +621,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 8,
-      "msq": 17,
-      "nat": 40,
+      "mcq": 31,
+      "msq": 30,
+      "nat": 4,
       "structural_status": "PASS"
     },
     {
@@ -634,9 +635,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 19,
-      "msq": 13,
-      "nat": 33,
+      "mcq": 41,
+      "msq": 22,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -648,9 +649,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 25,
-      "msq": 18,
-      "nat": 22,
+      "mcq": 49,
+      "msq": 16,
+      "nat": 0,
       "structural_status": "PASS"
     },
     {
@@ -662,9 +663,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 16,
-      "msq": 19,
-      "nat": 30,
+      "mcq": 40,
+      "msq": 22,
+      "nat": 3,
       "structural_status": "PASS"
     },
     {
@@ -676,9 +677,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 15,
-      "msq": 18,
-      "nat": 32,
+      "mcq": 38,
+      "msq": 25,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -690,9 +691,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 19,
-      "msq": 17,
-      "nat": 29,
+      "mcq": 38,
+      "msq": 24,
+      "nat": 3,
       "structural_status": "PASS"
     },
     {
@@ -704,9 +705,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 17,
-      "msq": 12,
-      "nat": 36,
+      "mcq": 35,
+      "msq": 27,
+      "nat": 3,
       "structural_status": "PASS"
     },
     {
@@ -718,9 +719,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 14,
-      "msq": 20,
-      "nat": 31,
+      "mcq": 39,
+      "msq": 24,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -732,9 +733,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 18,
-      "msq": 14,
-      "nat": 33,
+      "mcq": 41,
+      "msq": 22,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -746,9 +747,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 18,
-      "msq": 15,
-      "nat": 32,
+      "mcq": 41,
+      "msq": 23,
+      "nat": 1,
       "structural_status": "PASS"
     },
     {
@@ -760,9 +761,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 18,
-      "msq": 9,
-      "nat": 38,
+      "mcq": 38,
+      "msq": 25,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -774,9 +775,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 16,
-      "msq": 12,
-      "nat": 37,
+      "mcq": 34,
+      "msq": 27,
+      "nat": 4,
       "structural_status": "PASS"
     },
     {
@@ -788,9 +789,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 9,
-      "msq": 20,
-      "nat": 36,
+      "mcq": 34,
+      "msq": 27,
+      "nat": 4,
       "structural_status": "PASS"
     },
     {
@@ -802,9 +803,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 22,
-      "msq": 9,
-      "nat": 34,
+      "mcq": 44,
+      "msq": 19,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -816,9 +817,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 14,
-      "msq": 10,
-      "nat": 41,
+      "mcq": 35,
+      "msq": 29,
+      "nat": 1,
       "structural_status": "PASS"
     },
     {
@@ -830,9 +831,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 14,
-      "msq": 8,
-      "nat": 43,
+      "mcq": 32,
+      "msq": 26,
+      "nat": 7,
       "structural_status": "PASS"
     },
     {
@@ -844,9 +845,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 14,
-      "msq": 12,
-      "nat": 39,
+      "mcq": 37,
+      "msq": 21,
+      "nat": 7,
       "structural_status": "PASS"
     },
     {
@@ -858,9 +859,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 12,
-      "msq": 15,
-      "nat": 38,
+      "mcq": 33,
+      "msq": 27,
+      "nat": 5,
       "structural_status": "PASS"
     },
     {
@@ -872,9 +873,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 11,
-      "msq": 8,
-      "nat": 46,
+      "mcq": 30,
+      "msq": 29,
+      "nat": 6,
       "structural_status": "PASS"
     },
     {
@@ -886,9 +887,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 17,
-      "msq": 9,
-      "nat": 39,
+      "mcq": 38,
+      "msq": 25,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -900,9 +901,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 10,
-      "msq": 14,
-      "nat": 41,
+      "mcq": 29,
+      "msq": 28,
+      "nat": 8,
       "structural_status": "PASS"
     },
     {
@@ -914,9 +915,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 11,
-      "msq": 16,
-      "nat": 38,
+      "mcq": 33,
+      "msq": 27,
+      "nat": 5,
       "structural_status": "PASS"
     },
     {
@@ -928,9 +929,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 12,
-      "msq": 9,
-      "nat": 44,
+      "mcq": 33,
+      "msq": 30,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -942,9 +943,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 9,
-      "msq": 16,
-      "nat": 40,
+      "mcq": 35,
+      "msq": 28,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -956,9 +957,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 11,
-      "msq": 10,
-      "nat": 44,
+      "mcq": 33,
+      "msq": 24,
+      "nat": 8,
       "structural_status": "PASS"
     },
     {
@@ -970,9 +971,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 13,
-      "msq": 12,
-      "nat": 40,
+      "mcq": 38,
+      "msq": 25,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -984,9 +985,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 12,
-      "msq": 7,
-      "nat": 46,
+      "mcq": 30,
+      "msq": 32,
+      "nat": 3,
       "structural_status": "PASS"
     },
     {
@@ -998,9 +999,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 11,
-      "msq": 12,
-      "nat": 42,
+      "mcq": 34,
+      "msq": 29,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -1012,9 +1013,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 16,
-      "msq": 7,
-      "nat": 42,
+      "mcq": 40,
+      "msq": 21,
+      "nat": 4,
       "structural_status": "PASS"
     },
     {
@@ -1026,9 +1027,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 19,
-      "msq": 19,
-      "nat": 27,
+      "mcq": 41,
+      "msq": 24,
+      "nat": 0,
       "structural_status": "PASS"
     },
     {
@@ -1040,9 +1041,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 19,
-      "msq": 16,
-      "nat": 30,
+      "mcq": 42,
+      "msq": 20,
+      "nat": 3,
       "structural_status": "PASS"
     },
     {
@@ -1054,9 +1055,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 21,
-      "msq": 25,
-      "nat": 19,
+      "mcq": 43,
+      "msq": 22,
+      "nat": 0,
       "structural_status": "PASS"
     },
     {
@@ -1068,9 +1069,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 21,
-      "msq": 11,
-      "nat": 33,
+      "mcq": 39,
+      "msq": 24,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -1082,9 +1083,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 20,
-      "msq": 16,
-      "nat": 29,
+      "mcq": 40,
+      "msq": 23,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -1096,9 +1097,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 15,
-      "msq": 18,
-      "nat": 32,
+      "mcq": 35,
+      "msq": 27,
+      "nat": 3,
       "structural_status": "PASS"
     },
     {
@@ -1110,9 +1111,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 23,
+      "mcq": 45,
       "msq": 20,
-      "nat": 22,
+      "nat": 0,
       "structural_status": "PASS"
     },
     {
@@ -1124,9 +1125,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 20,
-      "msq": 14,
-      "nat": 31,
+      "mcq": 41,
+      "msq": 22,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -1138,9 +1139,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 13,
-      "msq": 22,
-      "nat": 30,
+      "mcq": 35,
+      "msq": 26,
+      "nat": 4,
       "structural_status": "PASS"
     },
     {
@@ -1152,9 +1153,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 20,
+      "mcq": 46,
       "msq": 19,
-      "nat": 26,
+      "nat": 0,
       "structural_status": "PASS"
     },
     {
@@ -1166,9 +1167,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 19,
-      "msq": 17,
-      "nat": 29,
+      "mcq": 39,
+      "msq": 24,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -1180,9 +1181,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 17,
-      "msq": 15,
-      "nat": 33,
+      "mcq": 39,
+      "msq": 24,
+      "nat": 2,
       "structural_status": "PASS"
     },
     {
@@ -1194,9 +1195,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 14,
-      "msq": 15,
-      "nat": 36,
+      "mcq": 37,
+      "msq": 21,
+      "nat": 7,
       "structural_status": "PASS"
     },
     {
@@ -1208,9 +1209,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 17,
-      "msq": 17,
-      "nat": 31,
+      "mcq": 39,
+      "msq": 21,
+      "nat": 5,
       "structural_status": "PASS"
     },
     {
@@ -1222,9 +1223,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 10,
-      "msq": 17,
-      "nat": 38,
+      "mcq": 35,
+      "msq": 23,
+      "nat": 7,
       "structural_status": "PASS"
     },
     {
@@ -1236,9 +1237,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 13,
-      "msq": 19,
-      "nat": 33,
+      "mcq": 34,
+      "msq": 27,
+      "nat": 4,
       "structural_status": "PASS"
     },
     {
@@ -1250,9 +1251,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 12,
-      "msq": 12,
-      "nat": 41,
+      "mcq": 30,
+      "msq": 32,
+      "nat": 3,
       "structural_status": "PASS"
     },
     {
@@ -1264,9 +1265,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 12,
-      "msq": 8,
-      "nat": 45,
+      "mcq": 32,
+      "msq": 25,
+      "nat": 8,
       "structural_status": "PASS"
     },
     {
@@ -1278,9 +1279,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 20,
-      "msq": 16,
-      "nat": 29,
+      "mcq": 44,
+      "msq": 20,
+      "nat": 1,
       "structural_status": "PASS"
     },
     {
@@ -1292,9 +1293,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 11,
-      "msq": 13,
-      "nat": 41,
+      "mcq": 33,
+      "msq": 25,
+      "nat": 7,
       "structural_status": "PASS"
     },
     {
@@ -1306,9 +1307,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 13,
-      "msq": 15,
-      "nat": 37,
+      "mcq": 34,
+      "msq": 27,
+      "nat": 4,
       "structural_status": "PASS"
     },
     {
@@ -1320,9 +1321,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 10,
-      "msq": 21,
-      "nat": 34,
+      "mcq": 31,
+      "msq": 33,
+      "nat": 1,
       "structural_status": "PASS"
     },
     {
@@ -1334,9 +1335,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 14,
-      "msq": 13,
-      "nat": 38,
+      "mcq": 36,
+      "msq": 24,
+      "nat": 5,
       "structural_status": "PASS"
     },
     {
@@ -1348,9 +1349,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 11,
-      "msq": 14,
-      "nat": 40,
+      "mcq": 32,
+      "msq": 28,
+      "nat": 5,
       "structural_status": "PASS"
     },
     {
@@ -1362,9 +1363,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 16,
-      "msq": 11,
-      "nat": 38,
+      "mcq": 41,
+      "msq": 18,
+      "nat": 6,
       "structural_status": "PASS"
     },
     {
@@ -1376,9 +1377,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 17,
-      "msq": 8,
-      "nat": 40,
+      "mcq": 36,
+      "msq": 22,
+      "nat": 7,
       "structural_status": "PASS"
     },
     {
@@ -1390,9 +1391,9 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 12,
-      "msq": 11,
-      "nat": 42,
+      "mcq": 34,
+      "msq": 25,
+      "nat": 6,
       "structural_status": "PASS"
     },
     {
@@ -1404,11 +1405,11 @@
       "ga_marks": 15,
       "mathematics_marks": 13,
       "core_marks": 72,
-      "mcq": 15,
-      "msq": 7,
-      "nat": 43,
+      "mcq": 34,
+      "msq": 21,
+      "nat": 10,
       "structural_status": "PASS"
     }
   ],
-  "independent_technical_review": "Pending outside previously accepted records"
+  "independent_technical_review": "Pending; audit validates consistency and adaptation mapping, not source correctness"
 }

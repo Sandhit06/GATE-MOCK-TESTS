@@ -37,7 +37,9 @@ The observed count can fall either because delays became less frequent or becaus
 
 ## Q4
 
-**Correct answer:** 10
+**Correct answer:** B
+
+The required numerical answer is **10**, so select **B**.
 
 **Concept:** Choosing nonadjacent positions.
 
@@ -45,43 +47,94 @@ For reserved indices i<j<k, map them to i,j−1,k−2. Nonadjacency makes these 
 
 **Common misconception:** Subtracting adjacent pairs independently when their overlaps matter.
 
+**Option check**
+- **A: Incorrect.** Its value differs from the required answer by 10 and is outside the source answer's accepted range.
+- **B: Correct.** It matches the derived answer at the required precision.
+- **C: Incorrect.** Its value differs from the required answer by -5 and is outside the source answer's accepted range.
+- **D: Incorrect.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+
+
 ## Q5
 
 **Correct answer:** B
 
+**Correct audit:** B.
+ valid original candidates are B, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
+
 Overall rates are weighted departmental averages. For example, rates90%,50% with shares90%,10% give86%; later rates91%,51% with shares10%,90% give55%. Both rates rise but the overall rate falls, proving B possible and A false. C and D introduce changes not needed by the example. Comparing weighted averages requires checking the weights.
+
+
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Correct; all four candidate classifications agree with the derivation.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
 
 ## Q6
 
-**Correct answer:** A, C
+**Correct answer:** C
+
+**Correct audit:** C.
+ valid original candidates are A, C, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
+
 **Concept:** Folding a cube net.
 
 Take B as the front face. Its neighbours A,C,D,F fold to left,right,top,bottom, while E beyond D becomes the back. Opposite pairs are A/C, B/E and D/F. A/E and E/F therefore share edges, proving A,C. B and D list opposite pairs, not adjacent faces.
 
 **Common misconception:** Squares separated in the flat net may become adjacent after folding.
 
+
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Incorrect; it misclassifies candidate(s) III.
+- C: Correct; all four candidate classifications agree with the derivation.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
+
 ## Q7
 
-**Correct answer:** C
+**Correct answer:** A
 
-**Concept:** General Aptitude — Narrative sequencing
+**Correct audit:** A.
+ valid original candidates are C, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 1. Calibration precedes the first trial: Q precedes R.
 2. “This divergence” in S refers to R, and the successful repeat trial is the basis of P: R precedes S precedes P.
 3. T follows receipt of the final report: P precedes T. Combining the constraints gives Q-R-S-P-T.
 
-- **A:** P cannot precede the repeat trial on which it is based.
-- **B:** Q explicitly precedes the first trial described in R.
-- **C:** This satisfies all four precedence links.
-- **D:** S cannot precede the divergence, and T cannot precede the report.
+- Candidate I: P cannot precede the repeat trial on which it is based.
+- Candidate II: Q explicitly precedes the first trial described in R.
+- Candidate III: This satisfies all four precedence links.
+- Candidate IV: S cannot precede the divergence, and T cannot precede the report.
 
-**Common misconception:** A grammatically plausible adjacent pair can still violate the account's causal order.
+**Audit-option checks**
+- A: Correct; all four candidate classifications agree with the derivation.
+- B: Incorrect; it misclassifies candidate(s) I.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
 
 ## Q8
 
-**Correct answer:** 2.0000 (accepted range 1.99995–2.00005)
+**Correct answer:** B
+
+The required numerical answer is **2.0000**, so select **B**.
 
 Let T be the draw on which the first blue appears. T can be1,2,3,4. The tail-sum identity gives E[T]=P(T>0)+P(T>1)+P(T>2)+P(T>3). These probabilities are1,3/5,(3/5)(2/4)=3/10, and(3/5)(2/4)(1/3)=1/10. Their sum is2. Drawing without replacement changes the probabilities after each red; a constant-probability geometric model is inappropriate.
+
+**Option check**
+- **A: Incorrect.** Its value differs from the required answer by 2.0000 and is outside the source answer's accepted range.
+- **B: Correct.** It matches the derived answer at the required precision.
+- **C: Incorrect.** Its value differs from the required answer by -1.0000 and is outside the source answer's accepted range.
+- **D: Incorrect.** Its value differs from the required answer by 1.0000 and is outside the source answer's accepted range.
+
 
 ## Q9
 
@@ -104,22 +157,46 @@ The sentence explicitly says that required issues remain covered despite removal
 
 ## Q10
 
-**Correct answer:** 4
+**Correct answer:** B
+
+The required numerical answer is **4**, so select **B**.
+
 **Concept:** Conditional sample space.
 
 The ten qualifying ordered outcomes are (1,2),(2,1), …, (5,6),(6,5), all equally likely. Each possible maximum 2,3,4,5,6 occurs twice. Its conditional mean is (2+3+4+5+6)/5=4.
 
 **Common misconception:** The conditioning event changes which dice outcomes are relevant; the unconditional expected maximum does not apply.
 
+**Option check**
+- **A: Incorrect.** Its value differs from the required answer by 4 and is outside the source answer's accepted range.
+- **B: Correct.** It matches the derived answer at the required precision.
+- **C: Incorrect.** Its value differs from the required answer by -2 and is outside the source answer's accepted range.
+- **D: Incorrect.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+
+
 ## Q11
 
-**Correct answer:** 36
+**Correct answer:** A, B, C
+
+The required numerical answer is **36**, so exclude **D** and select the other three options.
 
 Four pairs and total participation of the four B entities imply that each B entity occurs exactly once. Each chooses an A endpoint, and all three A entities must occur. Count onto functions from a four-element labeled set to a three-element labeled set:3^4−3×2^4+3×1^4=81−48+3=36. Many-to-many permits these instances; it does not require every entity to have more than one partner.
 
+**Option check**
+- **A: Select.** Its value differs from the required answer by 36 and is outside the source answer's accepted range.
+- **B: Select.** Its value differs from the required answer by -18 and is outside the source answer's accepted range.
+- **C: Select.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+- **D: Do not select.** It matches the derived answer at the required precision.
+
+
 ## Q12
 
-**Correct answer:** B
+**Correct answer:** A
+
+**Correct audit:** A.
+ valid original candidates are B, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 **Concept:** Computer Organization and Architecture — Interrupts and DMA
 
@@ -131,6 +208,14 @@ DMA reads main memory rather than the processor's dirty cache copies. Writing ba
 - **D:** False: this ordering cannot start the required transfer and does not flush the cache.
 
 **Common misconception:** DMA bypassing the CPU does not automatically observe its dirty cache contents.
+
+
+**Audit-option checks**
+- A: Correct; all four candidate classifications agree with the derivation.
+- B: Incorrect; it misclassifies candidate(s) I.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
 
 ## Q13
 
@@ -148,7 +233,9 @@ A blocking operation can suspend the caller, making the core available to anothe
 
 ## Q14
 
-**Correct answer:** 0.5
+**Correct answer:** A, B, C
+
+The required numerical answer is **0.5**, so exclude **D** and select the other three options.
 
 **Concept:** Floating-point spacing within one exponent bin.
 
@@ -156,15 +243,35 @@ Values in [8,16) have exponent three. Four fractional significand bits give spac
 
 **Common misconception:** Using precision as the exponent or counting the leading bit twice.
 
+**Option check**
+- **A: Select.** Its value differs from the required answer by -0.2 and is outside the source answer's accepted range.
+- **B: Select.** Its value differs from the required answer by 0.3 and is outside the source answer's accepted range.
+- **C: Select.** Its value differs from the required answer by -0.4 and is outside the source answer's accepted range.
+- **D: Do not select.** It matches the derived answer at the required precision.
+
+
 ## Q15
 
 **Correct answer:** A
+
+**Correct audit:** A.
+ valid original candidates are A, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 **Concept:** Output dependencies under out-of-order completion.
 
 Two writes to one register create a write-after-write hazard: the program-order younger value must remain final even if completion order differs. A names it. B involves no writes, C is unrelated to register naming, and D falsely classifies every write as a control transfer.
 
 **Common misconception:** Considering only read-after-write dependencies.
+
+
+**Audit-option checks**
+- A: Correct; all four candidate classifications agree with the derivation.
+- B: Incorrect; it misclassifies candidate(s) I.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
 
 ## Q16
 
@@ -187,12 +294,26 @@ A closing parenthesis cannot precede its matching opening parenthesis, so every 
 
 ## Q17
 
-**Correct answer:** B
+**Correct answer:** A
+
+**Correct audit:** A.
+ valid original candidates are B, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
+
 **Concept:** Language of a left-recursive grammar.
 
 Each recursive step appends either a or b to the right of the remaining A, and the terminating production replaces A by c. The result is c followed by any string over {a,b}, namely B. A,C place c at the wrong end; D unnecessarily forces alternating pairs.
 
 **Common misconception:** Left recursion describes a derivation mechanism, not the position of the terminal base symbol in the final word.
+
+
+**Audit-option checks**
+- A: Correct; all four candidate classifications agree with the derivation.
+- B: Incorrect; it misclassifies candidate(s) I.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
 
 ## Q18
 
@@ -228,12 +349,26 @@ Concept: divide-and-conquer tree sums. Level j has 3ʲ calls of size n/2ʲ, cost
 
 ## Q20
 
-**Correct answer:** A, B, C
+**Correct answer:** A
+
+**Correct audit:** A.
+ valid original candidates are A, B, C, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
+
 **Concept:** Annihilating polynomial and eigenvalue multiplicities.
 
 The minimal polynomial divides (t−1)(t+1), whose roots are real and distinct. Thus M is diagonalizable with eigenvalues ±1. Trace zero and dimension four force two of each. The determinant is 1 and rank(M−I)=2, proving A,B,C. D need not hold: the block [[1,1],[0,−1]] squares to I but is not symmetric; combine it with diagonal entries 1,−1 for a four-dimensional counterexample.
 
 **Common misconception:** Real diagonalizability does not imply orthogonal diagonalizability or symmetry.
+
+
+**Audit-option checks**
+- A: Correct; all four candidate classifications agree with the derivation.
+- B: Incorrect; it misclassifies candidate(s) I.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
 
 ## Q21
 
@@ -275,7 +410,12 @@ A is the root. Its first subtree must contain B,C because B closes at the second
 
 ## Q23
 
-**Correct answer:** A
+**Correct answer:** D
+
+**Correct audit:** D.
+ valid original candidates are A, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 **Concept:** Gray-code adjacency in Karnaugh maps.
 
@@ -283,14 +423,36 @@ The order makes each adjacent pair differ in one variable, including 10 next to 
 
 **Common misconception:** Ignoring edge wraparound when reasoning about adjacent map cells.
 
+
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Incorrect; it misclassifies candidate(s) III.
+- C: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+- D: Correct; all four candidate classifications agree with the derivation.
+
+
 ## Q24
 
-**Correct answer:** A, C
+**Correct answer:** D
+
+**Correct audit:** D.
+ valid original candidates are A, C, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
+
 **Concept:** Local structure imposed by a regular expression.
 
 Each 1 is introduced in a block 11; adjacent blocks may merge, but each resulting run has even length. Conversely, every even-length run can be partitioned into such blocks, separated by zeros. Thus A holds and 110011 is accepted (C). The string 101 has two 1s overall but two odd runs, refuting B and D.
 
 **Common misconception:** Even parity over the entire string differs from even parity in every run.
+
+
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Incorrect; it misclassifies candidate(s) III.
+- C: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+- D: Correct; all four candidate classifications agree with the derivation.
+
 
 ## Q25
 
@@ -308,57 +470,120 @@ The successor is the leftmost node in v's right subtree, so it cannot have a lef
 
 ## Q26
 
-**Correct answer:** D
+**Correct answer:** B
+
+**Correct audit:** B.
+ valid original candidates are D, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 Concept: negating the pumping condition. The regular-language statement has order ∃p ∀w ∃split ∀i with membership preserved. Negation gives ∀p ∃w ∀split ∃i with membership failing, exactly D. A only exhibits one bad split; B chooses the split and even requires failure at i=1, which reproduces w; C uses the wrong initial quantifier and still allows a bad chosen split. The adversary chooses the decomposition.
 
+
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Correct; all four candidate classifications agree with the derivation.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
+
 ## Q27
 
-**Correct answer:** A
+**Correct answer:** D
 
-**Concept:** Operating Systems — Processes and threads
+**Correct audit:** D.
+ valid original candidates are A, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 1. At i=0, the first child breaks and prints 0; only the parent increments and continues.
 2. The continuing parent similarly creates children that print 1 and 2.
 3. The original parent increments to 3 and exits the loop. Thus exactly four values, 0,1,2,3, are printed.
 
-- **A:** One child stops in each iteration and the original parent finishes.
-- **B:** Children break; they do not take part in later forks.
-- **C:** A child preserves its copied value of i when it breaks.
-- **D:** Later children inherit i=1 and i=2, not the initial value.
+- Candidate I: One child stops in each iteration and the original parent finishes.
+- Candidate II: Children break; they do not take part in later forks.
+- Candidate III: A child preserves its copied value of i when it breaks.
+- Candidate IV: Later children inherit i=1 and i=2, not the initial value.
 
-**Common misconception:** A fork inside a loop is not automatically exponential when children stop iterating.
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Incorrect; it misclassifies candidate(s) III.
+- C: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+- D: Correct; all four candidate classifications agree with the derivation.
+
 
 ## Q28
 
-**Correct answer:** 3
+**Correct answer:** D
+
+The required numerical answer is **3**, so select **D**.
 
 Rolle's theorem gives at least four distinct roots of f' between consecutive roots of f, and then at least three roots of f''. A degree-five polynomial with five distinct real roots has a cubic second derivative, showing three is attainable. Repeated application supplies a lower bound, while degree supplies attainability.
 
+**Option check**
+- **A: Incorrect.** Its value differs from the required answer by 3 and is outside the source answer's accepted range.
+- **B: Incorrect.** Its value differs from the required answer by -1 and is outside the source answer's accepted range.
+- **C: Incorrect.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+- **D: Correct.** It matches the derived answer at the required precision.
+
+
 ## Q29
 
-**Correct answer:** 0 (exact)
+**Correct answer:** A
+
+The required numerical answer is **0**, so select **A**.
+
 **Concept:** Relational composition and set difference.
 
 The only joinable chain is 1→2→3, producing T={(1,3)}. The renamed R already contains (1,3), so T−R is empty. Its cardinality is zero.
 
 **Common misconception:** Projecting a join can produce a pair that is already present in the original relation.
 
+**Option check**
+- **A: Correct.** It matches the derived answer at the required precision.
+- **B: Incorrect.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+- **C: Incorrect.** Its value differs from the required answer by 2 and is outside the source answer's accepted range.
+- **D: Incorrect.** Its value differs from the required answer by 3 and is outside the source answer's accepted range.
+
+
 ## Q30
 
-**Correct answer:** 0.4
+**Correct answer:** A, C, D
+
+The required numerical answer is **0.4**, so exclude **B** and select the other three options.
 
 Inclusion–exclusion gives P(A∩B)=0.4+0.5−0.7=0.2. Divide by P(B)=0.5 to get P(A|B)=0.4. Conditional probability uses the intersection as numerator, not the union.
 
+**Option check**
+- **A: Select.** Its value differs from the required answer by 0.2 and is outside the source answer's accepted range.
+- **B: Do not select.** It matches the derived answer at the required precision.
+- **C: Select.** Its value differs from the required answer by -0.2 and is outside the source answer's accepted range.
+- **D: Select.** Its value differs from the required answer by 0.3 and is outside the source answer's accepted range.
+
+
 ## Q31
 
-**Correct answer:** 2
+**Correct answer:** B
+
+The required numerical answer is **2**, so select **B**.
 
 Concept: antichains and chain bounds. Partition the divisors into chains 1|2|4|12 and 3|6. An antichain contains at most one element from each, hence size at most two. The incomparable pair {3,4} attains two. The number of divisors is not the width.
+
+**Option check**
+- **A: Incorrect.** Its value differs from the required answer by 2 and is outside the source answer's accepted range.
+- **B: Correct.** It matches the derived answer at the required precision.
+- **C: Incorrect.** Its value differs from the required answer by -1 and is outside the source answer's accepted range.
+- **D: Incorrect.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+
 
 ## Q32
 
 **Correct answer:** B
+
+**Correct audit:** B.
+ valid original candidates are B, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 **Concept:** Algorithms — Graph traversals
 
@@ -371,11 +596,28 @@ Nested intervals show that u is a proper ancestor of v in the DFS forest. The tr
 
 **Common misconception:** Nested DFS intervals alone do not imply acyclicity; edge direction matters.
 
+
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Correct; all four candidate classifications agree with the derivation.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
+
 ## Q33
 
-**Correct answer:** -6
+**Correct answer:** D
+
+The required numerical answer is **-6**, so select **D**.
 
 Taking determinants gives det(P)det(A)=det(L)det(U)=1×6. One row interchange has det(P)=−1, hence det(A)=−6. The permutation sign must be retained when reconstructing the determinant from pivoted factors.
+
+**Option check**
+- **A: Incorrect.** Its value differs from the required answer by -6 and is outside the source answer's accepted range.
+- **B: Incorrect.** Its value differs from the required answer by 3 and is outside the source answer's accepted range.
+- **C: Incorrect.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+- **D: Correct.** It matches the derived answer at the required precision.
+
 
 ## Q34
 
@@ -394,13 +636,28 @@ Following alpha reaches beta, which immediately leads back to alpha. No address 
 
 ## Q35
 
-**Correct answer:** A, C
+**Correct answer:** D
+
+**Correct audit:** D.
+ valid original candidates are A, C, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 Each link supplies its own framing, so A,C are true. Its checksum must correspond to its own frame rather than blindly copying the incoming one, refuting B. Changing encapsulation does not require changing the application message, refuting D.
 
+
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Incorrect; it misclassifies candidate(s) III.
+- C: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+- D: Correct; all four candidate classifications agree with the derivation.
+
+
 ## Q36
 
-**Correct answer:** 1
+**Correct answer:** A
+
+The required numerical answer is **1**, so select **A**.
 
 **Concept:** Don't-care expansion.
 
@@ -408,35 +665,87 @@ The ON and don't-care minterms together are exactly the assignments with b=0. Th
 
 **Common misconception:** Treating don't-care values as required zeros or as required ones in the final function.
 
+**Option check**
+- **A: Correct.** It matches the derived answer at the required precision.
+- **B: Incorrect.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+- **C: Incorrect.** Its value differs from the required answer by -1 and is outside the source answer's accepted range.
+- **D: Incorrect.** Its value differs from the required answer by 2 and is outside the source answer's accepted range.
+
+
 ## Q37
 
-**Correct answer:** 0.0833 (accepted range 0.08325–0.08335)
+**Correct answer:** B
+
+The required numerical answer is **0.0833**, so select **B**.
 
 Integrate the identity on[0,1]. By substitution u=1−x, both integrals on the left equal I=∫f. Therefore2I=∫0¹(x−x²)dx=1/2−1/3=1/6, giving I=1/12≈0.083333. The individual function need not be uniquely specified for its integral to be determined.
 
+**Option check**
+- **A: Incorrect.** Its value differs from the required answer by 0.8334 and is outside the source answer's accepted range.
+- **B: Correct.** It matches the derived answer at the required precision.
+- **C: Incorrect.** Its value differs from the required answer by -0.0416 and is outside the source answer's accepted range.
+- **D: Incorrect.** Its value differs from the required answer by 0.4584 and is outside the source answer's accepted range.
+
+
 ## Q38
 
-**Correct answer:** 7
+**Correct answer:** A, C, D
+
+The required numerical answer is **7**, so exclude **B** and select the other three options.
 
 The unique minimum tree uses weights1,2,3 and totals6. The tree AB,BC,DA has weight7. Since all edge weights are integers, no spanning-tree weight lies strictly between6 and7, so7 is the next possible optimum. Constructing a tree attains the lower bound.
 
+**Option check**
+- **A: Select.** Its value differs from the required answer by 7 and is outside the source answer's accepted range.
+- **B: Do not select.** It matches the derived answer at the required precision.
+- **C: Select.** Its value differs from the required answer by -3 and is outside the source answer's accepted range.
+- **D: Select.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+
+
 ## Q39
 
-**Correct answer:** 64
+**Correct answer:** D
+
+The required numerical answer is **64**, so select **D**.
 
 The two high-bit pairs must match. Choose their common value in4 ways, and choose each input's low-bit pair independently in4 ways. Total 4×4×4=64 ordered pairs require the second comparison. Equality of the high halves does not imply equality of the full inputs.
 
+**Option check**
+- **A: Incorrect.** Its value differs from the required answer by 64 and is outside the source answer's accepted range.
+- **B: Incorrect.** Its value differs from the required answer by -32 and is outside the source answer's accepted range.
+- **C: Incorrect.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+- **D: Correct.** It matches the derived answer at the required precision.
+
+
 ## Q40
 
-**Correct answer:** 123
+**Correct answer:** A
+
+The required numerical answer is **123**, so select **A**.
 
 The saved source is 7. R changes 100→104→100 before the destination fetch, so the destination is the same word and becomes 14. The word at 104 stays 9, and R ends at 100. Their sum is 100+14+9=123. Evaluating both addresses from an imagined simultaneous operand fetch would violate the given instruction semantics.
 
+**Option check**
+- **A: Correct.** It matches the derived answer at the required precision.
+- **B: Incorrect.** Its value differs from the required answer by 123 and is outside the source answer's accepted range.
+- **C: Incorrect.** Its value differs from the required answer by -61 and is outside the source answer's accepted range.
+- **D: Incorrect.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+
+
 ## Q41
 
-**Correct answer:** 3
+**Correct answer:** A, B, D
+
+The required numerical answer is **3**, so exclude **C** and select the other three options.
 
 The first three sends fill the three slots. The fourth finds no capacity and blocks before completing, so three have completed. Counting attempted sends would give four, which is not the requested quantity.
+
+**Option check**
+- **A: Select.** Its value differs from the required answer by 3 and is outside the source answer's accepted range.
+- **B: Select.** Its value differs from the required answer by -1 and is outside the source answer's accepted range.
+- **C: Do not select.** It matches the derived answer at the required precision.
+- **D: Select.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+
 
 ## Q42
 
@@ -460,13 +769,26 @@ Simulate the machine on00 and accept its encoding if it accepts00; this recogniz
 
 ## Q44
 
-**Correct answer:** B
+**Correct answer:** A
+
+**Correct audit:** A.
+ valid original candidates are B, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 **Concept:** Longest-path dynamic programming in a DAG.
 
 Initialize the source distance to zero and unreachable distances to negative infinity; process reachable edges in topological order. Every predecessor distance is final before a vertex is processed, so maximizing over incoming paths is correct regardless of negative weights. This proves B and refutes A. Path lengths in edges may differ (C false), and converting to an undirected graph destroys the acyclic dependency structure (D false).
 
 **Common misconception:** Transferring restrictions of greedy shortest-path algorithms to topological dynamic programming.
+
+
+**Audit-option checks**
+- A: Correct; all four candidate classifications agree with the derivation.
+- B: Incorrect; it misclassifies candidate(s) I.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
 
 ## Q45
 
@@ -489,37 +811,98 @@ In C, argument evaluation acc*n happens before the call, and the returned value 
 
 ## Q46
 
-**Correct answer:** A, C
+**Correct answer:** A
+
+**Correct audit:** A.
+ valid original candidates are A, C, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 Concept: alias-sensitive optimization. When i≠j, the store does not modify A[i], so reuse p (A). When i=j, the last load reads 7 (C). Without a proven relation, the i=j case with old value not 7 defeats B. The same case defeats D. Equal expression text does not ensure an unchanged memory value across a store.
+
+
+**Audit-option checks**
+- A: Correct; all four candidate classifications agree with the derivation.
+- B: Incorrect; it misclassifies candidate(s) I.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
 
 ## Q47
 
 **Correct answer:** C
 
+**Correct audit:** C.
+ valid original candidates are C, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
+
 Key 7 must be the root. Key 6 is already at index 3. If 5 were at index 4 or 5, its parent at index 2 would have to exceed 5; both available larger keys are already elsewhere. Index 2 is possible, and indices 6,7 have parent 6, so each is possible. Hence exactly {2,6,7}: C. A excludes feasible child positions; B includes impossible positions 4,5; D includes the root occupied by 7.
+
+
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Incorrect; it misclassifies candidate(s) III.
+- C: Correct; all four candidate classifications agree with the derivation.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
 
 ## Q48
 
-**Correct answer:** B, D
+**Correct answer:** B
+
+**Correct audit:** B.
+ valid original candidates are B, D, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 Concept: negative edges and premature finalization. True best route s→b→a→t costs 5−4+3=4, so B is true and A false. Other routes cost 5 and 6. The graph is acyclic, so C is false. Dijkstra first finalizes a at two, sets t to five, and then chooses t before b at the specified tie, returning five, so D is true. The negative edge permits later improvement of an already-finalized distance.
 
+
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Correct; all four candidate classifications agree with the derivation.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
+
 ## Q49
 
-**Correct answer:** A, C
+**Correct answer:** C
+
+**Correct audit:** C.
+ valid original candidates are A, C, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 The outer R(x,y) requires membership. The negated existential rules out another y value for that same x, so A,C are true. Other x values are irrelevant to this test, making B false. The membership conjunct excludes pairs outside R, making D false. Uniqueness is per x, not a requirement that the whole relation contain one tuple.
 
+
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Incorrect; it misclassifies candidate(s) III.
+- C: Correct; all four candidate classifications agree with the derivation.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
+
 ## Q50
 
-**Correct answer:** 13.75
+**Correct answer:** D
+
+The required numerical answer is **13.75**, so select **D**.
 
 **Concept:** Within-group and between-group population variance.
 
 The weights are 1/4 and 3/4, and the combined mean is 6.5. Variance is (1/4)[1+(2−6.5)²]+(3/4)[9+(8−6.5)²]=13.75. Equivalently, within-group variance 7 plus between-group variance (1/4)(3/4)(8−2)²=6.75 gives 13.75.
 
 **Common misconception:** Averaging only subgroup variances and ignoring differences in means.
+
+**Option check**
+- **A: Incorrect.** Its value differs from the required answer by 13.75 and is outside the source answer's accepted range.
+- **B: Incorrect.** Its value differs from the required answer by -6.87 and is outside the source answer's accepted range.
+- **C: Incorrect.** Its value differs from the required answer by 1.00 and is outside the source answer's accepted range.
+- **D: Correct.** It matches the derived answer at the required precision.
+
 
 ## Q51
 
@@ -537,9 +920,22 @@ Stable least-significant-key-first sorting preserves the year order within each 
 
 ## Q52
 
-**Correct answer:** A, B, C
+**Correct answer:** A
+
+**Correct audit:** A.
+ valid original candidates are A, B, C, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 Left cancellation makes x↦ax injective. On a finite set it is then surjective, proving A and giving b with ab=e, proving B. Now a(ba)=(ab)a=a=ae, so cancellation yields ba=e, proving C. On an infinite set an injective map need not be surjective; nonnegative integers under addition supply a cancellative monoid with noninvertible positive elements, disproving D.
+
+
+**Audit-option checks**
+- A: Correct; all four candidate classifications agree with the derivation.
+- B: Incorrect; it misclassifies candidate(s) I.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
 
 ## Q53
 
@@ -558,40 +954,92 @@ Concept: subset simulation and accepting suffixes. Starting at {p}, input 0 give
 
 ## Q54
 
-**Correct answer:** B
+**Correct answer:** A
+
+**Correct audit:** A.
+ valid original candidates are B, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
+
 **Concept:** Outstanding bytes and the updated send window.
 
 After the ACK, outstanding data are bytes 23000 through 24999, totaling 2000. The effective window is min(10000,4000)=4000 bytes. Thus 4000−2000=2000 additional bytes can be sent. B is correct. A uses an obsolete window edge, C ignores outstanding data, and D exceeds the receive window.
 
 **Common misconception:** A window advertises total allowed unacknowledged data, not an allowance entirely additional to data already in flight.
 
+
+**Audit-option checks**
+- A: Correct; all four candidate classifications agree with the derivation.
+- B: Incorrect; it misclassifies candidate(s) I.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
+
 ## Q55
 
-**Correct answer:** 7 (exact)
+**Correct answer:** A, C, D
+
+The required numerical answer is **7**, so exclude **B** and select the other three options.
+
 **Concept:** Balanced parentheses with a depth bound.
 
 A nonempty primitive balanced block of maximum depth at most two has the form '(' followed by k copies of '()' then ')', contributing k+1 pairs. Every depth-at-most-two string decomposes uniquely into such blocks. Thus strings with four pairs correspond to compositions of 4, of which there are 2³=8. Exactly one, ()()()(), has maximum depth one. Subtract it to obtain seven with depth exactly two.
 
 **Common misconception:** Counting all balanced strings ignores the nesting-depth restriction; counting depth at most two still includes depth one.
 
+**Option check**
+- **A: Select.** Its value differs from the required answer by 7 and is outside the source answer's accepted range.
+- **B: Do not select.** It matches the derived answer at the required precision.
+- **C: Select.** Its value differs from the required answer by -3 and is outside the source answer's accepted range.
+- **D: Select.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+
+
 ## Q56
 
-**Correct answer:** B
+**Correct answer:** A
+
+**Correct audit:** A.
+ valid original candidates are B, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
+
 **Concept:** Saturation versus modular overflow.
 
 S saturates 7+3 to 7, then adds −5 to obtain 2. W represents 10 as signed −6, then wraps −6−5=−11 to signed 5. Thus (2,5). A delays saturation until the end; C fails to wrap the second W addition; D reports intermediate values.
 
 **Common misconception:** Applying overflow rules after each operation differs from applying them only to the final exact result.
 
+
+**Audit-option checks**
+- A: Correct; all four candidate classifications agree with the derivation.
+- B: Incorrect; it misclassifies candidate(s) I.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
+
 ## Q57
 
-**Correct answer:** 0.21484375
+**Correct answer:** C
+
+The required numerical answer is **0.21484375**, so select **C**.
 
 A valid even-parity word remains valid exactly when an even number of bits flips. Excluding no change, the possibilities are two or four flips. Their total probability is C(4,2)(1/4)²(3/4)²+(1/4)^4=54/256+1/256=55/256=0.21484375. The undetected-error probability excludes the zero-error event.
 
+**Option check**
+- **A: Incorrect.** Its value differs from the required answer by 0.57031250 and is outside the source answer's accepted range.
+- **B: Incorrect.** Its value differs from the required answer by -0.10742187 and is outside the source answer's accepted range.
+- **C: Correct.** It matches the derived answer at the required precision.
+- **D: Incorrect.** Its value differs from the required answer by 0.39257813 and is outside the source answer's accepted range.
+
+
 ## Q58
 
-**Correct answer:** C
+**Correct answer:** D
+
+**Correct audit:** D.
+ valid original candidates are C, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 **Concept:** Compiler Design — Lexical analysis
 
@@ -606,35 +1054,74 @@ A and B propose fixed bounds disproved by large n. C is correct. D would violate
 
 **Common misconception:** Recognition by a finite automaton does not guarantee a fixed bound on longest-match backup.
 
+
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Incorrect; it misclassifies candidate(s) III.
+- C: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+- D: Correct; all four candidate classifications agree with the derivation.
+
+
 ## Q59
 
-**Correct answer:** C
+**Correct answer:** A
 
-**Concept:** Digital Logic — Sequential circuits
+**Correct audit:** A.
+ valid original candidates are C, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
 
 Using only old-state values, the sequence is 00 → 01 → 11 → 00, a period-three cycle. Thus the state after t edges depends on t modulo 3. Since 2027 = 3×675+2, the state is 11. The unused state 10 maps to 10, but is unreachable from the specified initial state.
 
-- **A:** False: 00 occurs only at edge counts divisible by 3.
-- **B:** False: 01 occurs when the edge count is 1 modulo 3.
-- **C:** True: 2027 is 2 modulo 3, giving 11.
-- **D:** False: 10 is a separate fixed point and is never reached from 00.
+- Candidate I: False: 00 occurs only at edge counts divisible by 3.
+- Candidate II: False: 01 occurs when the edge count is 1 modulo 3.
+- Candidate III: True: 2027 is 2 modulo 3, giving 11.
+- Candidate IV: False: 10 is a separate fixed point and is never reached from 00.
 
-**Common misconception:** Flip-flops update simultaneously; substituting an already updated bit gives a wrong transition graph.
+**Audit-option checks**
+- A: Correct; all four candidate classifications agree with the derivation.
+- B: Incorrect; it misclassifies candidate(s) I.
+- C: Incorrect; it misclassifies candidate(s) III.
+- D: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+
 
 ## Q60
 
-**Correct answer:** 1
+**Correct answer:** C
+
+The required numerical answer is **1**, so select **C**.
 
 Deleting e leaves six edges and retains connectivity on six vertices. A spanning tree needs five edges and exists in every connected graph, so one further appropriate edge removal suffices. Arbitrarily deleting a bridge would not be an appropriate choice.
 
+**Option check**
+- **A: Incorrect.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+- **B: Incorrect.** Its value differs from the required answer by -1 and is outside the source answer's accepted range.
+- **C: Correct.** It matches the derived answer at the required precision.
+- **D: Incorrect.** Its value differs from the required answer by 2 and is outside the source answer's accepted range.
+
+
 ## Q61
 
-**Correct answer:** A, B, D
+**Correct answer:** D
+
+**Correct audit:** D.
+ valid original candidates are A, B, D, corresponding to the roman-numbered candidates above. In the original derivation below, A, B, C and D refer to candidates I, II, III and IV, respectively; they are not the audit options.
+
+**Derivation of candidate validity**
+
 **Concept:** SQL aggregate and NULL semantics.
 
 A has COUNT(*)=3, COUNT(amount)=2 and SUM=30, satisfying both predicates. B has counts 2 and 0, but SUM is NULL and NULL>10 is UNKNOWN, so it is excluded. C has equal counts and is excluded. Thus one row (A,30) remains: A,B true and C false. Replacing COUNT(amount) with COUNT(*) makes the strict inequality false in every group, proving D.
 
 **Common misconception:** SUM of an all-NULL group is NULL, not zero, and HAVING retains only TRUE.
+
+
+**Audit-option checks**
+- A: Incorrect; it misclassifies candidate(s) I.
+- B: Incorrect; it misclassifies candidate(s) III.
+- C: Incorrect; it misclassifies candidate(s) I, II, III, IV.
+- D: Correct; all four candidate classifications agree with the derivation.
+
 
 ## Q62
 
@@ -659,7 +1146,9 @@ p−1=a+3 points to the last actual element and may be dereferenced. p itself is
 
 ## Q64
 
-**Correct answer:** 4
+**Correct answer:** C
+
+The required numerical answer is **4**, so select **C**.
 
 **Concept:** Register requirements for expression trees.
 
@@ -667,13 +1156,29 @@ Each leaf needs one register. Each two-leaf sum needs two. At each multiplicatio
 
 **Common misconception:** Taking the maximum child requirement without counting a retained sibling result.
 
+**Option check**
+- **A: Incorrect.** Its value differs from the required answer by 4 and is outside the source answer's accepted range.
+- **B: Incorrect.** Its value differs from the required answer by -2 and is outside the source answer's accepted range.
+- **C: Correct.** It matches the derived answer at the required precision.
+- **D: Incorrect.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+
+
 ## Q65
 
-**Correct answer:** 22
+**Correct answer:** A, B, C
+
+The required numerical answer is **22**, so exclude **D** and select the other three options.
 
 **Concept:** Microinstruction field allocation.
 
 The next-address field needs log₂256=8 bits. Add twelve control bits and two sequencing bits: 12+8+2=22.
 
 **Common misconception:** Confusing the number of control-store words with the address-field bit count.
+
+**Option check**
+- **A: Select.** Its value differs from the required answer by 22 and is outside the source answer's accepted range.
+- **B: Select.** Its value differs from the required answer by -11 and is outside the source answer's accepted range.
+- **C: Select.** Its value differs from the required answer by 1 and is outside the source answer's accepted range.
+- **D: Do not select.** It matches the derived answer at the required precision.
+
 

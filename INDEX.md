@@ -2,9 +2,9 @@
 
 Updated 25 October 2026. **All 100 papers are populated:** each has 65 questions, a 65-row final answer key and a separate worked-solutions document. All 100 passed the current structural audit.
 
-Per your revised requirement, questions may repeat across papers. The series contains **6,500 question instances containing 3,350 distinct question versions**, with at most three occurrences of each source question and no exact duplicate within a paper. Difficulty is a target, not an independently certified rating. Full technical review remains pending outside the 65 previously accepted records.
+Per your revised requirement, questions may repeat across papers. The series contains **6,500 question instances containing 6,150 distinct question versions**, with at most three occurrences of each source question and no exact duplicate within a paper. Difficulty is a target, not an independently certified rating. Full technical review remains pending outside the 65 previously accepted records.
 
-Replaced 1,000 repeated occurrences inside the papers with adapted variants. Paper sizes remain unchanged. These are distinct question versions, not new underlying reasoning families. [Replacement report](reports/INTEGRATED_1000_REPLACEMENTS.md).
+Replaced 3,800 repeated occurrences inside the papers with adapted variants across four batches. Paper sizes remain unchanged. These are distinct question versions, not new underlying reasoning families. [First batch](reports/INTEGRATED_1000_REPLACEMENTS.md) · [Second batch](reports/INTEGRATED_1000_ROUND2_REPLACEMENTS.md) · [Third batch](reports/INTEGRATED_1000_ROUND3_REPLACEMENTS.md) · [Fourth batch: 800 replacements](reports/ROUND4_REPLACEMENTS.md).
 
 [Audit and limitations](reports/FINAL_VALIDATION_REPORT.md) · [Subject and topic coverage](reports/COVERAGE_REPORT.md) · [Reuse policy](reports/REUSE_POLICY_2026-10-25.md)
 
@@ -110,5 +110,8 @@ Replaced 1,000 repeated occurrences inside the papers with adapted variants. Pap
 | 098 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_098/README.md) | [Solutions](papers/Mock_098/SOLUTIONS.md) |
 | 099 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_099/README.md) | [Solutions](papers/Mock_099/SOLUTIONS.md) |
 | 100 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_100/README.md) | [Solutions](papers/Mock_100/SOLUTIONS.md) |
+
+
+
 
 

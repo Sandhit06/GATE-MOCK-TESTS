@@ -33,11 +33,18 @@ B. Endpoint journey speed alone does not describe every passenger's experience.
 C. Every intermediate-stop passenger necessarily has a longer total journey.  
 D. Reduced stopping frequency may increase some waiting times.
 
-### Q2. [1 Mark] [NAT]
+### Q2. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Five distinct books A,B,C,D,E are placed in a row. A must appear somewhere before B, and C and D must not be adjacent. How many arrangements satisfy both conditions?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 36  
+B. 72  
+C. 18  
+D. 37
 
 ### Q3. [1 Mark] [NAT]
 
@@ -71,11 +78,18 @@ B. Repeating the measurements
 C. Recalibrating the instrument  
 D. Discarding the original readings
 
-### Q6. [2 Marks] [NAT]
+### Q6. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Two rectangular sheets occupy [0,4]×[0,2] and [2,6]×[1,3] in a coordinate plane. Their overlap is glued and becomes internal to the combined flat shape. What is the perimeter of their union?
 
-**Answer format:** Integer length units.
+**Required precision:** Integer length units.
+
+A. 36  
+B. 9  
+C. 19  
+D. 18
 
 ### Q7. [2 Marks] [MSQ]
 
@@ -90,39 +104,71 @@ B. The evidence offered some support, so the recommendation remained open to rev
 C. The evidence disproved the claim, so the recommendation was withdrawn.  
 D. The evidence was irrelevant, so the recommendation was unanimous.
 
-### Q8. [2 Marks] [NAT]
+### Q8. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Two positive numbers have product 64 and satisfy log₂x−log₂y=2. Find x+y.
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 20  
+B. 40  
+C. 10  
+D. 21
 
 ### Q9. [2 Marks] [MCQ]
 
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
+
 A square's side is increased by 10%. A circle's radius is increased by 10%. Which pair gives the percentage increases in their areas?
 
-A. 10%,10%
-B. 20%,20%
-C. 21%,21%
-D. 21%,10%
+**Candidate answers**
+I. 10%,10%
+II. 20%,20%
+III. 21%,21%
+IV. 21%,10%
 
-### Q10. [2 Marks] [NAT]
+A. I: valid; II: invalid; III: valid; IV: invalid  
+B. I: invalid; II: invalid; III: invalid; IV: invalid  
+C. I: invalid; II: invalid; III: valid; IV: invalid  
+D. I: valid; II: valid; III: invalid; IV: valid
+
+### Q10. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A 4×4 grid of unit squares is coloured like a chessboard, with adjacent squares having opposite colours. How many axis-aligned 2×2 subgrids contain exactly two squares of each colour?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
----
+A. 18  
+B. 5  
+C. 10  
+D. 9
 
 ## Section B — Computer Science and Engineering Mathematics
 
 ### Q11. [1 Mark] [MCQ]
 
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
+
 A circular singly linked list has traversal 1→2→3→4→1, and tail points to node 4. Execute tail.next=tail.next.next. Then insert a new node 5 immediately after tail and set tail to this new node. What traversal starts at the new head tail.next?
 
-A. 1,2,3,4,5  
-B. 5,2,3,4  
-C. 2,3,4,5  
-D. 2,3,5,4
+**Candidate answers**
+I. 1,2,3,4,5
+II. 5,2,3,4
+III. 2,3,4,5
+IV. 2,3,5,4
+
+A. I: valid; II: invalid; III: valid; IV: invalid  
+B. I: invalid; II: invalid; III: invalid; IV: invalid  
+C. I: invalid; II: invalid; III: valid; IV: invalid  
+D. I: valid; II: valid; III: invalid; IV: valid
 
 ### Q12. [1 Mark] [MCQ]
 
@@ -169,23 +215,44 @@ B. III and IV
 C. I and II  
 D. I and IV
 
-### Q15. [1 Mark] [NAT]
+### Q15. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 For x≠1, f(x)=(x³−1)/(x−1). What value must be assigned to f(1) to make f continuous at1?
 
-**Answer format:** Exact number.
+**Required precision:** Exact number.
 
-### Q16. [1 Mark] [NAT]
+A. 3  
+B. 6  
+C. 2  
+D. 4
+
+### Q16. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A random variable X takes values 0,1,2 with probabilities1/4,1/2,1/4. Define Y=1 if X=1, and Y=0 otherwise. What is the covariance Cov(X,Y)?
 
-**Answer format:** Exact integer.
+**Required precision:** Exact integer.
 
-### Q17. [1 Mark] [NAT]
+A. 1  
+B. 2  
+C. 0  
+D. 3
+
+### Q17. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A four-input priority encoder gives highest priority to D3, then D2, D1,D0, and outputs the two-bit index of the highest asserted input. Its validity output is one whenever any input is one. How many four-bit input patterns produce code 10 with validity one?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 8  
+B. 2  
+C. 5  
+D. 4
 
 ### Q18. [1 Mark] [MSQ]
 
@@ -202,18 +269,35 @@ D. Every feasible solution uses three coins.
 
 ### Q19. [1 Mark] [MCQ]
 
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
+
 A positive-edge-triggered D flip-flop has asynchronous active-low reset. Its clock remains low while reset is asserted. What happens to Q?
 
-A. Q resets without waiting for a rising clock edge.
-B. Q can change only at the next rising edge, even under reset.
-C. Q must toggle repeatedly while reset remains asserted.
-D. Q becomes equal to the complement of D.
+**Candidate answers**
+I. Q resets without waiting for a rising clock edge.
+II. Q can change only at the next rising edge, even under reset.
+III. Q must toggle repeatedly while reset remains asserted.
+IV. Q becomes equal to the complement of D.
 
-### Q20. [1 Mark] [NAT]
+A. I: invalid; II: invalid; III: invalid; IV: invalid  
+B. I: valid; II: invalid; III: invalid; IV: invalid  
+C. I: valid; II: invalid; III: valid; IV: invalid  
+D. I: invalid; II: valid; III: valid; IV: valid
+
+### Q20. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A binary buddy allocator manages a contiguous1024-byte region and rounds each allocation up to a power of two. Four256-byte blocks at offsets0,256,512,768 are allocated. The blocks at offsets0 and512 are then freed; the others remain allocated. With no relocation, what is the largest single allocation request, in bytes, that can now be satisfied?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 512  
+B. 128  
+C. 257  
+D. 256
 
 ### Q21. [1 Mark] [MSQ]
 
@@ -246,43 +330,88 @@ B. {A→C, B→C}
 C. {A→B, A→C}  
 D. {A→BC}
 
-### Q23. [1 Mark] [MSQ]
+### Q23. [1 Mark] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 L is a Turing-recognizable language, and the halting problem has a computable many-one reduction to L. Which statements must hold?
 
-A. L is undecidable.  
-B. L is not Turing-recognizable.  
-C. The complement of L is not Turing-recognizable.  
-D. The reduction gives a total decision procedure for L.
+**Candidate answers**
+I. L is undecidable.
+II. L is not Turing-recognizable.
+III. The complement of L is not Turing-recognizable.
+IV. The reduction gives a total decision procedure for L.
 
-### Q24. [1 Mark] [NAT]
+A. I: valid; II: invalid; III: valid; IV: invalid  
+B. I: invalid; II: invalid; III: valid; IV: invalid  
+C. I: valid; II: invalid; III: invalid; IV: invalid  
+D. I: invalid; II: valid; III: invalid; IV: valid
+
+### Q24. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 In a collision-detection network, the maximum one-way propagation delay is20 microseconds. A sender must still be transmitting when a worst-case collision indication returns. At10 megabits per second, what is the minimum frame length, in bits, required by this timing condition alone?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q25. [1 Mark] [NAT]
+A. 800  
+B. 200  
+C. 400  
+D. 401
+
+### Q25. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 An empty stack processes push(1),push(2),pop,push(3),pop,pop. What is the sum of the three popped values?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q26. [1 Mark] [NAT]
+A. 12  
+B. 6  
+C. 3  
+D. 7
+
+### Q26. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Starting with [1,2,3,4,5,6], perform a stable partition that puts all even values before all odd values while preserving order within each group. Only swaps of adjacent elements are permitted. What is the minimum number of swaps?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q27. [1 Mark] [MSQ]
+A. 12  
+B. 3  
+C. 7  
+D. 6
+
+### Q27. [1 Mark] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 Functions f:A→B and g:B→C have injective composition g∘f. Which statements necessarily follow?
 
-A. f is injective.
-B. g is injective on all of B.
-C. g is injective when restricted to f(A).
-D. f is surjective onto B.
+**Candidate answers**
+I. f is injective.
+II. g is injective on all of B.
+III. g is injective when restricted to f(A).
+IV. f is surjective onto B.
 
-### Q28. [1 Mark] [MSQ]
+A. I: valid; II: invalid; III: valid; IV: invalid  
+B. I: invalid; II: invalid; III: valid; IV: invalid  
+C. I: valid; II: invalid; III: invalid; IV: invalid  
+D. I: invalid; II: valid; III: invalid; IV: valid
+
+### Q28. [1 Mark] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 The following code operates on ordinary integer variables; assignment copies a value and does not create an alias.
 
@@ -295,22 +424,42 @@ z = y + x
 
 Which statements are correct?
 
-A. z is13.
-B. y is9 at the end.
-C. The value assigned by the first line contributes to z.
-D. Changing x on line3 also changes y.
+**Candidate answers**
+I. z is13.
+II. y is9 at the end.
+III. The value assigned by the first line contributes to z.
+IV. Changing x on line3 also changes y.
 
-### Q29. [1 Mark] [NAT]
+A. I: invalid; II: invalid; III: valid; IV: invalid  
+B. I: valid; II: invalid; III: invalid; IV: invalid  
+C. I: invalid; II: valid; III: invalid; IV: valid  
+D. I: valid; II: invalid; III: valid; IV: invalid
+
+### Q29. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Let A be the real matrix with rows (0,−1),(1,0), and I the 2×2 identity. What is det(I+A+A²)?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q30. [1 Mark] [NAT]
+A. 2  
+B. 0  
+C. 3  
+D. 1
+
+### Q30. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A scalar five-stage pipeline issues one instruction each cycle when unobstructed. A taken branch incurs two lost issue cycles; an untaken branch incurs none. An execution contains100 instructions, including20 branches, of which12 are taken. Ignore pipeline filling and draining and assume no other stalls. How many issue cycles are needed?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 248  
+B. 62  
+C. 124  
+D. 125
 
 ### Q31. [1 Mark] [NAT]
 
@@ -327,44 +476,89 @@ B. Equal key values in every internal node.
 C. One separate root per leaf.
 D. Absence of separators in internal nodes.
 
-### Q33. [1 Mark] [NAT]
+### Q33. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Eight-bit two's-complement fixed-point words have four fractional bits. Add raw words 0xC8 and 0x34 using eight-bit addition. What real value does the resulting word represent?
 
-**Answer format:** Exact finite decimal, possibly negative.
+**Required precision:** Exact finite decimal, possibly negative.
 
-### Q34. [1 Mark] [NAT]
+A. -0.50  
+B. -0.13  
+C. 0.75  
+D. -0.25
+
+### Q34. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 For x>0, f(x)=ln x−x/2. At what x does f attain its global maximum?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q35. [1 Mark] [NAT]
+A. 4  
+B. 1  
+C. 2  
+D. 3
+
+### Q35. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A complete DFA has states0,1,2. Reading a sends0→1,1→2,2→2. Reading b leaves every state unchanged. A reset word sends all three possible starting states to the same state. What is the length of a shortest reset word?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q36. [2 Marks] [NAT]
+A. 4  
+B. 1  
+C. 2  
+D. 3
+
+### Q36. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Grammar E→E+E | E*E | n allows all binary parenthesizations and specifies no precedence. Each n is a numeric literal with its usual value; + and * have ordinary integer meanings. How many distinct numerical values arise from parse trees for `1+2*3+4`?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q37. [2 Marks] [NAT]
+A. 8  
+B. 2  
+C. 4  
+D. 5
+
+### Q37. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A box is chosen uniformly from two boxes, GG containing two gold coins and GS containing one gold and one silver coin. Consider two observation protocols. In protocol U, an inspector picks one coin uniformly and shows it. In protocol P, the inspector always shows a gold coin if the chosen box has one. Under each protocol a gold coin is shown. By how much does P(GG | shown gold, protocol U) exceed P(GG | shown gold, protocol P)?
 
-**Answer format:** Decimal rounded to four places.
+**Required precision:** Decimal rounded to four places.
+
+A. 0.8333  
+B. 0.1667  
+C. 0.0834  
+D. 0.5834
 
 ### Q38. [2 Marks] [MCQ]
 
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
+
 An eight-bit ALU compares signed two's-complement operands A=0x80 and B=0x01 by computing A−B modulo 256. Let N be the result's sign bit, V the signed subtraction-overflow flag, and L the correct signed-less-than result. Which triple (N,V,L) is correct?
 
-A. (1,0,1)
-B. (0,0,0)
-C. (1,1,0)
-D. (0,1,1)
+**Candidate answers**
+I. (1,0,1)
+II. (0,0,0)
+III. (1,1,0)
+IV. (0,1,1)
+
+A. I: valid; II: invalid; III: invalid; IV: valid  
+B. I: invalid; II: invalid; III: invalid; IV: valid  
+C. I: invalid; II: invalid; III: valid; IV: valid  
+D. I: valid; II: valid; III: valid; IV: invalid
 
 ### Q39. [2 Marks] [MCQ]
 
@@ -389,26 +583,50 @@ B. III and IV
 C. I and II  
 D. I and III
 
-### Q40. [2 Marks] [NAT]
+### Q40. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A binary floating-point system retains three significant bits including the leading 1, has unbounded exponent range, and rounds each addition to nearest with ties to an even last retained bit. Let fl denote this rounding. For a=8, b=1, c=−8, what is fl(a+fl(b+c))−fl(fl(a+b)+c)? All three operands are represented exactly.
 
-**Answer format:** Exact integer.
+**Required precision:** Exact integer.
 
-### Q41. [2 Marks] [MSQ]
+A. 1  
+B. 2  
+C. 0  
+D. 3
+
+### Q41. [2 Marks] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 Let F(x,y,z)=xy+yz+zx using Boolean AND and OR. Define its Boolean difference with respect to x as F(0,y,z) XOR F(1,y,z). Which statements are correct?
 
-A. The difference equals y+z.
-B. The difference equals y XOR z.
-C. The difference is independent of x.
-D. The difference equals yz.
+**Candidate answers**
+I. The difference equals y+z.
+II. The difference equals y XOR z.
+III. The difference is independent of x.
+IV. The difference equals yz.
 
-### Q42. [2 Marks] [NAT]
+A. I: valid; II: valid; III: valid; IV: invalid  
+B. I: invalid; II: valid; III: valid; IV: invalid  
+C. I: invalid; II: valid; III: invalid; IV: invalid  
+D. I: valid; II: invalid; III: invalid; IV: valid
+
+### Q42. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A microinstruction controls three mutually exclusive groups containing 5,3 and 9 signals respectively. In each group, at most one signal may be asserted, and “none” is also needed. A fully encoded design gives each group its own minimum-width binary field. There are also four independent control signals represented by one bit each. How many control bits are required, excluding sequencing and address fields?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 26  
+B. 7  
+C. 13  
+D. 14
 
 ### Q43. [2 Marks] [MCQ]
 
@@ -423,16 +641,28 @@ B. Exactly six elements of L have at least one complement.
 C. L has exactly two order automorphisms.  
 D. The join of {a} and {b} is {a,b,c}.
 
-### Q44. [2 Marks] [MSQ]
+### Q44. [2 Marks] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 Starting with three empty page frames, process the reference string 1,2,3,1,4,2,5. Which statements are correct?
 
-A. FIFO incurs five page faults.  
-B. LRU incurs six page faults.  
-C. This example proves FIFO never faults more often than LRU on any reference string.  
-D. Increasing the frame count cannot increase LRU's faults for a fixed reference string starting empty.
+**Candidate answers**
+I. FIFO incurs five page faults.
+II. LRU incurs six page faults.
+III. This example proves FIFO never faults more often than LRU on any reference string.
+IV. Increasing the frame count cannot increase LRU's faults for a fixed reference string starting empty.
 
-### Q45. [2 Marks] [NAT]
+A. I: invalid; II: valid; III: invalid; IV: valid  
+B. I: valid; II: valid; III: invalid; IV: valid  
+C. I: valid; II: valid; III: valid; IV: valid  
+D. I: invalid; II: invalid; III: valid; IV: invalid
+
+### Q45. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 For this straight-line block, return is the only observable use after the last assignment. Count named scalar variables only, not constants or temporary arithmetic results.
 
@@ -447,7 +677,12 @@ return d
 
 What is the maximum number of simultaneously live named variables immediately after any assignment in this block?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 2  
+B. 4  
+C. 1  
+D. 3
 
 ### Q46. [2 Marks] [MSQ]
 
@@ -484,14 +719,24 @@ B. Two negative operands produce a nonnegative result.
 C. A positive and a negative operand produce a negative result.  
 D. The carry into the sign bit differs from the carry out of the sign bit.
 
-### Q49. [2 Marks] [MSQ]
+### Q49. [2 Marks] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 The input sequence 1,2,3,4,5 is passed through one stack. Each input may be pushed only in this order; a pop emits the current top. Which output permutations are possible?
 
-A. 3,2,1,5,4
-B. 3,1,2,4,5
-C. 2,4,3,5,1
-D. 4,2,3,1,5
+**Candidate answers**
+I. 3,2,1,5,4
+II. 3,1,2,4,5
+III. 2,4,3,5,1
+IV. 4,2,3,1,5
+
+A. I: invalid; II: invalid; III: valid; IV: invalid  
+B. I: valid; II: invalid; III: valid; IV: invalid  
+C. I: valid; II: invalid; III: invalid; IV: invalid  
+D. I: invalid; II: valid; III: invalid; IV: valid
 
 ### Q50. [2 Marks] [MCQ]
 
@@ -539,68 +784,140 @@ B. I and II
 C. I and III  
 D. I and IV
 
-### Q52. [2 Marks] [MSQ]
+### Q52. [2 Marks] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 A simple undirected graph has vertices A,B,C,D,E,F. Each edge of triangle ABC and each edge of triangle DEF has weight 1. Edges AD, BE and CF have weight 2, and edge AE has weight 3. There are no other edges. Two spanning trees are distinct when their edge sets differ. Which statements are correct?
 
-A. The minimum spanning-tree weight is 6.  
-B. There are exactly 27 minimum spanning trees.  
-C. There are exactly 45 spanning trees of weight 7.  
-D. Every spanning tree of weight 7 uses exactly two weight-2 edges.
+**Candidate answers**
+I. The minimum spanning-tree weight is 6.
+II. There are exactly 27 minimum spanning trees.
+III. There are exactly 45 spanning trees of weight 7.
+IV. Every spanning tree of weight 7 uses exactly two weight-2 edges.
 
-### Q53. [2 Marks] [NAT]
+A. I: invalid; II: valid; III: valid; IV: invalid  
+B. I: valid; II: valid; III: valid; IV: invalid  
+C. I: valid; II: valid; III: invalid; IV: invalid  
+D. I: invalid; II: invalid; III: invalid; IV: valid
+
+### Q53. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Five distinguishable bins each hold at most two identical tokens. In how many ways can exactly five tokens be distributed among the bins?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q54. [2 Marks] [NAT]
+A. 102  
+B. 26  
+C. 52  
+D. 51
+
+### Q54. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 An expression parser uses grammar E→E−E | num. It resolves every shift/reduce conflict on `−` by shifting. What value does it assign to `20−5−3` using exact arithmetic?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q55. [2 Marks] [NAT]
+A. 36  
+B. 18  
+C. 9  
+D. 19
+
+### Q55. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A binary min-heap with distinct keys has array[1,4,2,8,5,3,7], using one-based indexing. Delete the minimum by moving the last key to the root, reducing the size, then repeatedly swapping it with its smaller child while needed. Then insert key0 by bubbling it upward. What key occupies array index3 after both operations?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q56. [2 Marks] [MSQ]
+A. 2  
+B. 4  
+C. 1  
+D. 3
+
+### Q56. [2 Marks] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 An inode contains four direct pointers, one single-indirect pointer and one double-indirect pointer. A block is 1024 bytes and each pointer is 4 bytes. Indirect blocks contain only pointers. A nonsparse file contains exactly 263 completely full data blocks, numbered logically from 0. Allocate only the indirect blocks needed for these data blocks. The inode is already in memory. Which statements are correct?
 
-A. Exactly three indirect blocks are allocated.  
-B. With no other blocks cached, reading the data in logical block 260 requires three block reads, including the data block.  
-C. Logical block 259 is reached through the double-indirect pointer.  
-D. The file contains 269312 bytes of data.
+**Candidate answers**
+I. Exactly three indirect blocks are allocated.
+II. With no other blocks cached, reading the data in logical block 260 requires three block reads, including the data block.
+III. Logical block 259 is reached through the double-indirect pointer.
+IV. The file contains 269312 bytes of data.
 
-### Q57. [2 Marks] [NAT]
+A. I: invalid; II: valid; III: invalid; IV: valid  
+B. I: valid; II: valid; III: valid; IV: valid  
+C. I: valid; II: valid; III: invalid; IV: valid  
+D. I: invalid; II: invalid; III: valid; IV: invalid
+
+### Q57. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Evaluate the integral from0 to2 of |x²−1| with respect to x.
 
-**Answer format:** Exact number.
+**Required precision:** Exact number.
+
+A. 2  
+B. 4  
+C. 1  
+D. 3
 
 ### Q58. [2 Marks] [MCQ]
 
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
+
 After a successful fork, both processes execute `counter++`, where counter was an ordinary private global integer equal to 5 before fork. There is no shared-memory mapping. After both increments, what are their counter values?
 
-A. Each process has value 6 in its own address space.
-B. Both necessarily observe a shared value 7.
-C. The child must have value 1.
-D. The parent must retain value 5.
+**Candidate answers**
+I. Each process has value 6 in its own address space.
+II. Both necessarily observe a shared value 7.
+III. The child must have value 1.
+IV. The parent must retain value 5.
 
-### Q59. [2 Marks] [NAT]
+A. I: invalid; II: invalid; III: invalid; IV: invalid  
+B. I: valid; II: invalid; III: invalid; IV: invalid  
+C. I: valid; II: invalid; III: valid; IV: invalid  
+D. I: invalid; II: valid; III: valid; IV: valid
+
+### Q59. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Starting from an empty queue, execute enqueue 1, enqueue 2, dequeue, enqueue 3, enqueue 4, dequeue, enqueue 5. Transfer the remaining queue elements to an initially empty stack by repeatedly dequeuing and pushing. Then pop the entire stack and interpret the emitted digits as a decimal integer. What integer is obtained?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q60. [2 Marks] [NAT]
+A. 543  
+B. 1086  
+C. 272  
+D. 544
+
+### Q60. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 An IPv4 datagram has a20-byte header and1800 bytes of payload. It traverses a link with MTU620 bytes, then one with MTU420 bytes. All fragments use20-byte headers; fragments are not reassembled between links. Each router makes each nonfinal fragment as large as permitted by eight-byte alignment. How many fragments reach the destination?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 6  
+B. 12  
+C. 3  
+D. 7
 
 ### Q61. [2 Marks] [MCQ]
 
@@ -615,104 +932,136 @@ B. The next token after'<<' is'='.
 C. The lexer must invent a'<<=' token because three symbols are adjacent.  
 D. Choosing'<' first would violate longest match among the stated tokens.
 
-### Q62. [2 Marks] [NAT]
+### Q62. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A network advertises exactly the address range10.8.0.0 through10.8.5.255, inclusive, using nonoverlapping CIDR prefixes and no addresses outside this range. What is the minimum number of prefixes required?
 
-**Answer format:** Exact integer.
+**Required precision:** Exact integer.
 
-### Q63. [2 Marks] [MSQ]
+A. 4  
+B. 1  
+C. 3  
+D. 2
+
+### Q63. [2 Marks] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 An ER model has entity Building with key building_id and weak entity Room with partial key room_no. Each Room belongs to exactly one Building; room_no is unique within a building but may repeat across buildings. Which statements are correct for the relational mapping?
 
-A. The pair(building_id,room_no) can identify Room rows.
-B. room_no alone is necessarily a candidate key of Room.
-C. A non-null foreign key from Room.building_id to Building implements the required owner reference, together with the appropriate Room key.
-D. Removing building_id from Room loses information needed to distinguish equally numbered rooms in different buildings.
+**Candidate answers**
+I. The pair(building_id,room_no) can identify Room rows.
+II. room_no alone is necessarily a candidate key of Room.
+III. A non-null foreign key from Room.building_id to Building implements the required owner reference, together with the appropriate Room key.
+IV. Removing building_id from Room loses information needed to distinguish equally numbered rooms in different buildings.
 
-### Q64. [2 Marks] [MSQ]
+A. I: invalid; II: invalid; III: valid; IV: valid  
+B. I: valid; II: invalid; III: invalid; IV: valid  
+C. I: valid; II: invalid; III: valid; IV: valid  
+D. I: invalid; II: valid; III: invalid; IV: invalid
+
+### Q64. [2 Marks] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 A16-bit memory interface consists of two independently enabled eight-bit banks. The low bank holds even byte addresses; the high bank holds odd byte addresses. One bus transaction accesses both bytes of one aligned two-byte word, and can enable either bank or both. Which statements are correct?
 
-A. An aligned two-byte load can be serviced in one transaction.
-B. A two-byte load starting at an odd address always fits in one aligned-word transaction.
-C. A byte store can preserve the other byte by enabling only its target bank.
-D. Changing endianness changes which numerical byte address is even.
+**Candidate answers**
+I. An aligned two-byte load can be serviced in one transaction.
+II. A two-byte load starting at an odd address always fits in one aligned-word transaction.
+III. A byte store can preserve the other byte by enabling only its target bank.
+IV. Changing endianness changes which numerical byte address is even.
 
-### Q65. [2 Marks] [NAT]
+A. I: valid; II: invalid; III: valid; IV: invalid  
+B. I: invalid; II: invalid; III: valid; IV: invalid  
+C. I: valid; II: invalid; III: invalid; IV: invalid  
+D. I: invalid; II: valid; III: invalid; IV: valid
+
+### Q65. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A three-variable Boolean function is1 on every input except000 and111. Product terms may cover only1-inputs. What is the minimum number of product terms in a sum-of-products implementation?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
----
+A. 6  
+B. 2  
+C. 4  
+D. 3
 
 ## ANSWER KEY — MOCK TEST 051
 
 | Question | Type | Marks | Correct Answer |
 |---|---|---|---|
 | 1 | MSQ | 1 | A, B, D |
-| 2 | NAT | 1 | 36 (exact) |
+| 2 | MCQ | 1 | A |
 | 3 | NAT | 1 | 80 |
 | 4 | MSQ | 1 | A, C, D |
 | 5 | MSQ | 1 | A, C, D |
-| 6 | NAT | 2 | 18 |
+| 6 | MCQ | 2 | D |
 | 7 | MSQ | 2 | A, C, D |
-| 8 | NAT | 2 | 20 |
+| 8 | MCQ | 2 | A |
 | 9 | MCQ | 2 | C |
-| 10 | NAT | 2 | 9 |
+| 10 | MCQ | 2 | D |
 | 11 | MCQ | 1 | C |
 | 12 | MCQ | 1 | B |
 | 13 | MSQ | 1 | A, C, D |
 | 14 | MCQ | 1 | A |
-| 15 | NAT | 1 | 3 |
-| 16 | NAT | 1 | 0 |
-| 17 | NAT | 1 | 4 |
+| 15 | MSQ | 1 | B, C, D |
+| 16 | MSQ | 1 | A, B, D |
+| 17 | MSQ | 1 | A, B, C |
 | 18 | MSQ | 1 | A, C, D |
-| 19 | MCQ | 1 | A |
-| 20 | NAT | 1 | 256 |
+| 19 | MCQ | 1 | B |
+| 20 | MCQ | 1 | D |
 | 21 | MSQ | 1 | B, C, D |
 | 22 | MSQ | 1 | B, C, D |
-| 23 | MSQ | 1 | A, C |
-| 24 | NAT | 1 | 400 |
-| 25 | NAT | 1 | 6 |
-| 26 | NAT | 1 | 6 |
-| 27 | MSQ | 1 | A, C |
-| 28 | MSQ | 1 | A, C |
-| 29 | NAT | 1 | 1 |
-| 30 | NAT | 1 | 124 |
+| 23 | MCQ | 1 | A |
+| 24 | MCQ | 1 | C |
+| 25 | MCQ | 1 | B |
+| 26 | MCQ | 1 | D |
+| 27 | MCQ | 1 | A |
+| 28 | MCQ | 1 | D |
+| 29 | MCQ | 1 | D |
+| 30 | MSQ | 1 | A, B, D |
 | 31 | NAT | 1 | 92 |
 | 32 | MCQ | 1 | A |
-| 33 | NAT | 1 | -0.25 |
-| 34 | NAT | 1 | 2 |
-| 35 | NAT | 1 | 2 |
-| 36 | NAT | 2 | 4 |
-| 37 | NAT | 2 | 0.1667 (accepted range 0.16665–0.16675) |
-| 38 | MCQ | 2 | D |
+| 33 | MSQ | 1 | A, B, C |
+| 34 | MCQ | 1 | C |
+| 35 | MCQ | 1 | C |
+| 36 | MSQ | 2 | A, B, D |
+| 37 | MCQ | 2 | B |
+| 38 | MCQ | 2 | B |
 | 39 | MCQ | 2 | D |
-| 40 | NAT | 2 | 1 |
-| 41 | MSQ | 2 | B, C |
-| 42 | NAT | 2 | 13 |
+| 40 | MSQ | 2 | B, C, D |
+| 41 | MCQ | 2 | B |
+| 42 | MSQ | 2 | A, B, D |
 | 43 | MCQ | 2 | A |
-| 44 | MSQ | 2 | A, B, D |
-| 45 | NAT | 2 | 2 |
+| 44 | MCQ | 2 | B |
+| 45 | MCQ | 2 | A |
 | 46 | MSQ | 2 | A, C |
 | 47 | MSQ | 2 | B, C, D |
 | 48 | MCQ | 2 | C |
-| 49 | MSQ | 2 | A, C |
+| 49 | MCQ | 2 | B |
 | 50 | MCQ | 2 | D |
 | 51 | MCQ | 2 | C |
-| 52 | MSQ | 2 | A, B, C |
-| 53 | NAT | 2 | 51 |
-| 54 | NAT | 2 | 18 |
-| 55 | NAT | 2 | 2 |
-| 56 | MSQ | 2 | A, B, D |
-| 57 | NAT | 2 | 2 |
-| 58 | MCQ | 2 | A |
-| 59 | NAT | 2 | 543 |
-| 60 | NAT | 2 | 6 |
+| 52 | MCQ | 2 | B |
+| 53 | MSQ | 2 | A, B, C |
+| 54 | MSQ | 2 | A, C, D |
+| 55 | MSQ | 2 | B, C, D |
+| 56 | MCQ | 2 | C |
+| 57 | MCQ | 2 | A |
+| 58 | MCQ | 2 | B |
+| 59 | MSQ | 2 | B, C, D |
+| 60 | MSQ | 2 | B, C, D |
 | 61 | MCQ | 2 | C |
-| 62 | NAT | 2 | 2 |
-| 63 | MSQ | 2 | A, C, D |
-| 64 | MSQ | 2 | A, C |
-| 65 | NAT | 2 | 3 |
+| 62 | MCQ | 2 | D |
+| 63 | MCQ | 2 | C |
+| 64 | MCQ | 2 | A |
+| 65 | MSQ | 2 | A, B, C |

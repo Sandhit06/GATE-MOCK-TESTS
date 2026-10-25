@@ -43,11 +43,18 @@ B. III and IV
 C. I and II  
 D. I and IV
 
-### Q2. [1 Mark] [NAT]
+### Q2. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A paper strip has coordinate 0≤x≤8. Fold its part x>5 leftwards across x=5. Then fold every layer lying at x<3 rightwards across x=3. Punch through all layers at the resulting position x=4 and fully unfold. What is the mean of the original x-coordinates of all distinct punctures?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 10  
+B. 3  
+C. 5  
+D. 6
 
 ### Q3. [1 Mark] [MCQ]
 
@@ -62,11 +69,18 @@ B. Inspection immediately precedes approval.
 C. Publication is the last of these four events.  
 D. Exactly two orders of these four events satisfy the conditions.
 
-### Q4. [1 Mark] [NAT]
+### Q4. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A bag contains one red and three blue balls. They are drawn without replacement until the red ball appears. What is the expected total number of draws, including the red ball?
 
-**Answer format:** Exact decimal.
+**Required precision:** Exact decimal.
+
+A. 5.0  
+B. 1.3  
+C. 3.5  
+D. 2.5
 
 ### Q5. [1 Mark] [MCQ]
 
@@ -91,11 +105,18 @@ B. II and IV
 C. III and IV  
 D. I and II
 
-### Q6. [2 Marks] [NAT]
+### Q6. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A triangle has vertices A=(0,8),B=(−6,0),C=(6,0). Its orthocentre H is the intersection of its altitude lines. What is the y-coordinate of H?
 
-**Answer format:** Exact decimal.
+**Required precision:** Exact decimal.
+
+A. 9.0  
+B. 2.3  
+C. 5.5  
+D. 4.5
 
 ### Q7. [2 Marks] [MCQ]
 
@@ -120,39 +141,72 @@ B. III and IV
 C. I and II  
 D. II and III
 
-### Q8. [2 Marks] [NAT]
+### Q8. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 An urn contains three red and three blue balls. Two balls are drawn without replacement. If they have different colours, a prize of 6 units is paid; otherwise nothing is paid. What is the expected prize?
 
-**Answer format:** Exact finite decimal.
+**Required precision:** Exact finite decimal.
 
-### Q9. [2 Marks] [NAT]
+A. 7.2  
+B. 1.8  
+C. 3.6  
+D. 4.6
+
+### Q9. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A sequence starts a1=0. For each positive integer n, define a(n+1)=a(n)+n when n is odd and a(n+1)=a(n)−n when n is even. What is a101?
 
-**Answer format:** Integer, including a minus sign if needed.
+**Required precision:** Integer, including a minus sign if needed.
 
-### Q10. [2 Marks] [NAT]
+A. -100  
+B. -50  
+C. -25  
+D. -49
+
+### Q10. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Two axis-aligned squares each have side4. One occupies [0,4]×[0,4]. The other occupies [t,t+4]×[t,t+4], where0≤t≤4. Their union has area28. What is t?
 
-**Answer format:** Exact number.
+**Required precision:** Exact number.
 
----
+A. 2  
+B. 4  
+C. 1  
+D. 3
 
 ## Section B — Computer Science and Engineering Mathematics
 
-### Q11. [1 Mark] [NAT]
+### Q11. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A C array `int a[3][5]` is stored in row-major order, with sizeof(int)=4 bytes. What is the byte offset of a[2][3] from the start of the array?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q12. [1 Mark] [NAT]
+A. 104  
+B. 26  
+C. 53  
+D. 52
+
+### Q12. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A DFA tracks the input length modulo2 and the number of a symbols modulo2 over alphabet{a,b}. It starts with both parities even. How many of the four parity-pair states are reachable?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 8  
+B. 4  
+C. 2  
+D. 5
 
 ### Q13. [1 Mark] [MCQ]
 
@@ -167,26 +221,50 @@ B. The final state violates the invariant.
 C. The execution is equivalent to a serial execution of these conditional transactions.  
 D. Avoiding direct write-write conflicts alone is insufficient for this invariant.
 
-### Q14. [1 Mark] [MSQ]
+### Q14. [1 Mark] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 T1 writes x. Before T1 commits, T2 reads that written value and then commits. T1 later aborts. Which statements are correct?
 
-A. T2 performed a dirty read.
-B. This schedule is recoverable.
-C. T2 committed based on a value later rolled back.
-D. The schedule is strict.
+**Candidate answers**
+I. T2 performed a dirty read.
+II. This schedule is recoverable.
+III. T2 committed based on a value later rolled back.
+IV. The schedule is strict.
 
-### Q15. [1 Mark] [NAT]
+A. I: invalid; II: invalid; III: valid; IV: invalid  
+B. I: valid; II: invalid; III: invalid; IV: invalid  
+C. I: invalid; II: valid; III: invalid; IV: valid  
+D. I: valid; II: invalid; III: valid; IV: invalid
+
+### Q15. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A grammar has start symbol S and productions S→AB, A→a, B→bB, C→c. A nonterminal is productive if it derives some finite terminal string. How many nonterminals are both reachable from S and productive?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q16. [1 Mark] [NAT]
+A. 1  
+B. 2  
+C. 0  
+D. 3
+
+### Q16. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A Karnaugh-map group contains eight minterms of a four-variable function and forms a valid Boolean cube. How many literals remain in its product term?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 2  
+B. 1  
+C. 0  
+D. 3
 
 ### Q17. [1 Mark] [MCQ]
 
@@ -211,56 +289,115 @@ B. I and II
 C. I and IV  
 D. I and III
 
-### Q18. [1 Mark] [NAT]
+### Q18. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A collision-detection link transmits at 100 Mbit/s. The worst-case one-way propagation time between stations, including repeater delays, is 2.4 microseconds. Ignore all other timing constraints. What is the minimum frame size in bytes required for a sender still to be transmitting when a worst-case collision notification returns?
 
-**Answer format:** Integer bytes; use 1 Mbit=10⁶ bits.
+**Required precision:** Integer bytes; use 1 Mbit=10⁶ bits.
 
-### Q19. [1 Mark] [NAT]
+A. 60  
+B. 120  
+C. 30  
+D. 61
+
+### Q19. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A directory contains three hard links to the same ordinary file. One link is removed. How many directory hard links to that file remain, assuming no other changes?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q20. [1 Mark] [NAT]
+A. 2  
+B. 4  
+C. 1  
+D. 3
+
+### Q20. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A procedure F(n) returns immediately for n≤1 and otherwise calls F(floor(n/2)) once. Including the initial invocation and the base invocation, how many calls occur for n=19?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q21. [1 Mark] [NAT]
+A. 10  
+B. 3  
+C. 6  
+D. 5
+
+### Q21. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A random variable X has mean 10 and variance 4. For Z=3X−2, find E[Z²].
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q22. [1 Mark] [NAT]
+A. 1640  
+B. 410  
+C. 820  
+D. 821
+
+### Q22. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A relation R on {1,2,3,4} is defined by xRy iff x and y have the same parity. How many ordered pairs belong to R composed with R?
 
-**Answer format:** Exact integer.
+**Required precision:** Exact integer.
+
+A. 16  
+B. 4  
+C. 8  
+D. 9
 
 ### Q23. [1 Mark] [MCQ]
 
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
+
 A lexer recognizes unsigned integer tokens, the operator '-', and identifiers. It tokenizes x--12 without treating '--' as a separate operator. The parser alone distinguishes unary and binary minus. Which token sequence is produced?
 
-A. identifier(x), minus, integer(−12)
-B. identifier(x), minus, minus, integer(12)
-C. identifier(x−−12)
-D. identifier(x), decrement, integer(12)
+**Candidate answers**
+I. identifier(x), minus, integer(−12)
+II. identifier(x), minus, minus, integer(12)
+III. identifier(x−−12)
+IV. identifier(x), decrement, integer(12)
 
-### Q24. [1 Mark] [NAT]
+A. I: valid; II: valid; III: invalid; IV: invalid  
+B. I: invalid; II: valid; III: valid; IV: invalid  
+C. I: valid; II: invalid; III: valid; IV: valid  
+D. I: invalid; II: valid; III: invalid; IV: invalid
+
+### Q24. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Two Ethernet stations collide and independently choose their backoff values uniformly from {0,1,2,3}. Conditional on their values being different, what is the probability that the smaller value is zero?
 
-**Answer format:** Exact decimal.
+**Required precision:** Exact decimal.
 
-### Q25. [1 Mark] [NAT]
+A. 0.3  
+B. 0.8  
+C. 0.1  
+D. 0.5
+
+### Q25. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Four identical256×8-bit RAM chips provide a1024×8-bit byte-addressable memory. Address bits A0–A7 connect to every chip's address pins. A decoder selects a chip using A8,A9. How many chips are selected during one valid byte read, and how many distinct byte addresses can be read? Enter the product of these two numbers.
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 2048  
+B. 512  
+C. 1025  
+D. 1024
 
 ### Q26. [1 Mark] [MCQ]
 
@@ -291,11 +428,18 @@ In a simplified slotted contention scheme, two stations independently choose one
 
 **Answer format:** Exact decimal.
 
-### Q28. [1 Mark] [NAT]
+### Q28. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 In the multiplicative group of units modulo 10, what is the order of the element 3?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 4  
+B. 8  
+C. 2  
+D. 5
 
 ### Q29. [1 Mark] [MCQ]
 
@@ -320,11 +464,18 @@ B. I and II
 C. II and III  
 D. II and IV
 
-### Q30. [1 Mark] [NAT]
+### Q30. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 An eight-bit two's-complement fixed-point representation uses four fractional bits. What real number does bit pattern 11101000 represent?
 
-**Answer format:** Exact finite decimal.
+**Required precision:** Exact finite decimal.
+
+A. -3.0  
+B. -0.8  
+C. -0.5  
+D. -1.5
 
 ### Q31. [1 Mark] [MSQ]
 
@@ -362,17 +513,31 @@ B. I and II
 C. I and III  
 D. I and IV
 
-### Q33. [1 Mark] [NAT]
+### Q33. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Independent random variables X and Y each have variance 4. Find Var(2X−3Y+7).
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q34. [1 Mark] [NAT]
+A. 104  
+B. 26  
+C. 52  
+D. 53
+
+### Q34. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A processor uses byte addressing and little-endian 32-bit words. Bytes at addresses 100 through 103 are hexadecimal 12,34,56,78. It loads the 32-bit word at 100, shifts that unsigned value right by 16 bits, and stores the low 16 bits at addresses 102–103 in little-endian order. What decimal value is then in byte 102?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 172  
+B. 43  
+C. 86  
+D. 87
 
 ### Q35. [1 Mark] [MCQ]
 
@@ -397,44 +562,89 @@ B. II and IV
 C. I and II  
 D. III and IV
 
-### Q36. [2 Marks] [NAT]
+### Q36. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A size-7 hash table uses linear probing with h(k)=k mod 7 and wraparound. Insert 10,17,24,11 in that order into an empty table. Delete 17 by leaving a tombstone. A subsequent unsuccessful search for 31 stops at the first slot that has never been occupied, but passes tombstones. How many slots does this search inspect, including the terminating slot?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q37. [2 Marks] [NAT]
+A. 10  
+B. 3  
+C. 5  
+D. 6
+
+### Q37. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A direct-mapped cache has four sets and two-word blocks. A four-row matrix stores four data words per row, followed by p padding words per row. The matrix starts at word address0, and each row must begin at an even word address. What is the smallest nonnegative p making the first data words of the four rows map to four different cache sets?
 
-**Answer format:** Integer words.
+**Required precision:** Integer words.
 
-### Q38. [2 Marks] [MSQ]
+A. 4  
+B. 2  
+C. 1  
+D. 3
+
+### Q38. [2 Marks] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 A routing table contains prefix203.0.113.0/24 via X and more-specific prefix203.0.113.128/25 via Y. No other route matches. Which statements are correct under longest-prefix matching?
 
-A. Address203.0.113.200 uses Y.
-B. Address203.0.113.100 uses X.
-C. Installing the /24 after the /25 necessarily makes it override the /25.
-D. Removing the /25 makes203.0.113.200 use X.
+**Candidate answers**
+I. Address203.0.113.200 uses Y.
+II. Address203.0.113.100 uses X.
+III. Installing the /24 after the /25 necessarily makes it override the /25.
+IV. Removing the /25 makes203.0.113.200 use X.
 
-### Q39. [2 Marks] [NAT]
+A. I: invalid; II: valid; III: invalid; IV: valid  
+B. I: valid; II: valid; III: valid; IV: valid  
+C. I: invalid; II: invalid; III: valid; IV: invalid  
+D. I: valid; II: valid; III: invalid; IV: valid
+
+### Q39. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Four matrices A,B,C,D have dimensions 5×10, 10×2, 2×8 and 8×3. Using ordinary matrix multiplication with pqr scalar multiplications for a p×q by q×r product, what is the minimum scalar multiplication count over all parenthesizations of ABCD?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q40. [2 Marks] [NAT]
+A. 178  
+B. 356  
+C. 89  
+D. 179
+
+### Q40. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A message of 1200 bytes traverses two store-and-forward links in series, each operating at 8000 bits/s. It is divided into k equal-payload packets, each with a 75-byte header, where k is a positive divisor of1200. Links can operate simultaneously on different packets. Ignore propagation and processing delays. What value of k minimizes the time at which the complete message arrives?
 
-**Answer format:** Exact integer.
+**Required precision:** Exact integer.
 
-### Q41. [2 Marks] [NAT]
+A. 4  
+B. 8  
+C. 2  
+D. 5
+
+### Q41. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A rooted tree has the parent array for vertices1 through7 given by[0,1,1,2,2,4,3], where0 marks the root. An operation cuts the subtree rooted at2 and reattaches its root as a child of7. How much does the sum of depths of all seven vertices increase, with the root's depth defined as0?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 16  
+B. 8  
+C. 4  
+D. 9
 
 ### Q42. [2 Marks] [NAT]
 
@@ -442,11 +652,18 @@ Insert keys20,10,30,25,40,22,27 into an initially empty ordinary BST. Perform a 
 
 **Answer format:** Integer.
 
-### Q43. [2 Marks] [NAT]
+### Q43. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Represent exactly the address set10.1.0.0/24 excluding10.1.0.64/26 as a union of CIDR prefixes, without including any excluded address. What is the minimum number of prefixes needed?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 4  
+B. 1  
+C. 2  
+D. 3
 
 ### Q44. [2 Marks] [MCQ]
 
@@ -484,38 +701,76 @@ B. I and III
 C. I and II  
 D. I and IV
 
-### Q46. [2 Marks] [NAT]
+### Q46. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 How many ordered compositions of 8 use only parts 1 and 2 and never place two parts of size 2 consecutively? For example, 2,1,2 is allowed for total 5, while 1,2,2 is not.
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q47. [2 Marks] [NAT]
+A. 38  
+B. 10  
+C. 20  
+D. 19
+
+### Q47. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Procedure P is lexically nested inside Main. Procedures Q and R are both lexically nested inside P. During execution, Main calls P, P calls Q, and Q calls R. Each activation has a static link to its immediate lexical parent's activation and a dynamic link to its caller. From R's activation, how many static links must be followed to access a local variable of Main?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q48. [2 Marks] [NAT]
+A. 4  
+B. 2  
+C. 1  
+D. 3
+
+### Q48. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A binary floating-point system has three significant bits, including the leading1, and sufficient exponent range. It rounds each operation to nearest, with ties to an even significand low bit. Compute the absolute difference between fl(fl(8+1)−8) and fl(8+fl(1−8)). Here fl means rounding one operation in that format.
 
-**Answer format:** Exact number.
+**Required precision:** Exact number.
 
-### Q49. [2 Marks] [NAT]
+A. 2  
+B. 0  
+C. 3  
+D. 1
+
+### Q49. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Five CPU-bound processes are permanently ready in round-robin order. A quantum lasts q positive integer milliseconds, and each intervening context switch costs one millisecond. At time zero the first process starts without an initial switch. Require useful CPU time to be at least 80% of steady-state elapsed time, and require the fifth process to begin its first quantum no later than time 20. What value of q satisfies both requirements?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q50. [2 Marks] [MSQ]
+A. 8  
+B. 2  
+C. 5  
+D. 4
+
+### Q50. [2 Marks] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 A Boolean cover-selection chart contains candidate rows P and Q. P covers{u,v} at cost3; Q covers{u,v,w} at cost2. The objective is minimum total cost, and selecting a row has no effect except covering its columns. Which statements are correct?
 
-A. An optimal cover can always be chosen without P.
-B. Replacing P by Q in a cover cannot uncover a column and cannot increase cost.
-C. P must be retained merely because some of its columns also appear in Q.
-D. The same dominance conclusion follows if Q instead costs5, solely from its greater coverage.
+**Candidate answers**
+I. An optimal cover can always be chosen without P.
+II. Replacing P by Q in a cover cannot uncover a column and cannot increase cost.
+III. P must be retained merely because some of its columns also appear in Q.
+IV. The same dominance conclusion follows if Q instead costs5, solely from its greater coverage.
+
+A. I: invalid; II: valid; III: invalid; IV: invalid  
+B. I: valid; II: valid; III: valid; IV: invalid  
+C. I: invalid; II: invalid; III: valid; IV: valid  
+D. I: valid; II: valid; III: invalid; IV: invalid
 
 ### Q51. [2 Marks] [NAT]
 
@@ -523,11 +778,18 @@ A rooted tree has root r with children a,b,c. Vertex a has two leaf children, b 
 
 **Answer format:** Exact integer.
 
-### Q52. [2 Marks] [NAT]
+### Q52. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 On the interval[−2,2], how many distinct x values attain the global maximum of |x³−3x|?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 4  
+B. 8  
+C. 2  
+D. 5
 
 ### Q53. [2 Marks] [MCQ]
 
@@ -552,25 +814,48 @@ B. I and III
 C. I and II  
 D. I and IV
 
-### Q54. [2 Marks] [NAT]
+### Q54. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Six employees participate in a directed Mentors relationship. Self-mentoring is forbidden. Each employee may mentor at most two others and must be mentored by at least one other employee. A pair (u,v) means u mentors v. What is the maximum possible number of distinct pairs?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q55. [2 Marks] [NAT]
+A. 24  
+B. 12  
+C. 6  
+D. 13
+
+### Q55. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 An initially free64-KiB region is managed by a binary buddy allocator. Each request is rounded up to the smallest power-of-two KiB block that fits it. Splitting always allocates the lowest-address available suitable descendant; free buddies coalesce immediately. Requests A=9KiB, B=9KiB, C=17KiB are allocated in that order. A is then freed. What is the size, in KiB, of the largest request that can now be satisfied without freeing B or C?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q56. [2 Marks] [NAT]
+A. 32  
+B. 8  
+C. 16  
+D. 17
+
+### Q56. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A combinational circuit implements unsigned comparison A>B for two-bit inputs A=a1a0 and B=b1b0. Among the16 possible input pairs, for how many does the low-bit comparison a0>b0 disagree with the full comparison A>B?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q57. [2 Marks] [NAT]
+A. 8  
+B. 4  
+C. 2  
+D. 5
+
+### Q57. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 One process executes the following pseudocode. Every fork succeeds and duplicates the current process; no process exits early.
 
@@ -582,16 +867,31 @@ if fork() returns 0:
 
 Including the original process, how many processes exist after all forks complete?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q58. [2 Marks] [MSQ]
+A. 12  
+B. 6  
+C. 3  
+D. 7
+
+### Q58. [2 Marks] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 Let L={a^n : n is a perfect square}, including ε. For a hypothetical regular pumping length p≥1, choose s=a^(p²). A legal pumped part has length k with1≤k≤p. Which statements are correct?
 
-A. Pumping once more gives length p²+k, strictly between p² and(p+1)².
-B. For every legal decomposition, pumping twice leaves the language.
-C. The proof depends on choosing the pumped part to have exactly p symbols.
-D. The pumping lemma therefore proves L regular.
+**Candidate answers**
+I. Pumping once more gives length p²+k, strictly between p² and(p+1)².
+II. For every legal decomposition, pumping twice leaves the language.
+III. The proof depends on choosing the pumped part to have exactly p symbols.
+IV. The pumping lemma therefore proves L regular.
+
+A. I: invalid; II: valid; III: invalid; IV: invalid  
+B. I: valid; II: valid; III: invalid; IV: invalid  
+C. I: valid; II: valid; III: valid; IV: invalid  
+D. I: invalid; II: invalid; III: valid; IV: valid
 
 ### Q59. [2 Marks] [MCQ]
 
@@ -606,17 +906,31 @@ B. Every even-length palindrome belongs to L.
 C. L contains words that are not palindromes.  
 D. L is closed under reversal.
 
-### Q60. [2 Marks] [NAT]
+### Q60. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 An ideal single-issue pipeline executes100 instructions in104 cycles, including filling and draining. Of these instructions,20 are conditional branches. A prediction scheme mispredicts exactly25% of those branches; every misprediction introduces3 extra cycles. No other stalls occur. What is the resulting CPI, using total execution cycles divided by100?
 
-**Answer format:** Exact decimal.
+**Required precision:** Exact decimal.
 
-### Q61. [2 Marks] [NAT]
+A. 2.38  
+B. 0.60  
+C. 2.19  
+D. 1.19
+
+### Q61. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A fair coin chooses one of two bags. Bag A contains two red and one blue ball; bag B contains one red and two blue balls. Two draws are made without replacement from the chosen bag. Given that the second draw is red, what is the probability that the first draw was blue? Round to four decimal places.
 
-**Answer format:** Decimal rounded to four places.
+**Required precision:** Decimal rounded to four places.
+
+A. 0.6667  
+B. 0.3333  
+C. 0.3334  
+D. 0.8334
 
 ### Q62. [2 Marks] [MCQ]
 
@@ -646,83 +960,91 @@ B. f() && false → false
 C. true || f() → true
 D. f() || true → true
 
-### Q65. [2 Marks] [MSQ]
+### Q65. [2 Marks] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 A poset has elements a,b,c,d with a<c,b<c,c<d, and only the comparisons forced by these and reflexivity. Let J be the family of its downward-closed subsets, ordered by inclusion. Which statements are correct?
 
-A. J has six elements, including the empty subset.
-B. Join in J is set union.
-C. Meet in J is set intersection.
-D. J fails distributivity because a and b are incomparable.
+**Candidate answers**
+I. J has six elements, including the empty subset.
+II. Join in J is set union.
+III. Meet in J is set intersection.
+IV. J fails distributivity because a and b are incomparable.
 
----
+A. I: invalid; II: valid; III: valid; IV: invalid  
+B. I: valid; II: valid; III: valid; IV: invalid  
+C. I: valid; II: valid; III: invalid; IV: invalid  
+D. I: invalid; II: invalid; III: invalid; IV: valid
 
 ## ANSWER KEY — MOCK TEST 072
 
 | Question | Type | Marks | Correct Answer |
 |---|---|---|---|
 | 1 | MCQ | 1 | A |
-| 2 | NAT | 1 | 5 |
+| 2 | MCQ | 1 | C |
 | 3 | MCQ | 1 | B |
-| 4 | NAT | 1 | 2.5 |
+| 4 | MSQ | 1 | A, B, C |
 | 5 | MCQ | 1 | A |
-| 6 | NAT | 2 | 4.5 |
+| 6 | MSQ | 2 | A, B, C |
 | 7 | MCQ | 2 | D |
-| 8 | NAT | 2 | 3.6 |
-| 9 | NAT | 2 | -50 |
-| 10 | NAT | 2 | 2 |
-| 11 | NAT | 1 | 52 |
-| 12 | NAT | 1 | 4 |
+| 8 | MSQ | 2 | A, B, D |
+| 9 | MSQ | 2 | A, C, D |
+| 10 | MSQ | 2 | B, C, D |
+| 11 | MCQ | 1 | D |
+| 12 | MSQ | 1 | A, C, D |
 | 13 | MCQ | 1 | C |
-| 14 | MSQ | 1 | A, C |
-| 15 | NAT | 1 | 1 |
-| 16 | NAT | 1 | 1 |
+| 14 | MCQ | 1 | D |
+| 15 | MSQ | 1 | B, C, D |
+| 16 | MSQ | 1 | A, C, D |
 | 17 | MCQ | 1 | D |
-| 18 | NAT | 1 | 60 |
-| 19 | NAT | 1 | 2 |
-| 20 | NAT | 1 | 5 |
-| 21 | NAT | 1 | 820 |
-| 22 | NAT | 1 | 8 |
-| 23 | MCQ | 1 | B |
-| 24 | NAT | 1 | 0.5 |
-| 25 | NAT | 1 | 1024 |
+| 18 | MSQ | 1 | B, C, D |
+| 19 | MSQ | 1 | B, C, D |
+| 20 | MCQ | 1 | D |
+| 21 | MCQ | 1 | C |
+| 22 | MCQ | 1 | C |
+| 23 | MCQ | 1 | D |
+| 24 | MSQ | 1 | A, B, C |
+| 25 | MCQ | 1 | D |
 | 26 | MCQ | 1 | C |
 | 27 | NAT | 1 | 0.25 |
-| 28 | NAT | 1 | 4 |
+| 28 | MSQ | 1 | B, C, D |
 | 29 | MCQ | 1 | B |
-| 30 | NAT | 1 | -1.5 |
+| 30 | MCQ | 1 | D |
 | 31 | MSQ | 1 | B, C, D |
 | 32 | MCQ | 1 | C |
-| 33 | NAT | 1 | 52 |
-| 34 | NAT | 1 | 86 |
+| 33 | MCQ | 1 | C |
+| 34 | MCQ | 1 | C |
 | 35 | MCQ | 1 | C |
-| 36 | NAT | 2 | 5 |
-| 37 | NAT | 2 | 2 |
-| 38 | MSQ | 2 | A, B, D |
-| 39 | NAT | 2 | 178 |
-| 40 | NAT | 2 | 4 |
-| 41 | NAT | 2 | 8 |
+| 36 | MCQ | 2 | C |
+| 37 | MCQ | 2 | B |
+| 38 | MCQ | 2 | D |
+| 39 | MCQ | 2 | A |
+| 40 | MSQ | 2 | B, C, D |
+| 41 | MSQ | 2 | A, C, D |
 | 42 | NAT | 2 | 3 |
-| 43 | NAT | 2 | 2 |
+| 43 | MCQ | 2 | C |
 | 44 | MCQ | 2 | C |
 | 45 | MCQ | 2 | B |
-| 46 | NAT | 2 | 19 |
-| 47 | NAT | 2 | 2 |
-| 48 | NAT | 2 | 1 |
-| 49 | NAT | 2 | 4 |
-| 50 | MSQ | 2 | A, B |
+| 46 | MSQ | 2 | A, B, C |
+| 47 | MSQ | 2 | A, C, D |
+| 48 | MSQ | 2 | A, B, C |
+| 49 | MCQ | 2 | D |
+| 50 | MCQ | 2 | D |
 | 51 | NAT | 2 | 12 |
-| 52 | NAT | 2 | 4 |
+| 52 | MSQ | 2 | B, C, D |
 | 53 | MCQ | 2 | B |
-| 54 | NAT | 2 | 12 |
-| 55 | NAT | 2 | 16 |
-| 56 | NAT | 2 | 4 |
-| 57 | NAT | 2 | 6 |
-| 58 | MSQ | 2 | A, B |
+| 54 | MCQ | 2 | B |
+| 55 | MSQ | 2 | A, B, D |
+| 56 | MCQ | 2 | B |
+| 57 | MCQ | 2 | B |
+| 58 | MCQ | 2 | B |
 | 59 | MCQ | 2 | B |
-| 60 | NAT | 2 | 1.19 |
-| 61 | NAT | 2 | 0.6667 (accepted range 0.66665–0.66675) |
+| 60 | MCQ | 2 | D |
+| 61 | MCQ | 2 | A |
 | 62 | MCQ | 2 | C |
 | 63 | NAT | 2 | 2 |
 | 64 | MSQ | 2 | A, C |
-| 65 | MSQ | 2 | A, B, C |
+| 65 | MCQ | 2 | B |

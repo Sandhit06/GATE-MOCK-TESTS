@@ -1,35 +1,40 @@
 # Resumable project checkpoint
 
-Saved 25 October 2026 (Asia/Calcutta).
+Saved 25 October 2026. Latest request completed: 800 additional adapted variants replaced repetitive occurrences inside the existing papers.
 
-## Latest user correction — completed
+## Current counts
+- 100 populated papers, each 65 questions and 100 marks; 6,500 records and unique IDs.
+- Round 1: 1,000 complementary-answer/pair variants.
+- Round 2: 1,000 NAT-to-MCQ variants.
+- Round 3: 1,000 NAT-to-invalid-answer-MSQ variants.
+- Round 4: 800 candidate-validity-audit variants; 350 excess exact occurrences remain across papers.
+- 3,800 replacements total, in disjoint positions.
+- 6,150 distinct normalized versions based on 2,350 underlying source problems.
+- All 100 papers passed the current structural audit. All 4,000 third-round numerical options and 1,000 answer sets passed interval checks.
+- 65 prior ACCEPTED records; 6,435 REVIEW_REQUIRED.
+- No extra standalone questions, Python files or old template generation.
 
-The user clarified that the 1,000 lightweight adapted questions must replace repeated occurrences INSIDE the 100 papers, not form an extra assignment. This is done.
+## Provenance and recovery
+Current papers and solutions are linked in INDEX.md. The canonical bank, assembly manifest and uniqueness registry reflect all three rounds.
 
-- Exactly 1,000 repeated question occurrences replaced across 64 papers.
-- Still 100 papers, 65 questions each, 100 marks each, 6,500 instances total.
-- Distinct normalized question versions increased from 2,350 to 3,350.
-- Every replaced question's key, worked solution and canonical metadata were updated.
-- All 100 papers passed the post-replacement structural audit.
-- The former standalone extra-practice sets are archived under archive/integrated-variants-2026-10-25/extra-practice/. Their old index redirects to the main papers.
-- Do not count another 1,000 active questions or report 7,500 total questions.
+Round reports: reports/INTEGRATED_1000_REPLACEMENTS.md, reports/INTEGRATED_1000_ROUND2_REPLACEMENTS.md and reports/INTEGRATED_1000_ROUND3_REPLACEMENTS.md; corresponding JSON mappings identify every destination.
 
-The user allows lightweight variants and cross-paper repetitions. These 1,000 changes alter answer-selection tasks, not underlying reasoning families. Do not describe them as wholly original conceptual problems.
+Provenance: data/extra_questions.jsonl, data/adapted_variants_round2.jsonl and data/adapted_variants_round3.jsonl. These are historical adaptation records, not extra active assignments.
 
-## Current authoritative files
+Backups are under archive/integrated-variants-2026-10-25/, archive/integrated-variants-round2-2026-10-25/ and archive/integrated-variants-round3-2026-10-25/.
 
-INDEX.md lists all 100 papers.
-reports/INTEGRATED_1000_REPLACEMENTS.md and .json identify every replacement.
-reports/COMPLETION_AUDIT_2026-10-25.json contains the current structural results.
-reports/FINAL_VALIDATION_REPORT.md and reports/COVERAGE_REPORT.md describe current readiness and coverage.
-data/questions.jsonl contains 6,500 current canonical records.
-data/assembly_manifest.json and data/uniqueness_registry.json reflect the replacements.
-data/extra_questions.jsonl is adaptation provenance only; integrated_destination_id maps each variant to its current paper position.
+Frozen original source bank: archive/integrated-variants-2026-10-25/data/questions.jsonl. Source IDs refer to that snapshot, not necessarily current content at that ID.
 
-## Source provenance and remaining review
+## Remaining review
+User permits lightweight tweaks and repetitions. Do not claim semantic uniqueness or entirely new reasoning families. Independent correctness, difficulty, multistep quota and rendered export review remain pending. No human review is claimed.
 
-Only the original 65 records retain prior ACCEPTED provenance. The other 6,435 records remain REVIEW_REQUIRED. Full independent answer/option review, difficulty calibration, multistep quota and rendered export inspection are not complete. No human review is claimed.
+Review original sources once and propagate corrections: ordinary copies keep source answers; round 1 uses complementary/pair mappings; round 2 selects the valid numeric answer; round 3 selects all invalid numeric answers. Recheck distractors if source answers change.
 
-Review the 2,350 underlying source questions once for efficiency. The frozen original source bank is archive/integrated-variants-2026-10-25/data/questions.jsonl. Provenance source IDs refer to that snapshot; a current question at the same ID may now be adapted. Ordinary reused occurrences preserve the original selection rule, while transformed variants need complementary-answer or pair-choice mapping. Propagate corrections accordingly, preserving backups and updating keys, solutions, records and hashes together.
+The six-hour continuation should follow this checkpoint for economical quality review, without restarting generation, and notify only on meaningful changes or required action.
 
-No new Python files were created and no old template generator was run. Strict uniqueness is no longer required. Do not regenerate completed papers merely to remove permitted repeats. The six-hour continuation should perform economical review from this checkpoint, not restart generation at Mock 009 or Mock 037. Notify only for meaningful corrections, completion, failure or required user action.
+## Latest within-paper uniqueness check 100 actual paper files checked: each contains 65 questions, no exact normalized repeat and no repeated tracked original source within the same paper. See reports/WITHIN_PAPER_UNIQUENESS_AUDIT.md. No paper changes needed for this scope. Across-paper exact repeats and semantic similarity remain; do not claim global originality.
+
+## Round 4 completed
+User requested reducing 1,150 exact repeated occurrences to a few hundred. Completed: 800 replacements, leaving 350. All 100 papers and all 800 answer mappings passed consistency checks. These are adapted versions, not new reasoning families. See reports/ROUND4_REPLACEMENTS.md and .json; data/adapted_variants_round4.jsonl; archive/integrated-variants-round4-2026-10-25/.
+
+When propagating source corrections, round 4 audit options classify each original candidate as valid or invalid. Recompute the truth vector and ensure exactly one audit option remains correct; regenerate alternative classifications if needed. All prior review limitations remain.

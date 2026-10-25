@@ -43,11 +43,18 @@ B. I and III
 C. II and III  
 D. II and IV
 
-### Q2. [1 Mark] [NAT]
+### Q2. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 An ordered triangle has vertices A=(0,0),B=(4,0),C=(0,3). Reflect all its vertices across the y-axis, rotate them90 degrees counterclockwise about the origin, then translate them by(7,−2). What is the signed area of the resulting ordered triangle, with counterclockwise orientation positive?
 
-**Answer format:** Exact signed number.
+**Required precision:** Exact signed number.
+
+A. -12  
+B. -3  
+C. -6  
+D. -5
 
 ### Q3. [1 Mark] [MSQ]
 
@@ -62,11 +69,18 @@ B. Restricting attention to screened applicants may create an association absent
 C. The screening must have ignored experience.  
 D. No applicant can have both strong experience and a high score.
 
-### Q4. [1 Mark] [NAT]
+### Q4. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Six distinct people A,B,C,D,E,F sit around a circular table with six equally spaced seats. Arrangements differing only by rotation are identical; mirror images are distinct. A and B must sit opposite one another, and C and D must be adjacent. How many arrangements satisfy both restrictions?
 
-**Answer format:** Exact integer.
+**Required precision:** Exact integer.
+
+A. 16  
+B. 8  
+C. 4  
+D. 9
 
 ### Q5. [1 Mark] [NAT]
 
@@ -74,23 +88,42 @@ Among25 recorded journey times,7 are at most10 minutes,19 are at most20 minutes,
 
 **Answer format:** Decimal rounded to four places.
 
-### Q6. [2 Marks] [NAT]
+### Q6. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A square sheet occupies 0 <= x <= 8 and 0 <= y <= 8. Fold its left half onto its right half along x=4. Next fold its bottom half onto its top half along y=4. Punch small point-like holes through all layers at (5,6) and (6,5) in the folded sheet. After fully unfolding, how many distinct holes lie on the line y=x+1? Ignore hole diameter and sheet thickness.
 
-**Answer format:** Numeric value; integer.
+A. 4  
+B. 1  
+C. 2  
+D. 3
 
-### Q7. [2 Marks] [NAT]
+### Q7. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A tariff charges 4 units for each of the first ten units consumed and 6 units for each additional unit. Consumption is an integer. A bill also includes a fixed charge of 15. What is the largest consumption whose total bill does not exceed 100?
 
-**Answer format:** Integer units consumed.
+**Required precision:** Integer units consumed.
 
-### Q8. [2 Marks] [NAT]
+A. 17  
+B. 34  
+C. 9  
+D. 18
+
+### Q8. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 An urn contains two red and two blue balls. Balls are drawn uniformly without replacement until the first red ball appears. Given that the procedure stopped within the first two draws, what is the probability that it stopped on the first draw?
 
-**Answer format:** Exact finite decimal.
+**Required precision:** Exact finite decimal.
+
+A. 0.4  
+B. 0.3  
+C. 0.8  
+D. 0.6
 
 ### Q9. [2 Marks] [MSQ]
 
@@ -105,13 +138,18 @@ B. The evaluator established that manufacturing was inexpensive.
 C. The design uses no components.  
 D. Multifunctional components necessarily increase manufacturing cost.
 
-### Q10. [2 Marks] [NAT]
+### Q10. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 An investment grows by the same annual factor for two years, reaching 144% of its original value. In a third year it falls by 25%. What is its final value as a percentage of its original value?
 
-**Answer format:** Integer percentage, without the percent sign.
+**Required precision:** Integer percentage, without the percent sign.
 
----
+A. 216  
+B. 54  
+C. 109  
+D. 108
 
 ## Section B — Computer Science and Engineering Mathematics
 
@@ -121,23 +159,44 @@ A real 6×6 matrix A satisfies A²=0. What is the largest possible rank of A?
 
 **Answer format:** Integer.
 
-### Q12. [1 Mark] [NAT]
+### Q12. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Two increasing runs contain four and three distinct keys respectively, with all seven keys different. Every original left-run position precedes every right-run position. Exactly five cross inversions exist, where a cross inversion is a left key greater than a right key. Standard merging compares the first remaining keys, emits the smaller, and stops comparisons as soon as either run is exhausted. What is the minimum possible number of key comparisons?
 
-**Answer format:** Numeric value; integer.
+**Required precision:** Numeric value; integer.
 
-### Q13. [1 Mark] [NAT]
+A. 6  
+B. 12  
+C. 3  
+D. 7
+
+### Q13. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 An instruction at byte address100 has length4 bytes and a signed PC-relative displacement−6. The architecture defines the target as the address of the next instruction plus twice the displacement. What is the target byte address?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q14. [1 Mark] [NAT]
+A. 184  
+B. 92  
+C. 46  
+D. 93
+
+### Q14. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A ticket lock stores next-ticket and currently-served ticket numbers modulo eight. Every new contender obtains the next ticket and advances that counter atomically, then enters when its ticket equals the currently-served value. The owner has not yet released the lock and no previously issued ticket has completed. What is the smallest total number of outstanding contenders, including the current owner, that can give another contender the owner's ticket through counter wraparound?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 18  
+B. 5  
+C. 9  
+D. 10
 
 ### Q15. [1 Mark] [NAT]
 
@@ -158,29 +217,57 @@ B. Assignment to every department.
 C. No assignments at all.  
 D. That every domain object be a department.
 
-### Q17. [1 Mark] [NAT]
+### Q17. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A four-bit ripple-carry adder adds binary operands1011 and0110 with carry-in0. Let c1,c2,c3,c4 be the carry out of bit positions0,1,2,3 respectively, where bit0 is least significant. What unsigned integer is represented by c4c3c2c1?
 
-**Answer format:** Exact integer.
+**Required precision:** Exact integer.
 
-### Q18. [1 Mark] [NAT]
+A. 28  
+B. 14  
+C. 7  
+D. 15
+
+### Q18. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A four-bit ring counter circulates a single 1 through its flip-flops, starting at 1000. How many clock edges are needed to return to 1000 for the first time?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q19. [1 Mark] [NAT]
+A. 4  
+B. 8  
+C. 2  
+D. 5
+
+### Q19. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 An undirected graph has vertices 1–5 and edges {1,2},{2,3},{3,4},{4,2},{1,5}. How many articulation vertices does it have? Removing an articulation vertex and its incident edges increases the number of connected components.
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q20. [1 Mark] [NAT]
+A. 4  
+B. 1  
+C. 3  
+D. 2
+
+### Q20. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A signed six-bit two's-complement fixed-point value has two fractional bits. What is the greatest positive real number it can represent?
 
-**Answer format:** Exact finite decimal.
+**Required precision:** Exact finite decimal.
+
+A. 15.50  
+B. 3.88  
+C. 7.75  
+D. 8.75
 
 ### Q21. [1 Mark] [NAT]
 
@@ -188,11 +275,18 @@ Two balls are drawn without replacement from a bag containing two red and two bl
 
 **Answer format:** Number to 4 decimal places.
 
-### Q22. [1 Mark] [NAT]
+### Q22. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A DFA has exactly one accepting state, which is its initial state. Every input symbol moves it to a rejecting sink that loops on every symbol. Over a two-symbol alphabet, how many words does it accept?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 1  
+B. 2  
+C. 0  
+D. 3
 
 ### Q23. [1 Mark] [MCQ]
 
@@ -217,17 +311,31 @@ B. II and III
 C. I and III  
 D. I and IV
 
-### Q24. [1 Mark] [NAT]
+### Q24. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Two independent fair coins are tossed. Their colours are red and blue, so they are distinguishable. A report states that the red coin is heads. What is the conditional probability that exactly one coin is heads?
 
-**Answer format:** Exact decimal.
+**Required precision:** Exact decimal.
 
-### Q25. [1 Mark] [NAT]
+A. 0.3  
+B. 0.8  
+C. 0.5  
+D. 0.1
+
+### Q25. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A tree has ten vertices. What is the sum of its vertex degrees?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 36  
+B. 9  
+C. 19  
+D. 18
 
 ### Q26. [1 Mark] [NAT]
 
@@ -248,11 +356,18 @@ B. This lattice is distributive.
 C. The join of2 and3 is12.  
 D. The meet of4 and3 is1.
 
-### Q28. [1 Mark] [NAT]
+### Q28. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Grammar S→SS | a generates strings of a's. Count ordered parse trees, not derivation orders. How many parse trees generate aaaa?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 10  
+B. 3  
+C. 5  
+D. 6
 
 ### Q29. [1 Mark] [MSQ]
 
@@ -290,7 +405,9 @@ B. I and II
 C. II and III  
 D. II and IV
 
-### Q31. [1 Mark] [NAT]
+### Q31. [1 Mark] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 Table T(k,v) has rows(1,10),(1,NULL),(2,NULL). How many rows are returned?
 
@@ -298,9 +415,16 @@ Table T(k,v) has rows(1,10),(1,NULL),(2,NULL). How many rows are returned?
 SELECT k FROM T GROUP BY k HAVING COUNT(v) = 0;
 ```
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q32. [1 Mark] [NAT]
+A. 1  
+B. 2  
+C. 0  
+D. 3
+
+### Q32. [1 Mark] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Gaussian elimination without row exchanges factors A=LU, where L has unit diagonal. For
 
@@ -312,9 +436,18 @@ A = [ 2  1  0
 
 what is the entry U33 after both elimination stages?
 
-**Answer format:** Exact integer.
+**Required precision:** Exact integer.
 
-### Q33. [1 Mark] [MSQ]
+A. 2  
+B. 4  
+C. 1  
+D. 3
+
+### Q33. [1 Mark] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 Consider this basic block; on exit only z is live. Variables have ordinary scalar values, and evaluating expressions has no side effects.
 
@@ -327,10 +460,16 @@ Consider this basic block; on exit only z is live. Variables have ordinary scala
 
 Which statements are correct?
 
-A. Immediately before line3, the old value of x is live.
-B. Immediately before line3, y is live.
-C. Both assignments to x contribute to the final z.
-D. Line1 can be removed merely because line3 also assigns x.
+**Candidate answers**
+I. Immediately before line3, the old value of x is live.
+II. Immediately before line3, y is live.
+III. Both assignments to x contribute to the final z.
+IV. Line1 can be removed merely because line3 also assigns x.
+
+A. I: valid; II: valid; III: valid; IV: invalid  
+B. I: invalid; II: valid; III: invalid; IV: invalid  
+C. I: valid; II: invalid; III: invalid; IV: valid  
+D. I: invalid; II: valid; III: valid; IV: invalid
 
 ### Q34. [1 Mark] [MCQ]
 
@@ -355,22 +494,41 @@ B. II and IV
 C. III and IV  
 D. I and II
 
-### Q35. [1 Mark] [MSQ]
+### Q35. [1 Mark] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 A table T(a,b) has a UNIQUE constraint on a and a separate NOT NULL constraint on b. Values of a are restricted to non-NULL values in the instances considered. Which statements must hold in every legal instance?
 
-A. No two rows have the same a value.
-B. Every b value occurs in at most one row.
-C. Every row has a non-NULL b value.
-D. Every possible non-NULL a value appears in a row.
+**Candidate answers**
+I. No two rows have the same a value.
+II. Every b value occurs in at most one row.
+III. Every row has a non-NULL b value.
+IV. Every possible non-NULL a value appears in a row.
 
-### Q36. [2 Marks] [NAT]
+A. I: valid; II: invalid; III: valid; IV: invalid  
+B. I: invalid; II: invalid; III: valid; IV: invalid  
+C. I: valid; II: invalid; III: invalid; IV: invalid  
+D. I: invalid; II: valid; III: invalid; IV: valid
+
+### Q36. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A three-address intermediate representation has one binary operation per assignment. To compute a*b+a*c+d*b+d*c, a compiler may reassociate and factor over mathematical integers and reuse intermediates. What is the minimum number of binary additions/multiplications needed if it uses the factorization(a+d)*(b+c)?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q37. [2 Marks] [NAT]
+A. 6  
+B. 2  
+C. 3  
+D. 4
+
+### Q37. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 An initially empty cache has two sets, two lines per set, and 16 bytes per line. A byte address belongs to block floor(address/16), mapped to set (block number mod 2). The cache uses LRU replacement within each set. Each miss fetches the referenced block; all accesses below are reads, in order:
 
@@ -380,9 +538,16 @@ An initially empty cache has two sets, two lines per set, and 16 bytes per line.
 
 How many block fetches from memory occur?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q38. [2 Marks] [NAT]
+A. 16  
+B. 4  
+C. 8  
+D. 9
+
+### Q38. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A microprogram has a two-entry return stack, initially empty. Instruction CALL pushes the following address and branches; RETURN pops and branches to that address. Starting at address0, execute:
 
@@ -396,7 +561,12 @@ A microprogram has a two-entry return stack, initially empty. Instruction CALL p
 
 Every listed microinstruction takes one cycle. How many cycles elapse through HALT?
 
-**Answer format:** Exact integer.
+**Required precision:** Exact integer.
+
+A. 10  
+B. 3  
+C. 6  
+D. 5
 
 ### Q39. [2 Marks] [NAT]
 
@@ -404,23 +574,44 @@ An undirected graph has triangle vertices A,B,C with all three triangle edges of
 
 **Answer format:** Integer.
 
-### Q40. [2 Marks] [NAT]
+### Q40. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A store-and-forward network has links S→R and R→D, each taking 1 ms to transmit one packet. Propagation is zero. At time 0, S has packets A,B,C in order. A and C must traverse both links; B terminates at R. Each link begins transmitting whenever its next eligible packet is available, preserving source order among packets that use it. What time in milliseconds does C finish arriving at D?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q41. [2 Marks] [NAT]
+A. 8  
+B. 2  
+C. 4  
+D. 5
+
+### Q41. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A lexer recognizes keywords `if`, identifiers matching `[a-z]+`, and single-character operators `<` and `=`. It uses maximal munch, breaking equal-length keyword/identifier ties in favour of the keyword. For input `ifx<if==x`, how many tokens are identifiers? There are no multi-character operators in this language.
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q42. [2 Marks] [NAT]
+A. 4  
+B. 1  
+C. 2  
+D. 3
+
+### Q42. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A simple undirected graph has degree sequence(3,3,2,2,2). How many edge entries are stored in ordinary adjacency lists when each edge is recorded at both endpoints?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 24  
+B. 6  
+C. 13  
+D. 12
 
 ### Q43. [2 Marks] [MCQ]
 
@@ -435,47 +626,96 @@ B. The exact real-arithmetic result would be 16.
 C. Every one of the sixteen additions is exact in this format.  
 D. Instead adding 2 to the initial x four times gives stored result 16.
 
-### Q44. [2 Marks] [NAT]
+### Q44. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Keys 40,20,60,10,30,50,70,25,35 are inserted in that order into an initially empty ordinary BST. Delete 20 by replacing its key with its inorder predecessor and physically removing that predecessor's original node. Then delete 40 by replacing its key with its inorder successor and physically removing that successor's original node. What is the key at the lowest common ancestor of 25 and 70 in the resulting tree?
 
-**Answer format:** Integer key.
+**Required precision:** Integer key.
 
-### Q45. [2 Marks] [NAT]
+A. 100  
+B. 50  
+C. 25  
+D. 51
+
+### Q45. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Evaluate ∫ from −1 to 2 of |x²−x| dx. Round to four decimal places.
 
-**Answer format:** Number to 4 decimal places.
+**Required precision:** Number to 4 decimal places.
 
-### Q46. [2 Marks] [NAT]
+A. 3.6666  
+B. 0.9167  
+C. 2.8333  
+D. 1.8333
+
+### Q46. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A byte-addressed 16-bit system selects one 4 KiB memory chip whenever address bits A15A14 equal 10. The chip uses A11…A0 as its local address, and A13,A12 are not decoded. How many distinct physical bytes are accessible in the selected 16 KiB address window?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q47. [2 Marks] [NAT]
+A. 4096  
+B. 8192  
+C. 2048  
+D. 4097
+
+### Q47. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 An unspanned fixed-record file uses 1000-byte blocks. Records are 120 bytes, and each block reserves a 40-byte header. How many blocks are needed for 81 records, with no compression and no record crossing a block boundary?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q48. [2 Marks] [NAT]
+A. 22  
+B. 6  
+C. 11  
+D. 12
+
+### Q48. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A disk uses C-SCAN on cylinders 0–99, moving upward. Initially the head is at 40 and requests are pending at 10,30,50,90. No new requests arrive. It services upward requests, travels to 99, jumps to 0, and then resumes upward service. Count the jump as head movement; service time is zero. How many cylinders does the head travel before all requests are served?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q49. [2 Marks] [NAT]
+A. 376  
+B. 94  
+C. 188  
+D. 189
+
+### Q49. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A directed graph has edges s→a(1),s→b(4),b→a(−5),a→t(1),b→t(10). An implementation runs Dijkstra's algorithm and terminates as soon as t is extracted as minimum, despite the negative edge. What is its reported distance minus the actual shortest s-to-t distance?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q50. [2 Marks] [NAT]
+A. 4  
+B. 1  
+C. 3  
+D. 2
+
+### Q50. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 An initially empty B+ tree has a single root leaf. Each leaf holds at most three keys. Inserting a fourth key splits a leaf into two leaves of two keys each, promoting the first key of the right leaf to the parent; the key remains in the leaf. Insert1,2,3,4,5,6 in order. The internal root can hold at least three separators. How many leaf nodes exist afterward?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. 6  
+B. 3  
+C. 2  
+D. 4
 
 ### Q51. [2 Marks] [MCQ]
 
@@ -490,32 +730,63 @@ B. aabbbccc
 C. aaabcc  
 D. abc
 
-### Q52. [2 Marks] [MSQ]
+### Q52. [2 Marks] [MCQ]
+
+Evaluate the problem and its four candidate answers below. A candidate is valid if it correctly answers the embedded problem (for a multiple-answer problem, judge each candidate individually). Which option gives the correct validity audit of ALL four candidates?
+
+**Problem**
 
 Boolean function F=(x+y)(x+z). Which expressions are equivalent to F?
 
-A. x+yz
-B. x(y+z)
-C. (x+y)(x+z)(x+y+z)
-D. xy+xz
+**Candidate answers**
+I. x+yz
+II. x(y+z)
+III. (x+y)(x+z)(x+y+z)
+IV. xy+xz
 
-### Q53. [2 Marks] [NAT]
+A. I: valid; II: invalid; III: valid; IV: invalid  
+B. I: invalid; II: invalid; III: valid; IV: invalid  
+C. I: valid; II: invalid; III: invalid; IV: invalid  
+D. I: invalid; II: valid; III: invalid; IV: valid
+
+### Q53. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 A disk head is at cylinder50. Three requests target55,30,80. Seek time is one time unit per cylinder. Their additional rotational waits after reaching the target are respectively50,0,0 time units; transfer times are equal and may be ignored. How much larger is the first-request service time selected by shortest-seek-time-first than the smallest available first-request service time?
 
-**Answer format:** Integer time units.
+**Required precision:** Integer time units.
 
-### Q54. [2 Marks] [NAT]
+A. 70  
+B. 35  
+C. 18  
+D. 36
+
+### Q54. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Routers R and S forward packets by longest-prefix match. R has a connected route for 10.0.0.0/25 and a default route via S. S has a connected route for 10.0.0.192/26 and a default route via R. A packet addressed within 10.0.0.0/24 begins at R. Ignore TTL expiration and count every address, including subnet endpoints. For how many destination addresses does the packet loop between R and S rather than reach either connected network?
 
-**Answer format:** Exact integer.
+**Required precision:** Exact integer.
 
-### Q55. [2 Marks] [NAT]
+A. 64  
+B. 128  
+C. 32  
+D. 65
+
+### Q55. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 X and Y are independent uniform random variables on [0,1]. Find E[min(X,Y) | X+Y>1]. Enter the exact decimal value.
 
-**Answer format:** Exact finite decimal.
+**Required precision:** Exact finite decimal.
+
+A. 0.3  
+B. 0.8  
+C. 0.1  
+D. 0.5
 
 ### Q56. [2 Marks] [MCQ]
 
@@ -566,11 +837,18 @@ B. A XOR B
 C. A AND B  
 D. NOT(A AND B)
 
-### Q59. [2 Marks] [NAT]
+### Q59. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A real function f is twice continuously differentiable on [0,2], satisfies f(0)=f(2)=0, and has f″(x)≥2 for all x in [0,2]. What is the greatest possible value of f(1)?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
+
+A. -2  
+B. 0  
+C. 1  
+D. -1
 
 ### Q60. [2 Marks] [MCQ]
 
@@ -585,29 +863,57 @@ B. C−R is context-free.
 C. R−C is necessarily context-free.  
 D. C∪R is context-free.
 
-### Q61. [2 Marks] [NAT]
+### Q61. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Construct the usual predictive parsing table for grammar S→AB, A→aA | ε, B→bB | a, with start symbol S and end marker $. Count cells that contain more than one production; count a conflicting cell once regardless of how many productions it contains. How many such cells are there?
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q62. [2 Marks] [NAT]
+A. 2  
+B. 0  
+C. 3  
+D. 1
+
+### Q62. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Four memory banks are selected by word address modulo 4. Each request occupies its bank for 3 cycles; a bank accepting a request at cycle t is available again at t+3. The controller issues at most one request per cycle, in the listed order, and stalls if the next request's bank is busy. Initially all banks are idle. For word addresses 0,4,1,5,2,6,3,7, with the first issue at cycle 0, at what cycle does the last request finish?
 
-**Answer format:** Integer cycle number.
+**Required precision:** Integer cycle number.
 
-### Q63. [2 Marks] [NAT]
+A. 18  
+B. 36  
+C. 9  
+D. 19
+
+### Q63. [2 Marks] [MCQ]
+
+Select the numerical value that correctly answers the following problem.
 
 A function F(n), for nonnegative integer n, returns immediately for n≤1. Otherwise it calls F(floor(n/2)) and F(ceil(n/2)), then returns. Count every invocation, including base cases. How many invocations are eliminated when computing F(10) if memoization causes each distinct argument to be evaluated only once? A memo-table hit is not counted as an evaluated invocation in the memoized version.
 
-**Answer format:** Integer.
+**Required precision:** Integer.
 
-### Q64. [2 Marks] [NAT]
+A. 28  
+B. 7  
+C. 15  
+D. 14
+
+### Q64. [2 Marks] [MSQ]
+
+Select ALL options that are NOT valid numerical answers to the following problem. Exactly three options must be selected.
 
 Among all monic real quadratics p(x)=x²+ax+b, what is the smallest possible value of max{|p(x)|: −1≤x≤1}?
 
-**Answer format:** Exact finite decimal.
+**Required precision:** Exact finite decimal.
+
+A. 0.5  
+B. 0.3  
+C. 0.8  
+D. 0.1
 
 ### Q65. [2 Marks] [MCQ]
 
@@ -637,67 +943,67 @@ D. II and III
 | Question | Type | Marks | Correct Answer |
 |---|---|---|---|
 | 1 | MCQ | 1 | B |
-| 2 | NAT | 1 | -6 |
+| 2 | MCQ | 1 | C |
 | 3 | MSQ | 1 | A, C, D |
-| 4 | NAT | 1 | 8 |
+| 4 | MSQ | 1 | A, C, D |
 | 5 | NAT | 1 | 0.6667 (accepted range 0.66665–0.66675) |
-| 6 | NAT | 2 | 2 (exact) |
-| 7 | NAT | 2 | 17 |
-| 8 | NAT | 2 | 0.6 |
+| 6 | MCQ | 2 | C |
+| 7 | MCQ | 2 | A |
+| 8 | MSQ | 2 | A, B, C |
 | 9 | MSQ | 2 | B, C, D |
-| 10 | NAT | 2 | 108 |
+| 10 | MCQ | 2 | D |
 | 11 | NAT | 1 | 3 |
-| 12 | NAT | 1 | 6 (exact) |
-| 13 | NAT | 1 | 92 |
-| 14 | NAT | 1 | 9 |
+| 12 | MSQ | 1 | B, C, D |
+| 13 | MCQ | 1 | B |
+| 14 | MSQ | 1 | A, B, D |
 | 15 | NAT | 1 | 0 |
 | 16 | MSQ | 1 | B, C, D |
-| 17 | NAT | 1 | 14 |
-| 18 | NAT | 1 | 4 |
-| 19 | NAT | 1 | 2 (exact) |
-| 20 | NAT | 1 | 7.75 |
+| 17 | MCQ | 1 | B |
+| 18 | MSQ | 1 | B, C, D |
+| 19 | MCQ | 1 | D |
+| 20 | MSQ | 1 | A, B, D |
 | 21 | NAT | 1 | -0.0833 (range -0.08335–-0.08325) |
-| 22 | NAT | 1 | 1 |
+| 22 | MCQ | 1 | A |
 | 23 | MCQ | 1 | B |
-| 24 | NAT | 1 | 0.5 |
-| 25 | NAT | 1 | 18 |
+| 24 | MCQ | 1 | C |
+| 25 | MSQ | 1 | A, B, C |
 | 26 | NAT | 1 | -1 |
 | 27 | MCQ | 1 | B |
-| 28 | NAT | 1 | 5 |
+| 28 | MCQ | 1 | C |
 | 29 | MSQ | 1 | A, B, D |
 | 30 | MCQ | 1 | B |
-| 31 | NAT | 1 | 1 |
-| 32 | NAT | 1 | 2 |
-| 33 | MSQ | 1 | B, C |
+| 31 | MCQ | 1 | A |
+| 32 | MSQ | 1 | B, C, D |
+| 33 | MCQ | 1 | D |
 | 34 | MCQ | 1 | D |
-| 35 | MSQ | 1 | A, C |
-| 36 | NAT | 2 | 3 |
-| 37 | NAT | 2 | 8 |
-| 38 | NAT | 2 | 5 |
+| 35 | MCQ | 1 | A |
+| 36 | MSQ | 2 | A, B, D |
+| 37 | MSQ | 2 | A, B, D |
+| 38 | MSQ | 2 | A, B, C |
 | 39 | NAT | 2 | 3 |
-| 40 | NAT | 2 | 4 |
-| 41 | NAT | 2 | 2 |
-| 42 | NAT | 2 | 12 |
+| 40 | MSQ | 2 | A, B, D |
+| 41 | MSQ | 2 | A, B, D |
+| 42 | MCQ | 2 | D |
 | 43 | MCQ | 2 | C |
-| 44 | NAT | 2 | 50 |
-| 45 | NAT | 2 | 1.8333 (range 1.83325–1.83335) |
-| 46 | NAT | 2 | 4096 (exact) |
-| 47 | NAT | 2 | 11 |
-| 48 | NAT | 2 | 188 |
-| 49 | NAT | 2 | 2 |
-| 50 | NAT | 2 | 3 |
+| 44 | MSQ | 2 | A, C, D |
+| 45 | MSQ | 2 | A, B, C |
+| 46 | MSQ | 2 | B, C, D |
+| 47 | MSQ | 2 | A, B, D |
+| 48 | MCQ | 2 | C |
+| 49 | MSQ | 2 | A, B, C |
+| 50 | MSQ | 2 | A, C, D |
 | 51 | MCQ | 2 | C |
-| 52 | MSQ | 2 | A, C |
-| 53 | NAT | 2 | 35 |
-| 54 | NAT | 2 | 64 |
-| 55 | NAT | 2 | 0.5 |
+| 52 | MCQ | 2 | A |
+| 53 | MSQ | 2 | A, C, D |
+| 54 | MSQ | 2 | B, C, D |
+| 55 | MCQ | 2 | D |
 | 56 | MCQ | 2 | D |
 | 57 | MCQ | 2 | B |
 | 58 | MSQ | 2 | C, D |
-| 59 | NAT | 2 | -1 |
+| 59 | MCQ | 2 | D |
 | 60 | MCQ | 2 | C |
-| 61 | NAT | 2 | 1 |
-| 62 | NAT | 2 | 18 |
-| 63 | NAT | 2 | 14 |
-| 64 | NAT | 2 | 0.5 |
+| 61 | MSQ | 2 | A, B, C |
+| 62 | MSQ | 2 | B, C, D |
+| 63 | MCQ | 2 | D |
+| 64 | MSQ | 2 | B, C, D |
 | 65 | MCQ | 2 | C |
