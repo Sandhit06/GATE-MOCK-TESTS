@@ -4,15 +4,17 @@
 **Duration:** 180 Minutes  
 **Maximum Marks:** 100  
 **Total Questions:** 65  
-**Difficulty:** Medium to Hard
+**Difficulty:** Medium to Hard (target)
 
 ## General Instructions
 
-- Attempt all 65 questions within 180 minutes.
-- MCQ: select exactly one of four options. Incorrect 1-mark MCQ: −1/3; incorrect 2-mark MCQ: −2/3.
-- MSQ: select every correct option. There is no partial credit and no negative marking.
-- NAT: enter a numerical answer, using the stated precision. There is no negative marking.
-- Unattempted questions receive zero marks.
+- Attempt the paper within 180 minutes.
+- Q1–Q5 and Q11–Q35 carry one mark each; Q6–Q10 and Q36–Q65 carry two marks each.
+- General Aptitude contributes 15 marks, Engineering Mathematics 13 marks, and core Computer Science 72 marks.
+- MCQ: choose exactly one option. Incorrect one-mark MCQs lose 1/3 mark; incorrect two-mark MCQs lose 2/3 mark.
+- MSQ: select all and only the correct options. There is no partial credit and no negative marking.
+- NAT: enter the numerical answer at the stated precision. There is no negative marking.
+- Unattempted questions receive zero. The answer key follows Question 65.
 
 ---
 
@@ -20,603 +22,642 @@
 
 ### Q1. [1 Mark] [NAT]
 
-Find the next term in the sequence: 2, 8, 16, 26, 38, ___.
+A sequence begins with a1=1,a2=2 and obeys a(n)=a(n−1)+2a(n−2) for n≥3. Find a6.
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer.
 
-### Q2. [1 Mark] [MCQ]
+### Q2. [1 Mark] [NAT]
 
-Consider the deductive reasoning scenario regarding geometry and mensuration. A team has 4 members: P, Q, R, S. If P is selected, Q cannot be selected. R is selected if and only if S is selected. If exactly 2 members must be chosen, how many valid pairs exist?
+A rectangle has perimeter 40 cm and area 96 cm². Its longer side is increased by 1 cm and its shorter side decreased by 1 cm. By how many square centimetres does its area decrease?
 
-A. 3  
-B. 2  
-C. 4  
-D. 1  
+**Answer format:** Integer.
 
-### Q3. [1 Mark] [MCQ]
+### Q3. [1 Mark] [MSQ]
 
-Choose the grammatically correct sentence that observes standard subject-verb agreement:
+Select every option that is **not a valid answer** to the question below. Judge the options against the question exactly as written.
 
-Original statement: "each of the candidates ___ acceptable to the board."
+**Question to evaluate**
 
-A. Neither of the options has acceptable to the board.  
-B. Neither of the options have acceptable to the board.  
-C. None of the option were acceptable to the board.  
-D. Neither options has being acceptable to the board.  
+Choose the grammatically correct completion in formal English: “Neither the two applicants nor their supervisor ___ available when the committee ___ its decision yesterday.”
+
+A. were; announce  
+B. was; announced  
+C. were; announcing  
+D. was; announce
 
 ### Q4. [1 Mark] [NAT]
 
-A container has 100 litres of a liquid mixture of components X and Y in the ratio 3:2. If 12 litres of component X and 8 litres of component Y are added, what is the new percentage of component X in the mixture?
+In a company, 60% of employees work remotely. Of the remote employees, 25% work part-time. Of the remaining employees, 10% work part-time. What percentage of all employees work part-time?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer percentage, without the percent sign.
 
 ### Q5. [1 Mark] [NAT]
 
-Consider the deductive reasoning scenario regarding deductive logic. A team has 4 members: P, Q, R, S. If P is selected, Q cannot be selected. R is selected if and only if S is selected. If exactly 2 members must be chosen, how many valid pairs exist?
+Exactly two of A, B, C and D must be on duty. If A is on duty, B must be on duty. In addition, C is on duty if and only if D is not on duty. How many different pairs can be on duty?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Numeric value; integer.
 
-### Q6. [2 Marks] [MCQ]
+### Q6. [2 Marks] [NAT]
 
-Consider the deductive reasoning scenario regarding spatial transformations. A team has 4 members: P, Q, R, S. If P is selected, Q cannot be selected. R is selected if and only if S is selected. If exactly 2 members must be chosen, how many valid pairs exist?
+A point is reflected across the vertical line x=1, and the reflected point is then rotated90 degrees counterclockwise about the origin. The final point is(−3,−2). What was the original point's distance from the origin?
 
-A. 3  
-B. 2  
-C. 4  
-D. 1  
+**Answer format:** Exact number.
 
-### Q7. [2 Marks] [MCQ]
+### Q7. [2 Marks] [MSQ]
 
-Consider the deductive reasoning scenario regarding reading comprehension. A team has 4 members: P, Q, R, S. If P is selected, Q cannot be selected. R is selected if and only if S is selected. If exactly 2 members must be chosen, how many valid pairs exist?
+A switch is either ON or OFF. A says, “The switch is ON.” B says, “A's statement is false.” C says, “The switch is OFF.” Exactly two of the three statements are true. Which conclusions follow?
 
-A. 3  
-B. 2  
-C. 4  
-D. 1  
+A. The switch is OFF.
+B. A and B are both truthful.
+C. B and C are truthful.
+D. The information is inconsistent.
 
-### Q8. [2 Marks] [MCQ]
+### Q8. [2 Marks] [NAT]
 
-Find the next term in the sequence: 8, 13, 20, 29, 40, ___.
+How many distinct arrangements of the multiset of letters A,A,B,B,C contain no adjacent A's?
 
-A. 53  
-B. 49  
-C. 57  
-D. 61  
+**Answer format:** Integer.
 
 ### Q9. [2 Marks] [NAT]
 
-Consider the deductive reasoning scenario regarding data interpretation. A team has 4 members: P, Q, R, S. If P is selected, Q cannot be selected. R is selected if and only if S is selected. If exactly 2 members must be chosen, how many valid pairs exist?
+A delivery service has two depots. Their on-time delivery percentages are unchanged between two months: depot A is90% on time and depot B is60% on time. In month1, A handles twice as many deliveries as B. In month2, the service-wide on-time rate is75%. Relative to its month1 share, by what percentage has A's share of all deliveries decreased?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Percentage decrease as a number, without the percent symbol.
 
-### Q10. [2 Marks] [MCQ]
+### Q10. [2 Marks] [NAT]
 
-Consider the deductive reasoning scenario regarding paper folding and cutting. A team has 4 members: P, Q, R, S. If P is selected, Q cannot be selected. R is selected if and only if S is selected. If exactly 2 members must be chosen, how many valid pairs exist?
+A square sheet occupies 0≤x≤8, 0≤y≤8. Fold the right half onto the left along x=4, then the top half onto the bottom along y=4. Punch one tiny circular hole centred at (4,1), and another centred at (2,2), through every layer. The radii are equal and less than 0.1; the first punch straddles the vertical folded edge. After unfolding completely, how many distinct circular holes are present? Count a hole centred on a former fold line once.
 
-A. 3  
-B. 2  
-C. 4  
-D. 1  
+**Answer format:** Exact integer.
 
 ---
 
 ## Section B — Computer Science and Engineering Mathematics
 
-### Q11. [1 Mark] [NAT]
+### Q11. [1 Mark] [MCQ]
 
-Which of the following languages over Σ = {a, b} is NOT context-free?
+Select the pair containing **all and only the valid answers** to the following question.
 
-**Answer format:** Numeric value; integer or decimal.
+**Question to evaluate**
+
+A nondeterministic PDA accepts by final state only after consuming the entire input. In a conversion to empty-stack acceptance, a fresh protected bottom marker is placed below the original stack, and from an original final state the machine may enter a new mode that uses only epsilon transitions to pop all remaining stack symbols, including that marker. Empty-stack acceptance also requires all input consumed. Which statements are correct?
+
+**Candidates**
+
+**I.** The drain mode can successfully finish an accepting computation after the entire input has been consumed in an original final state.
+
+**II.** Entering drain mode with unread input automatically accepts that input as well.
+
+**III.** The new bottom marker must be treated as an ordinary original-stack symbol by every old transition, without restriction.
+
+**IV.** The requirement to consume all input prevents a drained stack reached too early from accepting a remaining suffix.
+
+A. II and IV  
+B. I and IV  
+C. III and IV  
+D. I and II
 
 ### Q12. [1 Mark] [NAT]
 
-A B+ tree index has order m = 5 (each internal node can have at most 5 children). What is the minimum number of keys in a non-root internal node?
+A B+ tree internal node contains six separator keys. Under the usual k-keys/k+1-children rule, how many child pointers does it contain?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer.
 
-### Q13. [1 Mark] [MCQ]
+### Q13. [1 Mark] [NAT]
 
-Let G be a simple undirected complete graph K_4. How many distinct spanning trees does G possess (using Cayley's formula n^(n-2))?
+A dataset of four values has mean 5 and population variance 4. Append two more observations, both equal to the old mean. What is the new population variance?
 
-A. 16  
-B. 6  
-C. 64  
-D. 16  
+**Answer format:** Decimal rounded to four places.
 
 ### Q14. [1 Mark] [NAT]
 
-In compiler dataflow analysis, which of the following code optimizations can be safely performed without requiring interprocedural analysis?
+A syntax-directed definition for a list uses L→L1,d with L.count=L1.count+1, and L→d with L.count=1. How many applications of the recursive production occur in a parse of d,d,d,d,d?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer.
 
 ### Q15. [1 Mark] [NAT]
 
-In Banker's algorithm for deadlock avoidance, a system is in a SAFE state if and only if:
+A process incurs three page faults in sequence. Each fault reads one page from disk; the first and third evict dirty pages, while the second evicts a clean page. No writes are merged or deferred. How many page-sized disk transfers occur in total?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer.
 
 ### Q16. [1 Mark] [MSQ]
 
-Consider the recurrence relation T(n) = 4 T(n/2) + n² log n for n ≥ 2, with T(1) = Θ(1). According to the Master Theorem (extended case 2), the asymptotic tight bound for T(n) is:
+Select every option that is **not a valid answer** to the question below. Judge the options against the question exactly as written.
 
-A. Θ(n² log² n)  
-B. Θ(n² log n)  
-C. Θ(n³)  
-D. Θ(n² √n)  
+**Question to evaluate**
+
+How many times is work() called asymptotically, for positive integer n?
+
+```text
+for i = 1 to n:
+    j = i
+    while j <= n:
+        work()
+        j = j + i
+```
+
+A. Θ(n)  
+B. Θ(n²)  
+C. Θ(log n)  
+D. Θ(n log n)
 
 ### Q17. [1 Mark] [MCQ]
 
-A 4-bit synchronous binary up-counter is constructed using JK flip-flops. What is the maximum clock frequency (in MHz) if each flip-flop has a propagation delay of 12 ns and each AND gate has a delay of 4 ns?
+Select the one option that is **not a valid answer** to the question below. Judge the options against the question exactly as written.
 
-A. 50 MHz  
-B. 40 MHz  
-C. 60 MHz  
-D. 25 MHz  
+**Question to evaluate**
+
+A cover-minimization procedure has two feasible covers: C1 uses two rows with total cost8; C2 uses three rows with total cost6. Each is assumed optimal for the count/cost pair shown, and no other cover improves either objective. Which statements are correct?
+
+A. Minimizing row count first and total cost second selects C1.  
+B. Minimizing total cost first and row count second selects C2.  
+C. The two objectives necessarily choose the same cover.  
+D. Reporting only “minimum cover” without specifying the objective can be ambiguous here.
 
 ### Q18. [1 Mark] [MCQ]
 
-In Banker's algorithm for deadlock avoidance, a system is in a SAFE state if and only if:
+A full adder receives inputs x,y and carry-in c. Its sum output is x XOR y XOR c. If x=y=1, what are its sum and carry-out as functions of c?
 
-A. There exists at least one safe sequence in which all processes can finish successfully.  
-B. All resources are currently fully allocated without idle capacity.  
-C. No process requests more than one resource type simultaneously.  
-D. Deadlock has already occurred and can be rolled back.  
+A. (c,1)
+B. (NOT c,1)
+C. (c,c)
+D. (0,c)
 
 ### Q19. [1 Mark] [MCQ]
 
-How many states are in the minimal Deterministic Finite Automaton (DFA) that accepts all binary strings ending with the substring `011` over the alphabet Σ = {0, 1}?
+Select the one option that is **not a valid answer** to the question below. Judge the options against the question exactly as written.
 
-A. 4  
-B. 3  
-C. 5  
-D. 8  
+**Question to evaluate**
 
-### Q20. [1 Mark] [MCQ]
+L is a language over {a,b}, and its complement is taken with respect to {a,b}*. Which statements necessarily hold?
 
-A 4-bit synchronous binary up-counter is constructed using JK flip-flops. What is the maximum clock frequency (in MHz) if each flip-flop has a propagation delay of 12 ns and each AND gate has a delay of 4 ns?
+A. If both L and its complement are finite, then {a,b}* is finite.  
+B. If L is regular, its complement is context-free.  
+C. If L is context-free, its complement is regular.  
+D. If L is finite, its complement is regular.
 
-A. 50 MHz  
-B. 40 MHz  
-C. 60 MHz  
-D. 25 MHz  
+### Q20. [1 Mark] [NAT]
 
-### Q21. [1 Mark] [MCQ]
+For Boolean inputs x,y let F(x,y)=xy and define G=F(x,y) XOR F(NOT x,y) XOR F(x,NOT y) XOR F(NOT x,NOT y). On how many of the four input assignments is G=1?
 
-Let G be a simple undirected complete graph K_4. How many distinct spanning trees does G possess (using Cayley's formula n^(n-2))?
+**Answer format:** Integer.
 
-A. 16  
-B. 6  
-C. 64  
-D. 16  
+### Q21. [1 Mark] [NAT]
 
-### Q22. [1 Mark] [MCQ]
+On the real numbers other than−1, define x*y=x+y+xy. This operation forms a group with identity0. What is the inverse of3 under this operation?
 
-An initially empty stack supports PUSH and POP operations. If the sequence of pushed elements is 1, 2, 3, 4, which of the following output permutation sequences CANNOT be obtained by any interleaving of legal POP operations?
+**Answer format:** Exact decimal.
 
-A. 3, 1, 2, 4  
-B. 2, 4, 3, 1  
-C. 1, 2, 3, 4  
-D. 4, 3, 2, 1  
+### Q22. [1 Mark] [NAT]
 
-### Q23. [1 Mark] [MSQ]
+A C array `int a[3][5]` is stored in row-major order, with sizeof(int)=4 bytes. What is the byte offset of a[2][3] from the start of the array?
 
-A 4-bit synchronous binary up-counter is constructed using JK flip-flops. What is the maximum clock frequency (in MHz) if each flip-flop has a propagation delay of 12 ns and each AND gate has a delay of 4 ns?
+**Answer format:** Integer.
 
-A. 50 MHz  
-B. 40 MHz  
-C. 60 MHz  
-D. 25 MHz  
+### Q23. [1 Mark] [NAT]
 
-### Q24. [1 Mark] [MCQ]
+A synchronous two-bit machine updates Q0′=NOT Q0 and Q1′=Q1 XOR Q0, using the old state for both expressions. Starting at Q1Q0=10, what unsigned integer does its state represent after five clock edges?
 
-Let G be a simple undirected complete graph K_6. How many distinct spanning trees does G possess (using Cayley's formula n^(n-2))?
+**Answer format:** Integer.
 
-A. 1296  
-B. 15  
-C. 7776  
-D. 36  
+### Q24. [1 Mark] [NAT]
+
+Remove a perfect matching from the complete bipartite graph K3,3. How many spanning trees does the remaining graph have?
+
+**Answer format:** Integer.
 
 ### Q25. [1 Mark] [NAT]
 
-Which of the following languages over Σ = {a, b} is NOT context-free?
+For the unary regular language {a^(3k):k≥0}, what is the smallest positive pumping length satisfying the regular pumping lemma, including |xy|≤p and |y|>0?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer.
 
-### Q26. [1 Mark] [MSQ]
+### Q26. [1 Mark] [NAT]
 
-Let G be a simple undirected complete graph K_6. How many distinct spanning trees does G possess (using Cayley's formula n^(n-2))?
+How many three-element subsets of {1,2,3,4,5,6,7} contain4 and contain no pair of consecutive integers?
 
-A. 1296  
-B. 15  
-C. 7776  
-D. 36  
+**Answer format:** Integer.
 
 ### Q27. [1 Mark] [NAT]
 
-In a computer system, DMA controller requests bus mastership via cycle stealing. If the CPU bus cycle is 200 ns and DMA transfers one 32-bit word every 2 µs, what fraction of memory bandwidth is consumed by DMA?
+A microinstruction independently selects at most one of three signals in group A, at most one of five signals in group B, and any subset of two further independent signals. Each group needs an explicit “none” encoding. Encode each group in its own minimum-width binary field and the further signals as individual bits. How many control bits are required?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer.
 
-### Q28. [1 Mark] [MCQ]
+### Q28. [1 Mark] [MSQ]
 
-A B+ tree index has order m = 5 (each internal node can have at most 5 children). What is the minimum number of keys in a non-root internal node?
+In a standard B+ tree in which all data entries are stored at leaves, which statements hold?
 
-A. 2  
-B. 3  
-C. 4  
-D. 1  
+A. Internal separator keys can appear again at the leaf level.
+B. All leaves are at the same depth.
+C. Every successful lookup must stop at an internal separator without reaching any leaf.
+D. The root must always have exactly the same minimum occupancy as a nonroot internal node.
 
 ### Q29. [1 Mark] [MCQ]
 
-What is the worst-case number of comparisons performed by Merge Sort on an array of n elements?
+A change-making algorithm repeatedly takes the largest coin not exceeding the remaining amount. Coin denominations are1,4,6 with unlimited supplies. For amount8, which statement is correct?
 
-A. Θ(n log n)  
-B. Θ(n²)  
-C. Θ(n)  
-D. Θ(log n)  
+A. Greedy uses two coins and is optimal.
+B. Greedy uses three coins, while the optimum uses two.
+C. Greedy uses four coins, while the optimum uses three.
+D. No exact representation of8 exists.
 
-### Q30. [1 Mark] [MCQ]
+### Q30. [1 Mark] [NAT]
 
-Let G be a simple undirected complete graph K_4. How many distinct spanning trees does G possess (using Cayley's formula n^(n-2))?
+A sequence satisfies T(0)=0 and T(n)=T(n−1)+2n−1 for n≥1. Find T(20).
 
-A. 16  
-B. 6  
-C. 64  
-D. 16  
+**Answer format:** Integer.
 
-### Q31. [1 Mark] [MCQ]
+### Q31. [1 Mark] [MSQ]
 
-An initially empty stack supports PUSH and POP operations. If the sequence of pushed elements is 1, 2, 3, 4, which of the following output permutation sequences CANNOT be obtained by any interleaving of legal POP operations?
+Select every option that is **not a valid answer** to the question below. Judge the options against the question exactly as written.
 
-A. 3, 1, 2, 4  
-B. 2, 4, 3, 1  
-C. 1, 2, 3, 4  
-D. 4, 3, 2, 1  
+**Question to evaluate**
+
+Initially head points to node A in the singly linked list A→B→C→NULL. Consider these assignments, evaluated in order:
+
+```text
+p = head.next
+head.next = p.next
+p.next = head
+head = p
+```
+
+Which list is reachable from head afterward?
+
+A. A→C→B→NULL  
+B. B→A→C→NULL  
+C. B→C→A→NULL  
+D. A→B→C→NULL
 
 ### Q32. [1 Mark] [MCQ]
 
-In compiler dataflow analysis, which of the following code optimizations can be safely performed without requiring interprocedural analysis?
+A language has lexical nesting. Procedure Outer defines local x and nested procedure Inner, whose body references x. Inner is called by an unrelated procedure Caller while Outer remains active. Which link is needed to find the lexically enclosing activation containing x?
 
-A. Local common subexpression elimination within a basic block  
-B. Inlining recursive function calls across compilation units  
-C. Eliminating global variables accessed in external shared libraries  
-D. Removing virtual method dispatch tables across polymorphic hierarchies  
+A. A dynamic link to Caller alone
+B. A static link to Outer's activation
+C. A link to whichever activation was created most recently
+D. A link to the global symbol table alone
 
-### Q33. [1 Mark] [MSQ]
+### Q33. [1 Mark] [NAT]
 
-In a computer system, DMA controller requests bus mastership via cycle stealing. If the CPU bus cycle is 200 ns and DMA transfers one 32-bit word every 2 µs, what fraction of memory bandwidth is consumed by DMA?
+A 32-bit-wide memory module is constructed from chips each organized as 1024 words × 8 bits. How many chips are needed to obtain 1024 words × 32 bits, with all chips sharing address inputs?
 
-A. 10%  
-B. 5%  
-C. 20%  
-D. 2.5%  
+**Answer format:** Integer.
 
 ### Q34. [1 Mark] [MCQ]
 
-In Cyclic Redundancy Check (CRC), if the generator polynomial is G(x) = x³ + x + 1, how many bits of checksum (FCS) are appended to the data frame?
+A transport-layer port number is primarily used to distinguish what?
 
-A. 3  
-B. 4  
-C. 2  
-D. 1  
+A. Application endpoints on a host.
+B. Individual bits within one Ethernet frame.
+C. Physical pins on a memory chip.
+D. Cache-line offsets inside a processor.
 
 ### Q35. [1 Mark] [NAT]
 
-In Cyclic Redundancy Check (CRC), if the generator polynomial is G(x) = x³ + x + 1, how many bits of checksum (FCS) are appended to the data frame?
+Two store-and-forward links in series each transmit at1000 bits/s. Propagation and processing delays are zero. A1000-bit message is split into two equal packets with no headers. Transmission starts at time0. At what time, in seconds, does the last bit reach the destination?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Exact decimal.
 
-### Q36. [2 Marks] [MCQ]
+### Q36. [2 Marks] [NAT]
 
-A system uses a 32-bit virtual address and 4 KiB page size. Each page table entry occupies 4 bytes. What is the size of a single-level page table for a process?
+Four processes have resource demands: P holds A and requests B; Q holds B and requests C; R holds C and requests A; S holds D and requests B. Each resource has one instance, requests block, and no process releases its held resource before receiving its request. How many processes lie on a directed cycle in the wait-for graph?
 
-A. 4 MiB  
-B. 2 MiB  
-C. 1 MiB  
-D. 8 MiB  
+**Answer format:** Integer.
 
 ### Q37. [2 Marks] [MCQ]
 
-In Cyclic Redundancy Check (CRC), if the generator polynomial is G(x) = x³ + x + 1, how many bits of checksum (FCS) are appended to the data frame?
+Select the one option that is **not a valid answer** to the question below. Judge the options against the question exactly as written.
 
-A. 3  
-B. 4  
-C. 2  
-D. 1  
+**Question to evaluate**
+
+A CRC uses generator G(x)=x³+x+1 over GF(2). An error is undetected exactly when its nonzero error polynomial is divisible by G. Which statements are correct?
+
+A. Error x⁷+1 is undetected.  
+B. Error x⁶+1 is undetected.  
+C. Every single-bit error is detected.  
+D. Every nonzero burst error of length at most three bits is detected.
 
 ### Q38. [2 Marks] [MCQ]
 
-A B+ tree index has order m = 5 (each internal node can have at most 5 children). What is the minimum number of keys in a non-root internal node?
+Select the one option that is **not a valid answer** to the question below. Judge the options against the question exactly as written.
 
-A. 2  
-B. 3  
-C. 4  
-D. 1  
+**Question to evaluate**
 
-### Q39. [2 Marks] [MCQ]
+A weak entity Room is identified by the pair(BuildingID,RoomNumber). RoomNumber is unique only within a building. Which statements are correct?
 
-Which of the following first-order predicate logic formulas is logically VALID (true under every interpretation)?
+A. Rooms in different buildings may share a RoomNumber.  
+B. RoomNumber alone necessarily identifies a room globally.  
+C. The owner's identifier contributes to the weak entity's identification.  
+D. Moving a room record to another building can cause an identifier collision if that building already has the same RoomNumber.
 
-A. (∀x [P(x) → Q(x)]) → ([∀x P(x)] → [∀x Q(x)])  
-B. ([∀x P(x)] → [∀x Q(x)]) → (∀x [P(x) → Q(x)])  
-C. (∃x [P(x) ∧ Q(x)]) ↔ ([∃x P(x)] ∧ [∃x Q(x)])  
-D. (∀x [P(x) ∨ Q(x)]) ↔ ([∀x P(x)] ∨ [∀x Q(x)])  
+### Q39. [2 Marks] [NAT]
+
+On the fixed domain {1,2,3}, how many binary relations R satisfy both (∀x ∃y R(x,y)) and NOT(∃y ∀x R(x,y))? Relations are distinguished by their sets of ordered pairs.
+
+**Answer format:** Exact integer.
 
 ### Q40. [2 Marks] [MCQ]
 
-A B+ tree index has order m = 5 (each internal node can have at most 5 children). What is the minimum number of keys in a non-root internal node?
+Select the pair containing **all and only the valid answers** to the following question.
 
-A. 2  
-B. 3  
-C. 4  
-D. 1  
+**Question to evaluate**
 
-### Q41. [2 Marks] [NAT]
+A schedule consists of w1(x),w2(x),w1(x), followed by commits after all writes. There are no reads. The first and last writes belong to T1 and the middle write to T2. All writes assign fixed constants independently of prior values. Which statements are correct?
 
-Which of the following decision problems is DECIDABLE for Turing machines?
+**Candidates**
 
-**Answer format:** Numeric value; integer or decimal.
+**I.** Its conflict graph is acyclic.
+
+**II.** It is view-equivalent to the serial order T2,T1.
+
+**III.** It is conflict-serializable.
+
+**IV.** Its final writer of x is T1.
+
+A. I and II  
+B. II and IV  
+C. I and III  
+D. I and IV
+
+### Q41. [2 Marks] [MCQ]
+
+Select the pair containing **all and only the valid answers** to the following question.
+
+**Question to evaluate**
+
+For an arbitrary Turing machine M, define L_M={x : M accepts x within at most |x| transition steps}. Which statements are correct?
+
+**Candidates**
+
+**I.** L_M is decidable for every M.
+
+**II.** Deciding L_M requires deciding whether M eventually halts on x.
+
+**III.** A decider can simulate exactly the bounded number of allowed steps and reject if no acceptance has occurred.
+
+**IV.** L_M must be empty whenever M fails to halt on some other input.
+
+A. I and IV  
+B. II and III  
+C. I and III  
+D. II and IV
 
 ### Q42. [2 Marks] [NAT]
 
-In compiler dataflow analysis, which of the following code optimizations can be safely performed without requiring interprocedural analysis?
+A three-address code generator translates x=(a+b)*(a+b)+(a+b) and performs local common-subexpression elimination. All operands are unchanged mathematical integers. Each binary operation requires one assignment, and assigning the final expression to x needs no separate copy. What is the minimum number of binary-operation assignments in the resulting code?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer.
 
-### Q43. [2 Marks] [MCQ]
+### Q43. [2 Marks] [NAT]
 
-A 3×3 real matrix M has eigenvalues 1, 1, and 3. What is the determinant of the matrix (M² + 2I)?
+Let A be the real 4x4 matrix
 
-A. 99  
-B. 11  
-C. 31  
-D. 89  
+```text
+A = [0 1 0 0]
+    [0 0 1 0]
+    [0 0 0 1]
+    [1 0 0 0].
+```
+
+How many real matrices X simultaneously satisfy X=X^T, AX=XA, X^2=X, and X*(1,1,1,1)^T=0?
+
+**Answer format:** Numeric value; integer.
 
 ### Q44. [2 Marks] [NAT]
 
-What is the worst-case number of comparisons performed by Merge Sort on an array of n elements?
+A path graph has vertex weights 4,7,5,6,3 in order. Select a set of vertices with no two adjacent, maximizing the total weight. How many different vertex sets attain the optimum? Vertices are distinguished by their positions, even if weights were equal.
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Exact integer.
 
 ### Q45. [2 Marks] [NAT]
 
-What is the worst-case number of comparisons performed by Merge Sort on an array of n elements?
+Four jobs have processing times and deadlines (p,d): A=(2,4), B=(3,6), C=(1,3), D=(2,7). All are available at time 0 on one nonpreemptive machine. There are no idle times or setup costs. Lateness is completion time minus deadline, and maximum lateness is the largest lateness among jobs. What is the minimum achievable maximum lateness?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer time units.
 
-### Q46. [2 Marks] [MCQ]
+### Q46. [2 Marks] [NAT]
 
-A 32 KiB 2-way set-associative cache has 64-byte cache blocks and a 32-bit byte address. How many bits are used for the tag field?
+A processor issues four stores at cycles0,1,2,3 unless stalled. A single-entry write buffer accepts a store instantly when empty. Each accepted store occupies the buffer for three cycles: one accepted at cycle t completes and frees the entry at cycle t+3, before any issue at that cycle. While the entry is occupied, the next store stalls, and later stores cannot bypass it. At what cycle is the fourth store accepted?
 
-A. 18  
-B. 20  
-C. 16  
-D. 14  
+**Answer format:** Exact integer.
 
-### Q47. [2 Marks] [MSQ]
+### Q47. [2 Marks] [NAT]
 
-A 64 KiB 4-way set-associative cache has 64-byte cache blocks and a 32-bit byte address. How many bits are used for the tag field?
+A byte-addressed memory contains 64 KiB and is built from chips storing 8K words of four bits each. Chips are arranged so one addressed byte is transferred at once. How many chips are needed in total?
 
-A. 18  
-B. 20  
-C. 16  
-D. 14  
+**Answer format:** Integer.
 
-### Q48. [2 Marks] [MSQ]
+### Q48. [2 Marks] [MCQ]
 
-In compiler dataflow analysis, which of the following code optimizations can be safely performed without requiring interprocedural analysis?
+Select the one option that is **not a valid answer** to the question below. Judge the options against the question exactly as written.
 
-A. Local common subexpression elimination within a basic block  
-B. Inlining recursive function calls across compilation units  
-C. Eliminating global variables accessed in external shared libraries  
-D. Removing virtual method dispatch tables across polymorphic hierarchies  
+**Question to evaluate**
 
-### Q49. [2 Marks] [MCQ]
+A program over mathematical integers executes while(x!=0){x=2*x+1;} and then returns0. No value of x is observed afterward. An optimizer removes the loop because x is unused at the return. Which statements are correct?
 
-In IEEE 754 single-precision floating-point format (32-bit: 1 sign bit, 8 exponent bits with bias 127, 23 fraction bits), what is the decimal equivalent of the hexadecimal word 0xC0800000?
+A. For initial x=0, both versions return0.  
+B. For initial x=1, the rewrite changes a nonterminating execution into a terminating one.  
+C. Absence of a later use of x is sufficient to justify this rewrite for every input.  
+D. Preserving termination behaviour matters for this transformation.
 
-A. -4.0  
-B. -2.0  
-C. +4.0  
-D. -0.5  
+### Q49. [2 Marks] [NAT]
 
-### Q50. [2 Marks] [MCQ]
+Two signed fixed-point numbers are stored in 8-bit two's-complement form with four fractional bits. Their raw hexadecimal encodings are E7 and 39. Multiply their exact represented values, then round the result to the nearest representable value in the same format (ties to even). The result is in range. What is the unsigned decimal interpretation, from 0 to 255, of the resulting 8-bit encoding?
 
-What is the worst-case number of comparisons performed by Merge Sort on an array of n elements?
+**Answer format:** Numeric value; integer.
 
-A. Θ(n log n)  
-B. Θ(n²)  
-C. Θ(n)  
-D. Θ(log n)  
+### Q50. [2 Marks] [NAT]
 
-### Q51. [2 Marks] [MCQ]
+An undirected graph has edges sa,sb,ac,bc,cd,ad. BFS from s records distances and counts the number of shortest paths to each vertex. What is the number of shortest s-to-d paths?
 
-In Banker's algorithm for deadlock avoidance, a system is in a SAFE state if and only if:
+**Answer format:** Exact integer.
 
-A. There exists at least one safe sequence in which all processes can finish successfully.  
-B. All resources are currently fully allocated without idle capacity.  
-C. No process requests more than one resource type simultaneously.  
-D. Deadlock has already occurred and can be rolled back.  
+### Q51. [2 Marks] [NAT]
 
-### Q52. [2 Marks] [MCQ]
+A system defines the working set immediately after a reference as the distinct pages in that reference and the previous three references, or all references so far if fewer than four exist. For the reference string 1,2,1,3,4,2,4,5, what is the sum of the working-set sizes immediately after references 4 through 8?
 
-Evaluate the definite integral: ∫ from 0 to 1 of (x^2 + 2x) dx. Round to two decimal places.
+**Answer format:** Integer.
 
-A. 1.33  
-B. 1.83  
-C. 0.83  
-D. 3.0  
+### Q52. [2 Marks] [NAT]
 
-### Q53. [2 Marks] [NAT]
+Define f(x)=ax+b for x<0, f(0)=1, and f(x)=e^(2x) for x>0. Find a+b if f is differentiable at zero.
 
-How many states are in the minimal Deterministic Finite Automaton (DFA) that accepts all binary strings ending with the substring `011` over the alphabet Σ = {0, 1}?
+**Answer format:** Integer.
 
-**Answer format:** Numeric value; integer or decimal.
+### Q53. [2 Marks] [MCQ]
+
+Select the one option that is **not a valid answer** to the question below. Judge the options against the question exactly as written.
+
+**Question to evaluate**
+
+DFAs D1,D2 over the same alphabet have n and m states. Their complete product automaton tracks ordered state pairs. Which accepting-pair choices recognize the specified language?
+
+A. Both component states accepting: L(D1)∩L(D2).  
+B. Exactly one component state accepting: the symmetric difference of the languages.  
+C. At least one component state accepting: the concatenation L(D1)L(D2).  
+D. First component accepting and second not accepting: L(D1)−L(D2).
 
 ### Q54. [2 Marks] [MSQ]
 
-A B+ tree index has order m = 5 (each internal node can have at most 5 children). What is the minimum number of keys in a non-root internal node?
+Transactions obey basic two-phase locking: a growing phase acquires locks, and after the first unlock no more locks may be acquired. Exclusive locks conflict with every other transaction's lock on that item; shared locks conflict with exclusive locks. Locks need not be held until commit. Which statements are correct?
 
-A. 2  
-B. 3  
-C. 4  
-D. 1  
+A. Every resulting complete schedule is conflict serializable.
+B. Cascading aborts are impossible.
+C. Deadlock is possible.
+D. Holding all exclusive locks until commit is a stronger restriction that prevents another transaction from reading an uncommitted written value.
 
 ### Q55. [2 Marks] [NAT]
 
-Which of the following decision problems is DECIDABLE for Turing machines?
+In grammar S→ABA, A→a | ε, B→b | ε, eliminate epsilon productions while preserving ε in the language by allowing S→ε. Obtain S alternatives by deleting any subset of nullable occurrences from ABA, retain distinct resulting right-hand sides only, and retain S→ε once. How many distinct productions have left-hand side S after this step?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer.
 
-### Q56. [2 Marks] [MCQ]
+### Q56. [2 Marks] [NAT]
 
-In IEEE 754 single-precision floating-point format (32-bit: 1 sign bit, 8 exponent bits with bias 127, 23 fraction bits), what is the decimal equivalent of the hexadecimal word 0xC0800000?
+A toy normalized binary floating-point system has four significant bits, including the leading 1, and exponents large enough to avoid overflow and underflow. Each addition is rounded to nearest, ties to even. Let a=16, b=1, c=−16. What is the value of (a⊕b)⊕c, where ⊕ denotes a rounded addition?
 
-A. -4.0  
-B. -2.0  
-C. +4.0  
-D. -0.5  
+**Answer format:** Integer.
 
-### Q57. [2 Marks] [MCQ]
+### Q57. [2 Marks] [NAT]
 
-An initially empty stack supports PUSH and POP operations. If the sequence of pushed elements is 1, 2, 3, 4, which of the following output permutation sequences CANNOT be obtained by any interleaving of legal POP operations?
+A queue is implemented with an input stack and an output stack. Enqueue pushes onto the input stack. Dequeue pops the output stack; if it is empty, all items from the input stack are first moved to it, one pop and one push per item. Count only individual stack pushes and pops. Starting empty, perform enqueue(A), enqueue(B), dequeue, enqueue(C), enqueue(D), dequeue, dequeue. How many stack operations are performed in total?
 
-A. 3, 1, 2, 4  
-B. 2, 4, 3, 1  
-C. 1, 2, 3, 4  
-D. 4, 3, 2, 1  
+**Answer format:** Integer.
 
-### Q58. [2 Marks] [MCQ]
+### Q58. [2 Marks] [NAT]
 
-In a computer system, DMA controller requests bus mastership via cycle stealing. If the CPU bus cycle is 200 ns and DMA transfers one 32-bit word every 2 µs, what fraction of memory bandwidth is consumed by DMA?
+CPU instructions each take one bus-available cycle. Beginning at cycle 1, a DMA device steals every fourth cycle (4,8,12,...) until it has completed 64 one-cycle transfers. The CPU must execute 100 instructions and cannot progress during stolen cycles. At the end of which cycle does its 100th instruction finish?
 
-A. 10%  
-B. 5%  
-C. 20%  
-D. 2.5%  
+**Answer format:** Integer.
 
 ### Q59. [2 Marks] [NAT]
 
-A complete binary min-heap is represented as an array of 7 elements: [4, 9, 12, 15, 20, 16, 25]. After inserting the value 7 into this heap and performing percolate-up (sift-up), what is the array index (1-based) of key 7?
+A full binary tree, in which every node has zero or two children, has 19 nodes. Exactly four internal nodes have two leaf children each. How many leaves have a sibling that is an internal node?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer.
 
 ### Q60. [2 Marks] [MSQ]
 
-A complete binary min-heap is represented as an array of 7 elements: [4, 9, 12, 15, 20, 16, 25]. After inserting the value 7 into this heap and performing percolate-up (sift-up), what is the array index (1-based) of key 7?
+Distinct keys are inserted into an unbalanced BST. Which statements are correct?
 
-A. 2  
-B. 4  
-C. 1  
-D. 8  
+A. Inserting sorted ascending keys can produce height n−1 for n keys, counting edges.
+B. The inorder traversal is sorted regardless of insertion order.
+C. Every insertion order produces the same tree shape.
+D. A sorted inorder traversal proves that search always takes logarithmic time.
 
 ### Q61. [2 Marks] [NAT]
 
-Consider the Boolean function F(A,B,C,D) = Σm(0, 2, 5, 7, 8, 10, 13, 15). The minimum number of essential prime implicants of F is:
+A positive binary floating-point format has two exponent bits and two stored fraction bits. Exponent fields 01 and 10 represent normalized values (1.f)×2^(E−1), where E is the unsigned exponent-field value. Field 00 represents subnormals (0.f)×2⁰; field 11 is reserved. What is the ratio of the largest finite positive value to the smallest positive value?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer.
 
 ### Q62. [2 Marks] [MCQ]
 
-Let G be a simple undirected complete graph K_6. How many distinct spanning trees does G possess (using Cayley's formula n^(n-2))?
+Select the one option that is **not a valid answer** to the question below. Judge the options against the question exactly as written.
 
-A. 1296  
-B. 15  
-C. 7776  
-D. 36  
+**Question to evaluate**
+
+Random variables X∈{1,2} and Y∈{0,1} have joint probabilities P(X=x,Y=y)=c(x+y), for a normalizing constant c. Which statements are correct?
+
+A. c=1/8.  
+B. X and Y are independent.  
+C. P(Y=1)=5/8.  
+D. E[X|Y=0]=5/3.
 
 ### Q63. [2 Marks] [NAT]
 
-In Banker's algorithm for deadlock avoidance, a system is in a SAFE state if and only if:
+For relation R(A,B,C,D), F={AB→C, C→D, D→A}. How many candidate keys does R have?
 
-**Answer format:** Numeric value; integer or decimal.
+**Answer format:** Integer.
 
-### Q64. [2 Marks] [MCQ]
+### Q64. [2 Marks] [NAT]
 
-In Cyclic Redundancy Check (CRC), if the generator polynomial is G(x) = x³ + x + 1, how many bits of checksum (FCS) are appended to the data frame?
+Two Ethernet stations independently choose backoff counters uniformly from{0,1,2,3} after the same collision. Under the simplified model that only equal counters cause another collision, what is the probability that one station selects a counter exactly one larger than the other?
 
-A. 3  
-B. 4  
-C. 2  
-D. 1  
+**Answer format:** Exact decimal.
 
-### Q65. [2 Marks] [MSQ]
+### Q65. [2 Marks] [MCQ]
 
-In compiler dataflow analysis, which of the following code optimizations can be safely performed without requiring interprocedural analysis?
+Select the one option that is **not a valid answer** to the question below. Judge the options against the question exactly as written.
 
-A. Local common subexpression elimination within a basic block  
-B. Inlining recursive function calls across compilation units  
-C. Eliminating global variables accessed in external shared libraries  
-D. Removing virtual method dispatch tables across polymorphic hierarchies  
+**Question to evaluate**
 
----
+In a compiler's constant lattice, a join keeps a constant only if all reachable incoming values agree. A block has incoming x=5 from one reachable predecessor and x=7 from an unreachable predecessor. Which statements are correct if reachability information is used?
+
+A. The unreachable predecessor need not force x to be nonconstant.  
+B. x may be propagated as5 at the block's entry.  
+C. Treating every syntactic predecessor as reachable can lose this optimization.  
+D. Reachability information never affects constant propagation.
 
 ## ANSWER KEY — MOCK TEST 100
 
 | Question | Type | Marks | Correct Answer |
 |---|---|---|---|
-| 1 | NAT | 1 | 52 (exact) |
-| 2 | MCQ | 1 | A |
-| 3 | MCQ | 1 | A |
-| 4 | NAT | 1 | 60.0 (exact) |
-| 5 | NAT | 1 | 3 (exact) |
-| 6 | MCQ | 2 | A |
-| 7 | MCQ | 2 | A |
-| 8 | MCQ | 2 | A |
-| 9 | NAT | 2 | 3 (exact) |
-| 10 | MCQ | 2 | A |
-| 11 | NAT | 1 | A (exact) |
-| 12 | NAT | 1 | A (exact) |
-| 13 | MCQ | 1 | A |
-| 14 | NAT | 1 | A (exact) |
-| 15 | NAT | 1 | A (exact) |
-| 16 | MSQ | 1 | A |
-| 17 | MCQ | 1 | A |
+| 1 | NAT | 1 | 32 |
+| 2 | NAT | 1 | 5 (exact) |
+| 3 | MSQ | 1 | A, C, D |
+| 4 | NAT | 1 | 19 |
+| 5 | NAT | 1 | 2 (exact) |
+| 6 | NAT | 2 | 5 |
+| 7 | MSQ | 2 | A, C |
+| 8 | NAT | 2 | 18 |
+| 9 | NAT | 2 | 25 |
+| 10 | NAT | 2 | 6 |
+| 11 | MCQ | 1 | B |
+| 12 | NAT | 1 | 7 |
+| 13 | NAT | 1 | 2.6667 (accepted range 2.66665–2.66675) |
+| 14 | NAT | 1 | 4 |
+| 15 | NAT | 1 | 5 |
+| 16 | MSQ | 1 | A, B, C |
+| 17 | MCQ | 1 | C |
 | 18 | MCQ | 1 | A |
-| 19 | MCQ | 1 | A |
-| 20 | MCQ | 1 | A |
-| 21 | MCQ | 1 | A |
-| 22 | MCQ | 1 | A |
-| 23 | MSQ | 1 | A |
-| 24 | MCQ | 1 | A |
-| 25 | NAT | 1 | A (exact) |
-| 26 | MSQ | 1 | A |
-| 27 | NAT | 1 | A (exact) |
-| 28 | MCQ | 1 | A |
-| 29 | MCQ | 1 | A |
-| 30 | MCQ | 1 | A |
-| 31 | MCQ | 1 | A |
-| 32 | MCQ | 1 | A |
-| 33 | MSQ | 1 | A |
+| 19 | MCQ | 1 | C |
+| 20 | NAT | 1 | 4 |
+| 21 | NAT | 1 | -0.75 |
+| 22 | NAT | 1 | 52 |
+| 23 | NAT | 1 | 3 |
+| 24 | NAT | 1 | 6 |
+| 25 | NAT | 1 | 3 |
+| 26 | NAT | 1 | 4 |
+| 27 | NAT | 1 | 7 |
+| 28 | MSQ | 1 | A, B |
+| 29 | MCQ | 1 | B |
+| 30 | NAT | 1 | 400 |
+| 31 | MSQ | 1 | A, C, D |
+| 32 | MCQ | 1 | B |
+| 33 | NAT | 1 | 4 |
 | 34 | MCQ | 1 | A |
-| 35 | NAT | 1 | 3 (exact) |
-| 36 | MCQ | 2 | A |
-| 37 | MCQ | 2 | A |
-| 38 | MCQ | 2 | A |
-| 39 | MCQ | 2 | A |
-| 40 | MCQ | 2 | A |
-| 41 | NAT | 2 | A (exact) |
-| 42 | NAT | 2 | A (exact) |
-| 43 | MCQ | 2 | A |
-| 44 | NAT | 2 | A (exact) |
-| 45 | NAT | 2 | A (exact) |
-| 46 | MCQ | 2 | A |
-| 47 | MSQ | 2 | A |
-| 48 | MSQ | 2 | A |
-| 49 | MCQ | 2 | A |
-| 50 | MCQ | 2 | A |
-| 51 | MCQ | 2 | A |
-| 52 | MCQ | 2 | A |
-| 53 | NAT | 2 | 4 (exact) |
-| 54 | MSQ | 2 | A |
-| 55 | NAT | 2 | A (exact) |
-| 56 | MCQ | 2 | A |
-| 57 | MCQ | 2 | A |
-| 58 | MCQ | 2 | A |
-| 59 | NAT | 2 | A (exact) |
-| 60 | MSQ | 2 | A |
-| 61 | NAT | 2 | 2 (exact) |
-| 62 | MCQ | 2 | A |
-| 63 | NAT | 2 | A (exact) |
-| 64 | MCQ | 2 | A |
-| 65 | MSQ | 2 | A |
+| 35 | NAT | 1 | 1.5 |
+| 36 | NAT | 2 | 3 |
+| 37 | MCQ | 2 | B |
+| 38 | MCQ | 2 | B |
+| 39 | NAT | 2 | 174 |
+| 40 | MCQ | 2 | B |
+| 41 | MCQ | 2 | C |
+| 42 | NAT | 2 | 3 |
+| 43 | NAT | 2 | 4 (exact) |
+| 44 | NAT | 2 | 1 |
+| 45 | NAT | 2 | 1 |
+| 46 | NAT | 2 | 9 |
+| 47 | NAT | 2 | 16 |
+| 48 | MCQ | 2 | C |
+| 49 | NAT | 2 | 167 (exact) |
+| 50 | NAT | 2 | 1 |
+| 51 | NAT | 2 | 17 |
+| 52 | NAT | 2 | 3 |
+| 53 | MCQ | 2 | C |
+| 54 | MSQ | 2 | A, C, D |
+| 55 | NAT | 2 | 7 |
+| 56 | NAT | 2 | 0 |
+| 57 | NAT | 2 | 15 |
+| 58 | NAT | 2 | 133 |
+| 59 | NAT | 2 | 2 |
+| 60 | MSQ | 2 | A, B |
+| 61 | NAT | 2 | 14 |
+| 62 | MCQ | 2 | B |
+| 63 | NAT | 2 | 3 |
+| 64 | NAT | 2 | 0.375 |
+| 65 | MCQ | 2 | D |
