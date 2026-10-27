@@ -323,13 +323,13 @@ If you want to contact me you can reach me at [Twitter](https://x.com/SandhitK).
         </p>
             <p align="center">
                 <a href="https://github.com/Sandhit06">
-                    <img src="https://api.iconify.design/mdi:github.svg?color=%230088cc" width="36" height="36" alt="GitHub"/>
+                    <img src="https://res.cloudinary.com/dyz1paeem/image/upload/v1793130084/round-collaboration-social-github-code-circle-network-icon_rk5x5t.svg" width="36" height="36" alt="GitHub"/>
                 </a>
                 <a href="https://www.linkedin.com/in/sandhit-karmakar/" target="_blank">
-                    <img src="https://api.iconify.design/mdi:linkedin.svg?color=%230088cc" width="36" height="36" alt="LinkedIn"/>
+                    <img src="https://res.cloudinary.com/dyz1paeem/image/upload/v1793130084/network-linkedin-social-connection-circular-circle-media-icon_vdou3m.svg" width="36" height="36" alt="LinkedIn"/>
                 </a>
                 <a href="mailto:sandhitkarmakar@gmail.com" target="_blank">
-                    <img src="https://api.iconify.design/mdi:email.svg?color=%230088cc" width="36" height="36" alt="Email"/>
+                    <img src="https://res.cloudinary.com/dyz1paeem/image/upload/v1793129062/share-send-email-chat-circle-message-mail-icon_u4rx53.svg" width="36" height="36" alt="Email"/>
                 </a>
             </p>
         </td>
