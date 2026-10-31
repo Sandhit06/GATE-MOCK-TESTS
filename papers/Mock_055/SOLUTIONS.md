@@ -594,7 +594,7 @@ The three s-to-t paths are s-a-t of weight 4, s-b-t of weight 15, and s-b-a-t of
 C is false. Adding 4 per edge changes the three path weights to 12,23,15 respectively. The shortest path becomes s-a-t instead of s-b-a-t. D is false: the graph is acyclic, so it contains no directed cycle at all.
 
 - **A:** True: path s-b-a-t has weight 3, which is strictly less than s-a-t (weight 4) and s-b-t (weight 15).
-- **B:** True: Dijkstra settles vertices in order s, a, t, b, selecting path s-a-t of weight 4 before b is considered.
+- **B:** True: Dijkstra settles vertices s, a, t and stops at t, returning weight 4 before b is considered.
 - **C:** False: adding 4 to each edge changes the path lengths to 12, 23, and 15, making s-a-t the shortest path.
 - **D:** False: the directed graph is acyclic and contains no directed cycles.
 

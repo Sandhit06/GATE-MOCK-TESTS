@@ -3374,7 +3374,7 @@
     "CS27-M007-Q032": {
       "paper": 7,
       "number": 32,
-      "text_hash": "b8b7bc6682eb3ca24cc3acf9b4b38b569eb6093cd8001ca874539e49997f7510",
+      "text_hash": "045ddc02be62c5ef6ac12296d75682a9ba2caae7eea93c5f628d9260cd6e1ad0",
       "source_id": "CS27-M007-Q032",
       "family": "source-CS27-M007-Q032",
       "reuse_permitted": true
@@ -22526,7 +22526,7 @@
     "CS27-M044-Q021": {
       "paper": 44,
       "number": 21,
-      "text_hash": "0ae2fec8995861421489b4208b05f743413a24f418716a26e7ca76260881b5b6",
+      "text_hash": "399bb90e1d6d501e92425a00f2b3208116dd86a1b30234ed4cd74b02012b767a",
       "source_id": "CS27-X0862",
       "family": "adapted-CS27-M007-Q032",
       "reuse_permitted": true
@@ -45422,7 +45422,7 @@
     "CS27-M088-Q023": {
       "paper": 88,
       "number": 23,
-      "text_hash": "9c25350aee99f125261eeb8f8e6675a21e69eaafdee6a8fa93a80f2093a69c3a",
+      "text_hash": "cb3d119e9f9b8c4d8a71255862da0658244e3e7059af613df6992cb75e5f668d",
       "source_id": "CS27-W0227",
       "family": "audit-CS27-M007-Q032",
       "reuse_permitted": true

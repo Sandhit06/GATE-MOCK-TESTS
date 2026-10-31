@@ -389,7 +389,7 @@ Each a is prepended and each b appended around the remaining S. Thus all generat
 
 **Concept:** Integer promotion and unsigned conversion.
 
-The addition is performed after integer promotion and is representable; assignment converts the result back modulo 256. Starting at an even value and adding two modulo 256 always leaves i even. It never becomes 255, and every even eight-bit value is less than 255. The loop is infinite (B). A,C wrongly claim termination; D mistakes conversion wraparound for signed overflow.
+The addition is performed after integer promotion and is representable; assignment converts the result back modulo 256. Starting at an even value and adding two modulo 256 always leaves i even. It never becomes 255, and every even eight-bit value is less than 255. The loop is infinite (B). The loop accesses a volatile object, so the C17 permission to assume termination of certain loops without observable operations does not apply. The unsigned conversion and even-value invariant determine the behaviour here. A,C wrongly claim termination; D mistakes conversion wraparound for signed overflow.
 
 **Common misconception:** Promotion does not prevent wraparound when a representable sum is assigned back to a narrower unsigned type.
 

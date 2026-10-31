@@ -252,10 +252,10 @@ D. 001
 
 ### Q32. [1 Mark] [MCQ]
 
-Assume unsigned char has exactly eight bits. What is the behaviour of this C loop?
+Under C17, assume unsigned char has exactly eight bits and i is not modified by anything outside the displayed code. What is the behaviour of this loop?
 
 ```c
-unsigned char i = 250;
+volatile unsigned char i = 250;
 while (i < 255) {
     i = i + 2;
 }

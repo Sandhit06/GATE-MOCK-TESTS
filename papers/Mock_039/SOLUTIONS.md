@@ -1139,8 +1139,8 @@ Every pair of rows misses one column: P1P2 misses m6; P1P3 misses m5; P1P4 misse
 
 A is not a cover. B is a cover with nine literals. C is the minimum-literal three-term cover. D is a cover with ten literals.
 
-- **A:** False: pair P1P4 misses minterm m4 and does not cover all required minterms.
-- **B:** False: P1P2P4 covers all minterms but has total literal cost 9.
+- **A:** False: pair P1P2 misses minterm m6 and does not cover all required minterms.
+- **B:** False: P1P3P4 covers all minterms but has total literal cost 9.
 - **C:** True: P1P2P3 covers all minterms with the minimum total literal cost of 8.
 - **D:** False: P2P3P4 covers all minterms but has total literal cost 10.
 

@@ -867,7 +867,7 @@ The three s-to-t paths are s-a-t of weight 4, s-b-t of weight 15, and s-b-a-t of
 C is false. Adding 4 per edge changes the three path weights to 12,23,15 respectively. The shortest path becomes s-a-t instead of s-b-a-t. D is false: the graph is acyclic, so it contains no directed cycle at all.
 
 - **A:** True: path s-b-a-t has weight 3, which is strictly less than s-a-t (weight 4) and s-b-t (weight 15).
-- **B:** True: Dijkstra settles vertices in order s, a, t, b, selecting path s-a-t of weight 4 before b is considered.
+- **B:** True: Dijkstra settles vertices s, a, t and stops at t, returning weight 4 before b is considered.
 - **C:** False: adding 4 to each edge changes the path lengths to 12, 23, and 15, making s-a-t the shortest path.
 - **D:** False: the directed graph is acyclic and contains no directed cycles.
 
@@ -947,8 +947,8 @@ Every pair of rows misses one column: P1P2 misses m6; P1P3 misses m5; P1P4 misse
 
 A is not a cover. B is a cover with nine literals. C is the minimum-literal three-term cover. D is a cover with ten literals.
 
-- **A:** False: pair P1P4 misses minterm m4 and does not cover all required minterms.
-- **B:** False: P1P2P4 covers all minterms but has total literal cost 9.
+- **A:** False: pair P1P2 misses minterm m6 and does not cover all required minterms.
+- **B:** False: P1P3P4 covers all minterms but has total literal cost 9.
 - **C:** True: P1P2P3 covers all minterms with the minimum total literal cost of 8.
 - **D:** False: P2P3P4 covers all minterms but has total literal cost 10.
 

@@ -5065,7 +5065,7 @@
       "requested_subtopic": "Stacks and queues",
       "marks": 1,
       "type": "MCQ",
-      "source_text_hash": "b8b7bc6682eb3ca24cc3acf9b4b38b569eb6093cd8001ca874539e49997f7510"
+      "source_text_hash": "045ddc02be62c5ef6ac12296d75682a9ba2caae7eea93c5f628d9260cd6e1ad0"
     },
     {
       "id": "CS27-M007-Q033",
@@ -34659,7 +34659,7 @@
       "requested_subtopic": "Stacks and queues",
       "marks": 1,
       "type": "MSQ",
-      "source_text_hash": "0ae2fec8995861421489b4208b05f743413a24f418716a26e7ca76260881b5b6",
+      "source_text_hash": "399bb90e1d6d501e92425a00f2b3208116dd86a1b30234ed4cd74b02012b767a",
       "original_source_id": "CS27-M007-Q032",
       "original_source_snapshot": "archive/integrated-variants-2026-10-25/data/questions.jsonl"
     },
@@ -74265,7 +74265,7 @@
       "requested_subtopic": "Stacks and queues",
       "marks": 1,
       "type": "MCQ",
-      "source_text_hash": "9c25350aee99f125261eeb8f8e6675a21e69eaafdee6a8fa93a80f2093a69c3a",
+      "source_text_hash": "cb3d119e9f9b8c4d8a71255862da0658244e3e7059af613df6992cb75e5f668d",
       "original_source_id": "CS27-M007-Q032",
       "original_source_snapshot": "archive/integrated-variants-2026-10-25/data/questions.jsonl"
     },

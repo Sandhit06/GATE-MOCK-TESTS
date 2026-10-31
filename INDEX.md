@@ -1,34 +1,36 @@
 # GATE CS 2027 — 100 Full-Length Mock Papers
 
-Updated 25 October 2026. **All 100 papers are populated:** each has 65 questions, a 65-row final answer key and a separate worked-solutions document. All 100 passed the current structural audit.
+Updated 26 October 2026. **All 100 papers are populated:** each has 65 questions, a 65-row final answer key and a separate worked-solutions document. All 100 passed the current structural audit.
 
 Per your revised requirement, questions may repeat across papers. The series contains **6,500 question instances containing 6,150 distinct question versions**, with at most three occurrences of each source question and no exact duplicate within a paper. Difficulty is a target, not an independently certified rating. Full technical review remains pending outside the 65 previously accepted records.
 
 Replaced 3,800 repeated occurrences inside the papers with adapted variants across four batches. Paper sizes remain unchanged. These are distinct question versions, not new underlying reasoning families. [First batch](reports/INTEGRATED_1000_REPLACEMENTS.md) · [Second batch](reports/INTEGRATED_1000_ROUND2_REPLACEMENTS.md) · [Third batch](reports/INTEGRATED_1000_ROUND3_REPLACEMENTS.md) · [Fourth batch: 800 replacements](reports/ROUND4_REPLACEMENTS.md).
+
+Model review covers source Mocks 002–019; independent acceptance and difficulty strengthening remain pending. [Latest structural recheck](reports/STRUCTURAL_RECHECK_2026-10-26.md).
 
 [Audit and limitations](reports/FINAL_VALIDATION_REPORT.md) · [Subject and topic coverage](reports/COVERAGE_REPORT.md) · [Reuse policy](reports/REUSE_POLICY_2026-10-25.md)
 
 | Mock | Difficulty target | Questions | Marks | Validation status | Paper | Solutions |
 |---|---|---:|---:|---|---|---|
 | 001 | Medium–Hard | 65 | 100 | Structure PASS; prior accepted review | [Questions](papers/Mock_001/README.md) | [Solutions](papers/Mock_001/SOLUTIONS.md) |
-| 002 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_002/README.md) | [Solutions](papers/Mock_002/SOLUTIONS.md) |
-| 003 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_003/README.md) | [Solutions](papers/Mock_003/SOLUTIONS.md) |
-| 004 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_004/README.md) | [Solutions](papers/Mock_004/SOLUTIONS.md) |
-| 005 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_005/README.md) | [Solutions](papers/Mock_005/SOLUTIONS.md) |
-| 006 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_006/README.md) | [Solutions](papers/Mock_006/SOLUTIONS.md) |
-| 007 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_007/README.md) | [Solutions](papers/Mock_007/SOLUTIONS.md) |
-| 008 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_008/README.md) | [Solutions](papers/Mock_008/SOLUTIONS.md) |
-| 009 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_009/README.md) | [Solutions](papers/Mock_009/SOLUTIONS.md) |
-| 010 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_010/README.md) | [Solutions](papers/Mock_010/SOLUTIONS.md) |
-| 011 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_011/README.md) | [Solutions](papers/Mock_011/SOLUTIONS.md) |
-| 012 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_012/README.md) | [Solutions](papers/Mock_012/SOLUTIONS.md) |
-| 013 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_013/README.md) | [Solutions](papers/Mock_013/SOLUTIONS.md) |
-| 014 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_014/README.md) | [Solutions](papers/Mock_014/SOLUTIONS.md) |
-| 015 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_015/README.md) | [Solutions](papers/Mock_015/SOLUTIONS.md) |
-| 016 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_016/README.md) | [Solutions](papers/Mock_016/SOLUTIONS.md) |
-| 017 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_017/README.md) | [Solutions](papers/Mock_017/SOLUTIONS.md) |
-| 018 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_018/README.md) | [Solutions](papers/Mock_018/SOLUTIONS.md) |
-| 019 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_019/README.md) | [Solutions](papers/Mock_019/SOLUTIONS.md) |
+| 002 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_002/README.md) | [Solutions](papers/Mock_002/SOLUTIONS.md) |
+| 003 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_003/README.md) | [Solutions](papers/Mock_003/SOLUTIONS.md) |
+| 004 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_004/README.md) | [Solutions](papers/Mock_004/SOLUTIONS.md) |
+| 005 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_005/README.md) | [Solutions](papers/Mock_005/SOLUTIONS.md) |
+| 006 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_006/README.md) | [Solutions](papers/Mock_006/SOLUTIONS.md) |
+| 007 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_007/README.md) | [Solutions](papers/Mock_007/SOLUTIONS.md) |
+| 008 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_008/README.md) | [Solutions](papers/Mock_008/SOLUTIONS.md) |
+| 009 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_009/README.md) | [Solutions](papers/Mock_009/SOLUTIONS.md) |
+| 010 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_010/README.md) | [Solutions](papers/Mock_010/SOLUTIONS.md) |
+| 011 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_011/README.md) | [Solutions](papers/Mock_011/SOLUTIONS.md) |
+| 012 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_012/README.md) | [Solutions](papers/Mock_012/SOLUTIONS.md) |
+| 013 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_013/README.md) | [Solutions](papers/Mock_013/SOLUTIONS.md) |
+| 014 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_014/README.md) | [Solutions](papers/Mock_014/SOLUTIONS.md) |
+| 015 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_015/README.md) | [Solutions](papers/Mock_015/SOLUTIONS.md) |
+| 016 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_016/README.md) | [Solutions](papers/Mock_016/SOLUTIONS.md) |
+| 017 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_017/README.md) | [Solutions](papers/Mock_017/SOLUTIONS.md) |
+| 018 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_018/README.md) | [Solutions](papers/Mock_018/SOLUTIONS.md) |
+| 019 | Medium–Hard | 65 | 100 | Structure PASS; model review done; acceptance pending | [Questions](papers/Mock_019/README.md) | [Solutions](papers/Mock_019/SOLUTIONS.md) |
 | 020 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_020/README.md) | [Solutions](papers/Mock_020/SOLUTIONS.md) |
 | 021 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_021/README.md) | [Solutions](papers/Mock_021/SOLUTIONS.md) |
 | 022 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_022/README.md) | [Solutions](papers/Mock_022/SOLUTIONS.md) |
@@ -110,6 +112,16 @@ Replaced 3,800 repeated occurrences inside the papers with adapted variants acro
 | 098 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_098/README.md) | [Solutions](papers/Mock_098/SOLUTIONS.md) |
 | 099 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_099/README.md) | [Solutions](papers/Mock_099/SOLUTIONS.md) |
 | 100 | Medium–Hard | 65 | 100 | Structure PASS; technical review pending | [Questions](papers/Mock_100/README.md) | [Solutions](papers/Mock_100/SOLUTIONS.md) |
+
+
+
+
+
+
+
+
+
+
 
 
 
